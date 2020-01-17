@@ -26,6 +26,9 @@
             <div class="col-sm-6">
                 <h3>Info Stuff 2</h3>
             </div>
+            <div class="col-sm-6">
+                <h3>Info Stuff 2</h3>
+            </div>
         </div>
     </div>
 
