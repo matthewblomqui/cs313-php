@@ -24,12 +24,6 @@
             <div class="col">
                 <h3>Info Stuff 2</h3>
             </div>
-            <div class="col">
-                <h3>Info Stuff 2</h3>
-            </div>
-            <div class="col">
-                <h3>Info Stuff 2</h3>
-            </div>
         </div>
     </div>
 
