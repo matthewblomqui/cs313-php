@@ -28,7 +28,7 @@
             </div>
             <div class="col-md-6">
                 <div class="card" style="width:400px">
-                    <img class="card-img-top" src="chalkboard_web.jpg" alt="Card image" style="width:100%">
+                    <img class="card-img-top" src="assignments.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
                         <h4 class="card-title">Assignments</h4>
                         <p class="card-text">Here are the assignments I will be working on during the semester</p>
@@ -36,9 +36,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12 center">
+            <div class="col-md-12 center-text">
                 <div class="card" style="width:400px">
-                    <img class="card-img-top" src="chalkboard_web.jpg" alt="Card image" style="width:100%">
+                    <img class="card-img-top" src="machineLearning.png" alt="Card image" style="width:100%">
                     <div class="card-body">
                         <h4 class="card-title">Future Projects</h4>
                         <p class="card-text">These will send you to the projects. They are not here yet...</p>
