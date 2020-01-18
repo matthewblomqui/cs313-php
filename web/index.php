@@ -14,8 +14,8 @@
 <body class="bg-light">
     <?php include 'header.php';?>
 
-    <div class="text-center pt-3 display-4">
-        <h2>Home</h2>
+    <div class="text-center pt-3">
+        <h2 class="class=display-4">Home</h2>
     </div>
     
     <hr>
