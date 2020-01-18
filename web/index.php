@@ -14,7 +14,7 @@
 <body class="bg-light">
     <?php include 'header.php';?>
 
-    <div class="container pt-3">
+    <div class="container pt-3 pb-3">
         <div class="row">
             <div class="col-md-6">
                 <div class="card" style="width:400px">
