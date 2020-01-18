@@ -22,7 +22,7 @@
                 <div class="card-body">
                     <h4 class="card-title">Introduction Page</h4>
                     <p class="card-text">This is an introduction about me - Matthew Blomquist</p>
-                    <a href="#" class="btn btn-secondary stretched-link">Go To</a>
+                    <a href="intro.php" class="btn btn-secondary stretched-link">Go To</a>
                 </div>
             </div>
 
