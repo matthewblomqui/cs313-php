@@ -14,10 +14,10 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-4 text-center">
-                <h3>Info Stuff</h3>
+            <div class="border col-md-4 text-center">
+                <h2>Matthew Blomquist</h2>
             </div>
-            <div class="col-md-8 text-center">
+            <div class="border col-md-8 text-center">
                 <h3>Info Stuff 2</h3>
             </div>
         </div>
