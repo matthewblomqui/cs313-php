@@ -24,13 +24,7 @@
         </ul>
         <ul class="navbar-nav">
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Assignments</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Assignment 1</a>
-                    <a class="dropdown-item" href="#">Assignment 2</a>
-                    <a class="dropdown-item" href="#">Assignment 3</a>
-                    <a class="dropdown-item" href="#">Assignment ...</a>
-                </div>
+                <a class="nav-link" href="#">Assignments</a>
             </li>
         </ul>
     </nav>
