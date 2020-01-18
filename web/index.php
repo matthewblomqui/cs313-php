@@ -14,11 +14,11 @@
 <body class="bg-light">
     <?php include 'header.php';?>
 
-    <div class="text-center">
+    <div class="text-center pt-3">
         <h2>Home</h2>
     </div>
     
-    <br>
+    <hr>
 
     <div class="container p-3">
         <div class="card-columns">
