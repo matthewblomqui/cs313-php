@@ -22,7 +22,7 @@
 
     <div class="container">
 
-        <div class="row">
+        <div class="row text-center">
             <div class="col">
                 <h3>Info</h3>
                 <p>Stuff goes here...</p>
