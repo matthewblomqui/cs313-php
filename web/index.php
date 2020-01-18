@@ -14,7 +14,7 @@
 <body class="bg-light">
     <?php include 'header.php';?>
 
-    <div class="jumbotron">
+    <div class="center-text">
         <h2>Home</h2>
     </div>
     
