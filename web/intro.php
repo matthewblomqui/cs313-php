@@ -30,15 +30,15 @@
 
             <div class="col">
                 <h3>Experience</h3>
-                <h4>IT Support</h4>
+                <h5>IT Support</h5>
                 <p class="text-left">- I did troubleshooting with a wide variety of computing issues and provided direct software support</p>
                 <br>
-                <h4>C++ Tutor</h4>
-                <p class="text-left">- Conducted one-on-one tutoring sessions that helped students increase their understanding with the basics of programming C++, real-world physics, problem-solving, and debugging
+                <h5>C++ Tutor</h5>
+                <p class="text-left">- Conducted one-on-one tutoring sessions that helped students increase their understanding with the basics of programming C++, real-world physics, problem-solving, and debugging<br>
                 - Prepared students to learn how to study and become more independent</p>
                 <br>
-                <h4>Data Center Technician</h4>
-                <p class="text-left">- Deployed and maintained Google's advanced Data Center Server and Network Infrastructure by working as a member of a large, coordinated team
+                <h5>Data Center Technician</h5>
+                <p class="text-left">- Deployed and maintained Google's advanced Data Center Server and Network Infrastructure by working as a member of a large, coordinated team<br>
                 - Trained co-workers by sharing knowledge and skills to complete procedures properly and efficiently</p>
             </div>
         </div>
