@@ -15,7 +15,7 @@
     <?php include 'header.php';?>
 
     <div class="text-center pt-3">
-        <h2 class="class=display-4">Home</h2>
+        <h2>Home</h2>
     </div>
     
     <hr>

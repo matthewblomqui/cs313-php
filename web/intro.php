@@ -13,14 +13,28 @@
 
 <body>
     <?php include 'header.php';?>
-    
+
     <div class="text-center pt-3">
         <h2>Introduction</h2>
     </div>
-    
+
     <hr>
-    
-    
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <h3>Info</h3>
+                <p>Stuff goes here...</p>
+            </div>
+
+            <div class="col">
+                <h3>Info</h3>
+                <p>Stuff goes here...</p>
+            </div>
+        </div>
+
+    </div>
 
     <?php include 'footer.php';?>
 </body>
