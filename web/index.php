@@ -16,7 +16,7 @@
 
     <div class="container pt-3">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="card" style="width:400px">
                     <img class="card-img-top" src="chalkboard_web.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
@@ -26,7 +26,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="card" style="width:400px">
                     <img class="card-img-top" src="assignments.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
@@ -36,13 +36,15 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card" style="width:400px">
-                    <img class="card-img-top" src="machineLearning.png" alt="Card image" style="width:100%">
-                    <div class="card-body">
-                        <h4 class="card-title">Future Projects</h4>
-                        <p class="card-text">These will send you to the projects. They are not here yet...</p>
-                        <a href="#" class="btn btn-secondary stretched-link">Go To</a>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="machineLearning.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Future Projects</h4>
+                            <p class="card-text">These will send you to the projects. They are not here yet...</p>
+                            <a href="#" class="btn btn-secondary stretched-link">Go To</a>
+                        </div>
                     </div>
                 </div>
             </div>
