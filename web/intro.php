@@ -28,15 +28,17 @@
                 <p class="text-left">I am a Student and Tutor and Brigham Young University - Idaho. My Major is Computer Science and I want to be a software developer for Google. I am currently a Junior and still looking for internships. My interests are in machine learning, artificial intelligence, and autonomous robotics.</p>
                 <br>
                 <h3>Skills</h3>
-                <p class="text-left">
-                    <ul>
-                        <li>C++ (Proficient)</li>
-                        <li>Python (Familiar)</li>
-                        <li>Front End (Familiar)</li>
-                        <li>Back End (Familiar)</li>
-                        <li>Git (Familiar)</li>
-                    </ul>
-                </p>
+                <ul class="text-left">
+                    <li>C++ (Proficient)</li>
+                    <li>Python (Familiar)</li>
+                    <li>Front End (Familiar)</li>
+                    <li>Back End (Familiar)</li>
+                    <li>Git (Familiar)</li>
+                </ul>
+                <br>
+                <h3>Links</h3>
+                <p class="text-left">Coming Soon</p>
+                <br>
             </div>
 
             <div class="col">
