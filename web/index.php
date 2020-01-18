@@ -36,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 center">
                 <div class="card" style="width:400px">
                     <img class="card-img-top" src="chalkboard_web.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
