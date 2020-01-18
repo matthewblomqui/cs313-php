@@ -14,6 +14,10 @@
 <body class="bg-light">
     <?php include 'header.php';?>
 
+    <div class="jumbotron">
+        <h2>Home</h2>
+    </div>
+
     <div class="container p-3">
         <div class="card-columns">
 
