@@ -16,28 +16,34 @@
 
     <div class="container pt-3">
         <div class="row">
-            <div class="card" style="width:400px">
-                <img class="card-img-top" src="chalkboard_web.jpg" alt="Card image" style="width:100%">
-                <div class="card-body">
-                    <h4 class="card-title">Introduction Page</h4>
-                    <p class="card-text">This is an introduction about me - Matthew Blomquist</p>
-                    <a href="#" class="btn btn-secondary stretched-link">Go To</a>
+            <div class="col-md-6">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top" src="chalkboard_web.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Introduction Page</h4>
+                        <p class="card-text">This is an introduction about me - Matthew Blomquist</p>
+                        <a href="#" class="btn btn-secondary stretched-link">Go To</a>
+                    </div>
                 </div>
             </div>
-            <div class="card" style="width:400px">
-                <img class="card-img-top" src="chalkboard_web.jpg" alt="Card image" style="width:100%">
-                <div class="card-body">
-                    <h4 class="card-title">Assignments</h4>
-                    <p class="card-text">Here are the assignments I will be working on during the semester</p>
-                    <a href="#" class="btn btn-secondary stretched-link">Go To</a>
+            <div class="col-md-6">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top" src="chalkboard_web.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Assignments</h4>
+                        <p class="card-text">Here are the assignments I will be working on during the semester</p>
+                        <a href="#" class="btn btn-secondary stretched-link">Go To</a>
+                    </div>
                 </div>
             </div>
-            <div class="card" style="width:400px">
-                <img class="card-img-top" src="chalkboard_web.jpg" alt="Card image" style="width:100%">
-                <div class="card-body">
-                    <h4 class="card-title">Future Projects</h4>
-                    <p class="card-text">These will send you to the projects. They are not here yet...</p>
-                    <a href="#" class="btn btn-secondary stretched-link">Go To</a>
+            <div class="col-md-12">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top" src="chalkboard_web.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Future Projects</h4>
+                        <p class="card-text">These will send you to the projects. They are not here yet...</p>
+                        <a href="#" class="btn btn-secondary stretched-link">Go To</a>
+                    </div>
                 </div>
             </div>
         </div>
