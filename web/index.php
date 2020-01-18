@@ -12,16 +12,12 @@
 
 <body>
 
-    <div class="jumbotron text-center">
-        <h1>This is a test</h1>
-    </div>
-
     <div class="container">
         <div class="row">
-            <div class="col text-center">
+            <div class="col-md-4 text-center">
                 <h3>Info Stuff</h3>
             </div>
-            <div class="col text-center">
+            <div class="col-md-8 text-center">
                 <h3>Info Stuff 2</h3>
             </div>
         </div>
