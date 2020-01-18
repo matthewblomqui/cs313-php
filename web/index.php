@@ -14,7 +14,7 @@
 <body class="bg-light">
     <?php include 'header.php';?>
 
-    <div class="center-text">
+    <div class="text-center">
         <h2>Home</h2>
     </div>
     
