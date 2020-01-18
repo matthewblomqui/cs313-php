@@ -22,7 +22,7 @@
 
     <div class="container">
 
-        <div class="jumbotron">
+        <div class="jumbotron text-center text-warning">
             Coming Soon
         </div>
     </div>
