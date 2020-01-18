@@ -16,14 +16,12 @@
 
     <div class="container pt-3">
         <div class="row">
-            <h2>Stretched Link in Card</h2>
-            <p>Add the .stretched-link class to a link inside the card, and it will make the whole card clickable (the card will act as a link):</p>
             <div class="card" style="width:400px">
-                <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+                <img class="card-img-top" src="chalkboard_web.jpg" alt="Card image" style="width:100%">
                 <div class="card-body">
-                    <h4 class="card-title">John Doe</h4>
-                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                    <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+                    <h4 class="card-title">Intro</h4>
+                    <p class="card-text">This is an introduction about me - Matthew Blomquist</p>
+                    <a href="#" class="btn btn-secondary stretched-link">Go To</a>
                 </div>
             </div>
         </div>
