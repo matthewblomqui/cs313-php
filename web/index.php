@@ -10,7 +10,7 @@
 
 </head>
 
-<body>
+<body style="background: url("407.svg")">
     <?php include 'header.php';?>
 
     <div class="container pt-3">
