@@ -17,7 +17,7 @@
     <div class="container p-3">
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="card" style="width:400px">
                     <img class="card-img-top" src="chalkboard_web.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
@@ -28,7 +28,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="card" style="width:400px">
                     <img class="card-img-top" src="assignments.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
@@ -39,7 +39,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-8">
                 <div class="card" style="width:400px">
                     <img class="card-img-top" src="machineLearning.png" alt="Card image" style="width:100%">
                     <div class="card-body">
