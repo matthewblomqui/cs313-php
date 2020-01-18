@@ -11,7 +11,7 @@
 
 </head>
 
-<body class="bg-secondary">
+<body class="bg-light">
     <?php include 'header.php';?>
 
     <div class="container pt-3">
