@@ -11,10 +11,10 @@
 
 </head>
 
-<body>
+<body class="bg-secondary">
     <?php include 'header.php';?>
 
-    <div class="container pt-3 bg-secondary">
+    <div class="container pt-3">
         <div class="row">
             <div class="border col-md-4 text-center">
                 <h2>Matthew Blomquist</h2>
