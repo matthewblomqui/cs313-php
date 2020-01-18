@@ -22,8 +22,8 @@
 
     <div class="container">
 
-        <div class="jumbotron text-center text-warning">
-            Coming Soon
+        <div class="jumbotron text-center text-danger">
+            <h2>Coming Soon</h2>
         </div>
     </div>
 
