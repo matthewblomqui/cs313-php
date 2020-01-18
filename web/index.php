@@ -37,7 +37,7 @@
                 <div class="card-body">
                     <h4 class="card-title">Assignments</h4>
                     <p class="card-text">Here are the assignments I will be working on during the semester</p>
-                    <a href="#" class="btn btn-secondary stretched-link">Go To</a>
+                    <a href="assignments.php" class="btn btn-secondary stretched-link">Go To</a>
                 </div>
             </div>
 

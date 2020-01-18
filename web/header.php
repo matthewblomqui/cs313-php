@@ -12,7 +12,7 @@ echo '<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         </ul>
         <ul class="navbar-nav">
             <li class="nav-item dropdown">
-                <a class="nav-link" href="#">Assignments</a>
+                <a class="nav-link" href="assignments.php">Assignments</a>
             </li>
         </ul>
         <ul class="navbar-nav">
