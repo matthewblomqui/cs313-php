@@ -17,6 +17,8 @@
     <div class="jumbotron">
         <h2>Home</h2>
     </div>
+    
+    <br>
 
     <div class="container p-3">
         <div class="card-columns">
