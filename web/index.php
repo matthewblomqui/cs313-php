@@ -15,10 +15,9 @@
     <?php include 'header.php';?>
 
     <div class="container p-3">
-
         <div class="card-columns">
 
-            <div class="card" style="width:400px">
+            <div class="card length">
                 <img class="card-img-top" src="chalkboard_web.jpg" alt="Card image" style="width:100%">
                 <div class="card-body">
                     <h4 class="card-title">Introduction Page</h4>
@@ -27,8 +26,7 @@
                 </div>
             </div>
 
-
-            <div class="card" style="width:400px">
+            <div class="card length">
                 <img class="card-img-top" src="assignments.jpg" alt="Card image" style="width:100%">
                 <div class="card-body">
                     <h4 class="card-title">Assignments</h4>
@@ -37,7 +35,7 @@
                 </div>
             </div>
 
-            <div class="card" style="width:400px">
+            <div class="card length">
                 <img class="card-img-top" src="machineLearning.png" alt="Card image" style="width:100%">
                 <div class="card-body">
                     <h4 class="card-title">Future Projects</h4>
