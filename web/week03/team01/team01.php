@@ -28,25 +28,25 @@
 
         <div class="form-check-inline">
             <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optradio">Computer Science
+                <input type="radio" class="form-check-input" name="optradio" value="Computer Science">Computer Science
             </label>
         </div>
 
         <div class="form-check-inline">
             <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optradio">Web Design and Development
+                <input type="radio" class="form-check-input" name="optradio" value="Web Design and Development">Web Design and Development
             </label>
         </div>
         
         <div class="form-check-inline">
             <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optradio">Computer information Technology
+                <input type="radio" class="form-check-input" name="optradio" value="Computer information Technology">Computer information Technology
             </label>
         </div>
 
         <div class="form-check-inline">
             <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optradio">Computer Engineering
+                <input type="radio" class="form-check-input" name="optradio" value="Computer Engineering">Computer Engineering
             </label>
         </div>
 
