@@ -9,6 +9,8 @@
 </head>
 
 <body>
+<?php
+echo '
     <form action="tuesdayPost.php" method="post">
 
         <div class="form-group">
@@ -69,7 +71,8 @@
         </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+    </form>'
+    ?>
 </body>
 
 </html>

@@ -6,15 +6,15 @@
    $optradio = htmlspecialchars($_POST["optradio"]);
    $textbox = htmlspecialchars($_POST["textbox"]);
 
-   echo "Countries: ";
+   echo "Countries: <br>";
    if (!empty($_POST["countries"]))  {
       foreach ($_POST["countries"] as $key => $value) {
-         echo "$value";
+         echo "$key. $value<br>";
       }
    }
    
 
    // do something with the data
-   echo "Here is your name $textForPHP, email $email, and your password is $password, major is $optradio, comments are $textbox";
+   echo "Your name is $textForPHP.<br>Your email is $email.<br>Your password is $password.<br>Your major is $optradio.<br>Your comments are $textbox";
 
 ?>
