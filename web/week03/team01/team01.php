@@ -10,34 +10,52 @@
 
 <body>
     <form action="tuesdayPost.php" method="post">
+
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" name="textForPHP" class="form-control" placeholder="Enter name" id="name">
+        </div>
+
         <div class="form-group">
             <label for="email">Email address:</label>
             <input type="email" name="emailForPHP" class="form-control" placeholder="Enter email" id="email">
         </div>
+
         <div class="form-group">
             <label for="pwd">Password:</label>
             <input type="password" name="passwordForPHP" class="form-control" placeholder="Enter password" id="pwd">
         </div>
+
         <div class="form-check-inline">
             <label class="form-check-label">
                 <input type="radio" class="form-check-input" name="optradio">Computer Science
             </label>
         </div>
+
         <div class="form-check-inline">
             <label class="form-check-label">
                 <input type="radio" class="form-check-input" name="optradio">Web Design and Development
             </label>
         </div>
+        
         <div class="form-check-inline">
             <label class="form-check-label">
                 <input type="radio" class="form-check-input" name="optradio">Computer information Technology
             </label>
         </div>
+
         <div class="form-check-inline">
             <label class="form-check-label">
                 <input type="radio" class="form-check-input" name="optradio">Computer Engineering
             </label>
         </div>
+
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="textarea" class="form-check-input" name="textbox">Computer Engineering
+            </label>
+        </div>
+
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </body>
