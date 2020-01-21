@@ -56,6 +56,18 @@
             </label>
         </div>
 
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="checkbox" id="country1" name="countries[]" value="North America"> North America<br>
+                <input type="checkbox" id="country2" name="countries[]" value="South America"> South America<br>
+                <input type="checkbox" id="country3" name="countries[]" value="Europe"> Europe<br>
+                <input type="checkbox" id="country4" name="countries[]" value="Asia"> Asia<br>
+                <input type="checkbox" id="country5" name="countries[]" value="Australia"> Australia<br>
+                <input type="checkbox" id="country6" name="countries[]" value="Africa"> Africa<br>
+                <input type="checkbox" id="country7" name="countries[]" value="Antarctica"> Antarctica<br>
+            </label>
+        </div>
+
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </body>
