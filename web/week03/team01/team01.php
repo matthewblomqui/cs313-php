@@ -7,14 +7,14 @@
    <title>Document</title>
 </head>
 <body>
-   <form action="" method="post">
+   <form action="tuesdayPost.php" method="post">
       <div class="form-group">
          <label for="email">Email address:</label>
-         <input type="email" class="form-control" placeholder="Enter email" id="email">
+         <input type="email" name="emailForPHP" class="form-control" placeholder="Enter email" id="email">
       </div>
       <div class="form-group">
          <label for="pwd">Password:</label>
-         <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+         <input type="password" name="passwordForPHP" class="form-control" placeholder="Enter password" id="pwd">
       </div>
       <div class="form-group form-check">
          <label class="form-check-label">
