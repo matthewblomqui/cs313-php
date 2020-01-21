@@ -7,12 +7,9 @@
    $textbox = htmlspecialchars($_POST["textbox"]);
 
    echo "Countries: ";
-   if (!empty($_POST["countries"])) 
-   {
-   
-      foreach ($_POST["countries"] as $key => $value) 
-      {
-         echo "$key";
+   if (!empty($_POST["countries"]))  {
+      foreach ($_POST["countries"] as $key => $value) {
+         echo "$value";
       }
    }
    
