@@ -41,29 +41,6 @@
                      </div>";
             }
         ?>
-        <div class="form-check-inline">
-            <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optradio" value="Computer Science">Computer Science
-            </label>
-        </div>
-
-        <div class="form-check-inline">
-            <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optradio" value="Web Design and Development">Web Design and Development
-            </label>
-        </div>
-        
-        <div class="form-check-inline">
-            <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optradio" value="Computer Information Technology">Computer information Technology
-            </label>
-        </div>
-    
-        <div class="form-check-inline">
-            <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optradio" value="Computer Engineering">Computer Engineering
-            </label>
-        </div>
         <!-- End of radio button -->
 
         <!-- Textarea/ comments -->
@@ -76,13 +53,13 @@
         <!-- checkboxes -->
         <div class="form-check-inline">
             <label class="form-check-label">
-                <input type="checkbox" id="country1" name="countries[]" value="NA"> North America<br>
-                <input type="checkbox" id="country2" name="countries[]" value="SA"> South America<br>
-                <input type="checkbox" id="country3" name="countries[]" value="E"> Europe<br>
-                <input type="checkbox" id="country4" name="countries[]" value="AS"> Asia<br>
-                <input type="checkbox" id="country5" name="countries[]" value="AU"> Australia<br>
-                <input type="checkbox" id="country6" name="countries[]" value="AF"> Africa<br>
-                <input type="checkbox" id="country7" name="countries[]" value="AN"> Antarctica<br>
+                <input type="checkbox" id="country1" name="countries[]" value="NA North America">North America<br>
+                <input type="checkbox" id="country2" name="countries[]" value="SA South America">South America<br>
+                <input type="checkbox" id="country3" name="countries[]" value="E Europe">Europe<br>
+                <input type="checkbox" id="country4" name="countries[]" value="AS Asia">Asia<br>
+                <input type="checkbox" id="country5" name="countries[]" value="AU Australia">Australia<br>
+                <input type="checkbox" id="country6" name="countries[]" value="AF Africa">Africa<br>
+                <input type="checkbox" id="country7" name="countries[]" value="AN Antarctica">Antarctica<br>
             </label>
         </div>
 
