@@ -52,7 +52,7 @@
 
         <div class="form-check-inline">
             <label class="form-check-label">
-                <input type="textarea" class="form-check-input" name="textbox">Computer Engineering
+                <input type="textarea" class="form-check-input" name="textbox">
             </label>
         </div>
 
