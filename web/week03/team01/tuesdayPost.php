@@ -6,9 +6,12 @@
    $optradio = htmlspecialchars($_POST["optradio"]);
    $textbox = htmlspecialchars($_POST["textbox"]);
 
-   if (!empty($_POST["countries"])) {
+   echo "Countries: ";
+   if (!empty($_POST["countries"])) 
+   {
    
-      foreach ($_POST["countries"] as $key => $value) {
+      foreach ($_POST["countries"] as $key => $value) 
+      {
          echo "$key";
       }
    }
