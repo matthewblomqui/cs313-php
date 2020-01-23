@@ -19,7 +19,7 @@
             echo "Cookie names $cookie_name has not been set!";
          } else {
             echo "Cookie named $cookie_name is set!<br>";
-            ehco "Value is " . $_COOKIE[$cookie_name];
+            echo 'Value is ' . $_COOKIE[$cookie_name];
          }
       ?>
       <h3>To print all cookies:</h3>
