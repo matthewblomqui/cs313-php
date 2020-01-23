@@ -10,7 +10,7 @@
 
 
 
-<?php if(isset($_SESSION['pictureUrl'])) { ?>
+<?php if (isset($_SESSION['pictureUrl'])) { ?>
    <h3>Again, just for kicks....from a form</h3>
    <img src="<?=$_SESSION['pictureUrl'] ?>" />
 <?php } ?>
