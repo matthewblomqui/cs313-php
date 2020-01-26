@@ -28,7 +28,7 @@
                   print_r($_SESSION);
                ?>
                 <div class="container">
-                    <table id="cart" class="table table-hover table-condensed">
+                    <table id="cart" class="table table-hover table-condensed text-white">
                         <thead>
                             <tr>
                                 <th style="width:50%">Product</th>
