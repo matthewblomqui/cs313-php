@@ -41,9 +41,9 @@
       <?php include 'nav.php';?>
 
       <div class="row">
-         <div class="col-2 pt-3 pl-3">
+         <div class="col-2 pt-3">
             <h3 class="text-center">Message to Trainers</h3>
-            <p>
+            <p class="pl-3">
                Welcome trainers! Here at the Pokemart, we have a
                collection of items that will help you on your journey
                to become the the best trainers out there. If there are
