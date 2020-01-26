@@ -18,10 +18,7 @@
          <div class="collapse navbar-collapse" id="navb">
             <ul class="navbar-nav mr-auto">
                <li class="nav-item">
-               <a class="nav-link" href="javascript:void(0)">Link</a>
-               </li>
-               <li class="nav-item">
-               <a class="nav-link" href="javascript:void(0)">Link</a>
+               <a class="nav-link" href="#">Cart</a>
                </li>
             </ul>
             <a class="" href="#">
@@ -48,30 +45,20 @@
             </div>
 
             <br>
-            
+
             <div class="row"> <!-- Single item -->
                <div class="triangle-left col-2"></div>
                <img src="greatball.png" alt="pokeball" class="col-1 bg-light">
                <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                <div class="algin-middle bg-light">Qty: 
                   <input type="number" name="qty1" min="0" max="99">
-                  <input type="submit" name="Submit" value="Add to Cart">
+                  <input type="submit" name="Submit" value="Add to Cart" class="btn btn-primary">
                </div>
                <div class="triangle-right col-2"></div>
             </div>
 
             <br>
-
-            <div class="row"> <!-- Single item -->
-               <div class="triangle-left col-2"></div>
-               <img src="ultraball.png" alt="pokeball" class="col-1 bg-light">
-               <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
-               <div class="algin-middle bg-light">Qty: 
-                  <input type="number" name="qty1" min="0" max="99">
-                  <input type="submit" name="Submit" value="Add to Cart">
-               </div>
-               <div class="triangle-right col-2"></div>
-            </div>
+            
          </div>
       </div>
 
