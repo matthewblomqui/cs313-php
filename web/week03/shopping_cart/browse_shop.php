@@ -77,7 +77,7 @@
                   <img src="greatball.png" alt="greatball" class="col-1 bg-light size">
                   <div class="col-1 bg-light">
                      <img src="pokedollar.png" alt="pokedollar" class="dollar">
-                     <b>200</b>
+                     <b>600</b>
                   </div>
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
@@ -93,7 +93,7 @@
                   <img src="ultraball.png" alt="ultraball" class="col-1 bg-light size">
                   <div class="col-1 bg-light">
                      <img src="pokedollar.png" alt="pokedollar" class="dollar">
-                     <b>200</b>
+                     <b>1200</b>
                   </div>
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
@@ -109,7 +109,7 @@
                   <img src="maxpotion.png" alt="maxpotion" class="col-1 bg-light size">
                   <div class="col-1 bg-light">
                      <img src="pokedollar.png" alt="pokedollar" class="dollar">
-                     <b>200</b>
+                     <b>2500</b>
                   </div>
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
@@ -125,7 +125,7 @@
                   <img src="fullpotion.png" alt="fullrestore" class="col-1 bg-light size">
                   <div class="col-1 bg-light">
                      <img src="pokedollar.png" alt="pokedollar" class="dollar">
-                     <b>200</b>
+                     <b>3000</b>
                   </div>
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
@@ -141,7 +141,7 @@
                   <img src="superrepel.png" alt="superrepel" class="col-1 bg-light size">
                   <div class="col-1 bg-light">
                      <img src="pokedollar.png" alt="pokedollar" class="dollar">
-                     <b>200</b>
+                     <b>500</b>
                   </div>
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
@@ -157,7 +157,7 @@
                   <img src="maxrepel.png" alt="maxrepel" class="col-1 bg-light size">
                   <div class="col-1 bg-light">
                      <img src="pokedollar.png" alt="pokedollar" class="dollar">
-                     <b>200</b>
+                     <b>700</b>
                   </div>
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
@@ -173,7 +173,7 @@
                   <img src="escaperope.png" alt="escaperope" class="col-1 bg-light size">
                   <div class="col-1 bg-light">
                      <img src="pokedollar.png" alt="pokedollar" class="dollar">
-                     <b>200</b>
+                     <b>550</b>
                   </div>
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
