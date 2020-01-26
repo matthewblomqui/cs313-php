@@ -42,7 +42,7 @@
                             <tr>
                                 <td data-th="Product">
                                     <div class="row">
-                                        <div class="col-sm-2 hidden-xs"><img src="pokeball.png" alt="pokeball" class="img-responsive" /></div>
+                                        <div class="col-sm-2 hidden-xs"><img src="pokeball.png" alt="pokeball" class="size" /></div>
                                         <div class="col-sm-10">
                                             <h4 class="nomargin">Product 1</h4>
                                             <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
