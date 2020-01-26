@@ -59,8 +59,8 @@
                <div class="row h-24"> <!-- Single item -->
                   <div class="triangle-left col-2"></div>
                   <img src="pokeball.png" alt="pokeball" class="col-1 bg-light size">
-                  <img src="pokedollar.png" alt="pokedollar" class="col-1 bg-light">200
-                  <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
+                  <img src="pokedollar.png" alt="pokedollar" class="col-1 bg-light dollar">
+                  <div class="col align-middle bg-light">200 A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
                      <input type="number" name="qtyPB" min="0" max="99" value="0">
                   </div>
