@@ -192,7 +192,10 @@
                   </tbody>
                   <tfoot>
                      <tr>
-                        <td><a href="#" class="btn btn-warning">Update Cart</a></td>
+                        <td>
+                           <a href="#" class="btn btn-primary">Continue Shopping</a>
+                           <a href="#" class="btn btn-warning">Update Cart</a>
+                        </td>
                         <td colspan="2" class="hidden-xs"></td>
                         <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> 200</strong></td>
                         <td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
