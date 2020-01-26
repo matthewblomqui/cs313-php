@@ -31,11 +31,14 @@
       </nav>
 
       <div class="row">
-         <div class="col-4">
-            <h3 class="text-center">Categories</h3>
+         <div class="col-4 pt-3">
+            <h3 class="text-center">Category</h3>
          </div>
-         <div class="col-8">
+         <div class="col-8 pt-3">
             <h3 class="text-center">Items</h3>
+            <div class="triangle-left"></div>
+            <div class="">STUFF</div>
+            <div class="triangle-right"></div>
          </div>
       </div>
 

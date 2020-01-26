@@ -5,5 +5,21 @@ body {
 
 .pokeDark {
    background-image: url("https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png");
-   
+
 }
+
+.triangle-left {
+   width: 0;
+   height: 0;
+   border-top: 50px solid transparent;
+   border-right: 100px solid grey;
+   border-bottom: 50px solid transparent;
+ }
+
+ .triangle-right {
+   width: 0;
+   height: 0;
+   border-top: 50px solid transparent;
+   border-left: 100px solid grey;
+   border-bottom: 50px solid transparent;
+ }
