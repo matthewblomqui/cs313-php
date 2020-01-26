@@ -62,7 +62,6 @@
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
                      <input type="number" name="qtyPB" min="0" max="99" value="0">
-                     
                   </div>
                   <div class="triangle-right col-2"></div>
                </div>
@@ -94,6 +93,66 @@
                <br>
 
                <div class="row h-24"> <!-- Single item -->
+                  <div class="triangle-left col-2"></div>
+                  <img src="maxpotion.png" alt="maxpotion" class="col-1 bg-light">
+                  <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
+                  <div class="algin-middle bg-light">Qty: 
+                     <input type="number" name="qtyMP" min="0" max="99" value="0">
+                  </div>
+                  <div class="triangle-right col-2"></div>
+               </div>
+
+               <br>
+
+               <div class="row h-24"> <!-- Single item -->
+                  <div class="triangle-left col-2"></div>
+                  <img src="fullpotion.png" alt="fullrestore" class="col-1 bg-light">
+                  <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
+                  <div class="algin-middle bg-light">Qty: 
+                     <input type="number" name="qtyFR" min="0" max="99" value="0">
+                  </div>
+                  <div class="triangle-right col-2"></div>
+               </div>
+
+               <br>
+
+               <div class="row h-24"> <!-- Single item -->
+                  <div class="triangle-left col-2"></div>
+                  <img src="superrepel.png" alt="superrepel" class="col-1 bg-light">
+                  <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
+                  <div class="algin-middle bg-light">Qty: 
+                     <input type="number" name="qtySR" min="0" max="99" value="0">
+                  </div>
+                  <div class="triangle-right col-2"></div>
+               </div>
+
+               <br>
+
+               <div class="row h-24"> <!-- Single item -->
+                  <div class="triangle-left col-2"></div>
+                  <img src="maxrepel.png" alt="maxrepel" class="col-1 bg-light">
+                  <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
+                  <div class="algin-middle bg-light">Qty: 
+                     <input type="number" name="qtyMR" min="0" max="99" value="0">
+                  </div>
+                  <div class="triangle-right col-2"></div>
+               </div>
+
+               <br>
+
+               <div class="row h-24"> <!-- Single item -->
+                  <div class="triangle-left col-2"></div>
+                  <img src="escaperope.png" alt="escaperope" class="col-1 bg-light">
+                  <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
+                  <div class="algin-middle bg-light">Qty: 
+                     <input type="number" name="qtyER" min="0" max="99" value="0">
+                  </div>
+                  <div class="triangle-right col-2"></div>
+               </div>
+
+               <br>
+               
+               <div class="row h-24"> <!-- Single item -->
                   <div class="col-2"></div>
                   <div class="col">
                      <input type="submit" name="Submit" value="Update Cart" class="btn btn-primary float-right">
@@ -107,6 +166,11 @@
                      $_SESSION['pokeball'] = $_POST['qtyPB'];
                      $_SESSION['greatball'] = $_POST['qtyGB'];
                      $_SESSION['ultraball'] = $_POST['qtyUB'];
+                     $_SESSION['maxpotion'] = $_POST['qtyMP'];
+                     $_SESSION['fullrestore'] = $_POST['qtyFR'];
+                     $_SESSION['superrepel'] = $_POST['qtySR'];
+                     $_SESSION['maxrepel'] = $_POST['qtyMR'];
+                     $_SESSION['escaperope'] = $_POST['qtyER'];
                   }                  
                ?>
             </form>   
