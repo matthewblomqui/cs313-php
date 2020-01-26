@@ -37,8 +37,8 @@ body {
  }
 
  .dollar-white {
-    max-width: 25px;
-    height: 25px;
+    max-width: 20px;
+    height: 20px;
     filter: invert(1);
  }
 
