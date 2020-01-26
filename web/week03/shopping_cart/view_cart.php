@@ -19,8 +19,9 @@
 
    <script>
       $(document).ready(function(){
-         $("#del").click(function(){
+         $("#delpb").click(function(){
             $("#pb").hide();
+            <?php $_SESSION['pokeball'] = 0;?>
          });
       });
    </script>
@@ -66,9 +67,9 @@
                         <td data-th="Quantity">
                            <input type="number" class="form-control text-center" value="<?php echo $_SESSION['pokeball']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center">200</td>
+                        <td data-th="Subtotal" class="text-center"><?php echo $_SESSION['pokeball'] * 200 ?></td>
                         <td class="actions" data-th="">
-                           <button class="btn btn-danger btn-md" id="del">Delete</button>
+                           <button class="btn btn-danger btn-md" id="delpb">Delete</button>
                         </td>
                      </tr>
                      <tr>
