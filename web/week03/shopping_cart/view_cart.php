@@ -61,7 +61,7 @@
                         <td data-th="Subtotal" class="text-center">200</td>
                         <td class="actions" data-th="">
                            <button class="btn btn-info btn-sm"><i class="glyphicon glyphicon-refresh"></i></button>
-                           <button class="btn btn-danger btn-sm"><i class="far fa-trash-alt"></i></button>
+                           <button class="btn btn-danger btn-sm"><i class="glyphicon glyphicon-trash"></i></button>
                         </td>
                      </tr>
                   </tbody>
