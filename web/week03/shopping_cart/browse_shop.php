@@ -1,5 +1,8 @@
-<!DOCTYPE html>
+<?php
+   session_start();
+?>
 
+<!DOCTYPE html>
 <html class="no-js">
    <head>
       <meta charset="utf-8">
@@ -10,6 +13,7 @@
       <link rel="stylesheet" href="shop.css">
    </head>
    <body>
+
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
          <a class="navbar-brand" href="#">
             <img src="pokemart_logo_small.jpg" alt="Logo" style="width:40px;">
@@ -21,7 +25,7 @@
                <a class="nav-link" href="#">Cart</a>
                </li>
             </ul>
-            <a class="" href="#">
+            <a class="" href="view_cart.php">
                <img src="cart.png" alt="Logo" style="background: white; border-radius: 50%;width:60px;">
             </a>
          </div>
@@ -32,35 +36,43 @@
             <h3 class="text-center">Category</h3>
          </div>
          <div class="col pt-3">
-            <h3 class="text-center">Items</h3>
+            <form action="" method="post">
+               <h3 class="text-center">Items</h3>
 
-            <div class="row h-24"> <!-- Single item -->
-               <div class="triangle-left col-2"></div>
-               <img src="pokeball.png" alt="pokeball" class="col-1 bg-light">
-               <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
-               <div class="algin-middle bg-light">Qty: 
-                  <input type="number" name="qty1" min="0" max="99">
-                  <input type="submit" name="Submit" value="Add to Cart" class="btn btn-primary">
+               <div class="row h-24"> <!-- Single item -->
+                  <div class="triangle-left col-2"></div>
+                  <img src="pokeball.png" alt="pokeball" class="col-1 bg-light">
+                  <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
+                  <div class="algin-middle bg-light">Qty: 
+                     <input type="number" name="qtyPB" min="0" max="99">
+                     <input type="submit" name="submitPB" value="Add to Cart" class="btn btn-primary">
+                  </div>
+                  <div class="triangle-right col-2"></div>
                </div>
-               <div class="triangle-right col-2"></div>
-            </div>
 
-            <br>
+               <br>
 
-            <div class="row h-24"> <!-- Single item -->
-               <div class="triangle-left col-2"></div>
-               <img src="greatball.png" alt="pokeball" class="col-1 bg-light">
-               <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
-               <div class="algin-middle bg-light">Qty: 
-                  <input type="number" name="qty1" min="0" max="99">
-                  <input type="submit" name="Submit" value="Add to Cart" class="btn btn-primary">
+               <div class="row h-24"> <!-- Single item -->
+                  <div class="triangle-left col-2"></div>
+                  <img src="greatball.png" alt="pokeball" class="col-1 bg-light">
+                  <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
+                  <div class="algin-middle bg-light">Qty: 
+                     <input type="number" name="qtyGB" min="0" max="99">
+                     <input type="submit" name="submitGB" value="Add to Cart" class="btn btn-primary">
+                  </div>
+                  <div class="triangle-right col-2"></div>
                </div>
-               <div class="triangle-right col-2"></div>
-            </div>
 
-            <br>
-            
+               <br>
+
+               <?php
+                  if(isset($_POST['submitPB'])) {
+                     $_SESSION['pokeball'] = $_POST['qtyPB'];
+                  }
+               ?>
+            </form>   
          </div>
+         
       </div>
 
       <?php include '../../footer.php';?>
