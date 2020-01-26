@@ -23,7 +23,8 @@
     <div class="container">
 
         <div class="jumbotron text-center text-danger">
-            <h2>Coming Soon</h2>
+            <h2>More Coming Soon</h2>
+            <hr>
             <a href="https://matthewblomqui.herokuapp.com/week03/shopping_cart/browse_shop.php">Shopping Cart</a>
         </div>
     </div>
