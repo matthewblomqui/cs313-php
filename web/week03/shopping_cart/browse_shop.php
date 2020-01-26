@@ -18,7 +18,9 @@
          <a class="navbar-brand" href="browse_shop.php">
             <img src="pokemart_logo_small.jpg" alt="Logo" style="width:40px;">
          </a>
-         <h3 class="text-light">Pokemart Shop</h3>
+         <a class="" href="browse_shop.php">
+            <h3 class="text-light">Pokemart Shop</h3>
+         </a>
          <div class="collapse navbar-collapse" id="navb">
             <ul class="navbar-nav mr-auto">
                <li class="nav-item">
