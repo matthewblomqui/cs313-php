@@ -15,6 +15,19 @@
             <img src="pokemart_logo_small.jpg" alt="Logo" style="width:40px;">
          </a>
          <h3 class="text-light">Pokemart Shop</h3>
+         <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+               </li>
+            </ul>
+         </div>
       </nav>
 
       <div class="container">
