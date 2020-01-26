@@ -24,7 +24,7 @@
                <a class="nav-link" href="javascript:void(0)">Link</a>
                </li>
             </ul>
-            <a class="navbar-brand" href="#">
+            <a class="" href="#">
                <img src="cart.jpg" alt="Logo" style="width:40px;">
             </a>
          </div>
