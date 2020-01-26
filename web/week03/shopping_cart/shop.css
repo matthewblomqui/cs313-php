@@ -31,6 +31,6 @@ body {
  }
 
  .dollar {
-    width: 40px;
+    max-width: 40px;
     height:auto;
  }
