@@ -37,9 +37,9 @@
          <div class="col pt-3">
             <h3 class="text-center">Items</h3>
             <div class="row">
-               <div class="triangle-left col"></div>
+               <div class="triangle-left col-1"></div>
                <div class="col">STUFF</div>
-               <div class="triangle-right col"></div>
+               <div class="triangle-right col-1"></div>
             </div>
          </div>
       </div>
