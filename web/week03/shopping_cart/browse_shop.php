@@ -31,7 +31,7 @@
       </nav>
 
       <div class="row">
-         <div class="col-1 pt-3">
+         <div class="col-2 pt-3">
             <h3 class="text-center">Category</h3>
          </div>
          <div class="col pt-3">
