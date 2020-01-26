@@ -57,12 +57,11 @@
                         </td>
                         <td data-th="Price">200</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" value="1">
+                           <input type="number" class="form-control text-center" value="<?php echo $_SESSION['pokeball']?>">
                         </td>
                         <td data-th="Subtotal" class="text-center">200</td>
                         <td class="actions" data-th="">
-                           <!-- <button class="btn btn-info btn-sm"><span class="glyphicon glyphicon-refresh"></span></button> -->
-                           <button class="btn btn-danger btn-md"><span class="glyphicon glyphicon-trash"></span>Delete</button>
+                           <button class="btn btn-danger btn-md">Delete</button>
                         </td>
                      </tr>
                   </tbody>
