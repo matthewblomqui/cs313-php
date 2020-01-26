@@ -20,6 +20,11 @@
          </a>
          <h3 class="text-light">Pokemart Shop</h3>
          <div class="collapse navbar-collapse" id="navb">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item">
+               <!--<a class="nav-link" href="#">Cart</a>-->
+               </li>
+            </ul>
             <a class="" href="view_cart.php">
                <img src="cart.png" alt="Logo" style="background: white; border-radius: 50%;width:60px;">
             </a>
