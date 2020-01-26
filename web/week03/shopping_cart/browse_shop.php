@@ -50,9 +50,28 @@
 
                <br>
 
+               <div class="row h-24"> <!-- Single item -->
+                  <div class="triangle-left col-2"></div>
+                  <img src="ultraball.png" alt="pokeball" class="col-1 bg-light">
+                  <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
+                  <div class="algin-middle bg-light">Qty: 
+                     <input type="number" name="qtyUB" min="0" max="99">
+                     <input type="submit" name="submitUB" value="Add to Cart" class="btn btn-primary">
+                  </div>
+                  <div class="triangle-right col-2"></div>
+               </div>
+
+               <br>
+
                <?php
                   if(isset($_POST['submitPB'])) {
                      $_SESSION['pokeball'] = $_POST['qtyPB'];
+                  }
+                  if(isset($_POST['submitGB'])) {
+                     $_SESSION['greatball'] = $_POST['qtyGB'];
+                  }
+                  if(isset($_POST['submitUB'])) {
+                     $_SESSION['ultraball'] = $_POST['qtyUB'];
                   }
                ?>
             </form>   
