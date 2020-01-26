@@ -29,3 +29,8 @@ body {
     height: 100px;
     min-width: 100px;
  }
+
+ .dollar {
+    max-width: 100%;
+    height:auto;
+ }
