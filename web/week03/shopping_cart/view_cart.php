@@ -66,17 +66,17 @@
                      <tr>
                         <td data-th="Product">
                            <div class="row">
-                              <div class="col-sm-2 hidden-xs"><img src="pokeball.png" alt="pokeball" class="size" /></div>
+                              <div class="col-sm-2 hidden-xs"><img src="greatball.png" alt="greatball" class="size" /></div>
                               <div class="col-sm-10">
-                                 <h4 class="nomargin pl-3">Pokeball</h4>
+                                 <h4 class="nomargin pl-3">Greatball</h4>
                               </div>
                            </div>
                         </td>
-                        <td data-th="Price">200</td>
+                        <td data-th="Price">600</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" value="<?php echo $_SESSION['pokeball']?>">
+                           <input type="number" class="form-control text-center" value="<?php echo $_SESSION['greatball']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center">200</td>
+                        <td data-th="Subtotal" class="text-center">600</td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md">Delete</button>
                         </td>
@@ -84,17 +84,17 @@
                      <tr>
                         <td data-th="Product">
                            <div class="row">
-                              <div class="col-sm-2 hidden-xs"><img src="pokeball.png" alt="pokeball" class="size" /></div>
+                              <div class="col-sm-2 hidden-xs"><img src="ultraball.png" alt="ultraball" class="size" /></div>
                               <div class="col-sm-10">
-                                 <h4 class="nomargin pl-3">Pokeball</h4>
+                                 <h4 class="nomargin pl-3">Ultraball</h4>
                               </div>
                            </div>
                         </td>
-                        <td data-th="Price">200</td>
+                        <td data-th="Price">1200</td>
                         <td data-th="Quantity">
                            <input type="number" class="form-control text-center" value="<?php echo $_SESSION['pokeball']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center">200</td>
+                        <td data-th="Subtotal" class="text-center">1200</td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md">Delete</button>
                         </td>
