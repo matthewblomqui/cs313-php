@@ -16,6 +16,14 @@
    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    <link rel="stylesheet" href="shop.css">
+
+   <script>
+      $(document).ready(function(){
+         $("#del").click(function(){
+            $("#pb").hide();
+         });
+      });
+   </script>
 </head>
 
 <body>
@@ -45,7 +53,7 @@
                      </tr>
                   </thead>
                   <tbody>
-                     <tr>
+                     <tr id="pb">
                         <td data-th="Product">
                            <div class="row">
                               <div class="col-sm-2 hidden-xs"><img src="pokeball.png" alt="pokeball" class="size" /></div>
@@ -60,7 +68,7 @@
                         </td>
                         <td data-th="Subtotal" class="text-center">200</td>
                         <td class="actions" data-th="">
-                           <button class="btn btn-danger btn-md">Delete</button>
+                           <button class="btn btn-danger btn-md" id="del">Delete</button>
                         </td>
                      </tr>
                      <tr>
