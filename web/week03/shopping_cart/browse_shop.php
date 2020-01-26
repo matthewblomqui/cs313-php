@@ -31,10 +31,10 @@
       </nav>
 
       <div class="row">
-         <div class="col-4 pt-3">
+         <div class="col-3 pt-3">
             <h3 class="text-center">Category</h3>
          </div>
-         <div class="col-8 pt-3">
+         <div class="col pt-3">
             <h3 class="text-center">Items</h3>
             <div class="row">
                <div class="triangle-left col"></div>
