@@ -38,7 +38,7 @@
             <h3 class="text-center">Items</h3>
             <div class="row">
                <div class="triangle-left col-2"></div>
-               <img src="pokeball.png" alt="pokeball" style="width: 24px">
+               <img src="pokeball.png" alt="pokeball" class="col-1">
                <div class="col">STUFF</div>
                <div class="triangle-right col-2"></div>
             </div>
