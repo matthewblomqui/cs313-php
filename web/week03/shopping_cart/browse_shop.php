@@ -42,8 +42,8 @@
                <div class="col align-middle">Info</div>
                <div class="algin-middle">Qty: 
                   <input type="number" name="qty1" min="0" max="99">
+                  <input type="submit" name="Submit" value="Add to Cart">
                </div>
-               <input type="submit" name="Submit" value="Add to Cart">
                <div class="triangle-right col-2"></div>
             </div>
             <div class="row"> <!-- Single item -->
