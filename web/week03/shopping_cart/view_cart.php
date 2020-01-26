@@ -52,11 +52,10 @@
                               <div class="col-sm-2 hidden-xs"><img src="pokeball.png" alt="pokeball" class="size" /></div>
                               <div class="col-sm-10">
                                  <h4 class="nomargin pl-3">Pokeball</h4>
-                                 <p></p>
                               </div>
                            </div>
                         </td>
-                        <td data-th="Price"><img src="pokedollar.png" alt="pokedollar" class="dollar-white">200</td>
+                        <td data-th="Price">200</td>
                         <td data-th="Quantity">
                            <input type="number" class="form-control text-center" value="1">
                         </td>
