@@ -53,7 +53,7 @@
                   <img src="pokeball.png" alt="pokeball" class="col-1 bg-light">
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
-                     <input type="number" name="qtyPB" min="0" max="99" value="<?php $_SESSION['pokeball']?>">
+                     <input type="number" name="qtyPB" min="0" max="99" value="5">
                      <input type="submit" name="submitPB" value="Add to Cart" class="btn btn-primary">
                   </div>
                   <div class="triangle-right col-2"></div>
