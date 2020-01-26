@@ -33,7 +33,7 @@
 
          <div class="row text-white">
             <div class="container">
-               <table id="cart" class="table table-hover table-condensed text-white">
+               <table id="cart" class="table table-condensed text-white">
                   <thead>
                      <tr>
                         <th style="width:50%">Product</th>
