@@ -21,7 +21,6 @@
       $(document).ready(function(){
          $("#delpb").click(function(){
             $("#pb").hide();
-            <?php $_SESSION['pokeball'] = 0;?>
          });
       });
    </script>
