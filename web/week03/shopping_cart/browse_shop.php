@@ -10,8 +10,12 @@
       <link rel="stylesheet" href="shop.css">
    </head>
    <body>
-      <h3>content</h3>
-
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+         <a class="navbar-brand" href="#">
+            <img src="pokemart_logo_small.jpg" alt="Logo" style="width:40px;">
+         </a>
+      </nav>
+      
       <div class="container">
          Item template...
       </div>
