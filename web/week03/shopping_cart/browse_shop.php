@@ -25,7 +25,7 @@
                </li>
             </ul>
             <a class="" href="#">
-               <img src="cart.png" alt="Logo" style="background: white">
+               <img src="cart.png" alt="Logo" style="background: white; border-radius: 50%;width:40px;">
             </a>
          </div>
       </nav>
