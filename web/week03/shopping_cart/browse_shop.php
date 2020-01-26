@@ -85,8 +85,8 @@
 
                <br>
 
-               <input type="submit" name="Submit" value="Add to Cart" class="btn btn-primary">
-               <input type="reset" name="clear" value="Clear Cart" class="btn btn-warning">
+               <input type="submit" name="Submit" value="Add to Cart" class="btn btn-primary float-right">
+               <input type="reset" name="clear" value="Clear Cart" class="btn btn-warning float-right">
 
                <?php
                   if(isset($_POST['Submit'])) {
