@@ -73,8 +73,8 @@
                         </tfoot>
                     </table>
                 </div>
-                <input type="reset" name="clear" value="Empty Cart" class="btn btn-danger float-right">
-                <input type="submit" name="Submit" value="Checkout" class="btn btn-primary float-right">
+                <!--<input type="reset" name="clear" value="Empty Cart" class="btn btn-danger float-right">
+                <input type="submit" name="Submit" value="Checkout" class="btn btn-primary float-right"> -->
             </div>
         </div>
         <div class="col-2"></div> <!-- placeholder for spacing -->
