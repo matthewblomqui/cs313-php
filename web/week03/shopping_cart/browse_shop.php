@@ -67,7 +67,6 @@
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
                      <input type="number" name="qtyGB" min="0" max="99" value="0">
-                     <input type="submit" name="submitGB" value="Add to Cart" class="btn btn-primary">
                   </div>
                   <div class="triangle-right col-2"></div>
                </div>
@@ -80,24 +79,21 @@
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
                      <input type="number" name="qtyUB" min="0" max="99" value="0">
-                     <input type="submit" name="submitUB" value="Add to Cart" class="btn btn-primary">
                   </div>
                   <div class="triangle-right col-2"></div>
                </div>
 
                <br>
 
+               <input type="submit" name="Submit" value="Add to Cart" class="btn btn-primary">
+               <input type="reset" name="clear" value="Clear Cart" class="btn btn-warning">
+
                <?php
-                  if(isset($_POST['submitPB'])) {
+                  if(isset($_POST['Submit'])) {
                      $_SESSION['pokeball'] = $_POST['qtyPB'];
-                  }
-                  if(isset($_POST['submitGB'])) {
                      $_SESSION['greatball'] = $_POST['qtyGB'];
-                  }
-                  if(isset($_POST['submitUB'])) {
                      $_SESSION['ultraball'] = $_POST['qtyUB'];
-                  }
-                  
+                  }                  
                ?>
             </form>   
          </div>
