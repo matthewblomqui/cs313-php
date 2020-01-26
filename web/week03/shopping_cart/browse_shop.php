@@ -14,7 +14,7 @@
          <a class="navbar-brand" href="#">
             <img src="pokemart_logo_small.jpg" alt="Logo" style="width:40px;">
          </a>
-         <!-- <h3 class="text-light">Pokemart Shop</h3> -->
+         <h3 class="text-light">Pokemart Shop</h3>
          <div class="collapse navbar-collapse" id="navb">
             <ul class="navbar-nav mr-auto">
                <li class="nav-item">
@@ -25,7 +25,7 @@
                </li>
             </ul>
             <a class="" href="#">
-               <img src="cart.png" alt="Logo" style="background: white; border-radius: 50%;width:40px;">
+               <img src="cart.png" alt="Logo" style="background: white; border-radius: 50%;width:60px;">
             </a>
          </div>
       </nav>
