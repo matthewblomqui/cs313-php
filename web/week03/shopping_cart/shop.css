@@ -2,3 +2,8 @@ body {
    background-image: url("https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png");
    /*background-color: #cccccc;*/
 }
+
+.pokeDark {
+   background-image: url("https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png");
+   
+}
