@@ -86,7 +86,7 @@
                <br>
 
                <div class="row h-24"> <!-- Single item -->
-                  <div class="triangle-left col-3"></div>
+                  <div class="triangle-left col-2"></div>
                   <div class="col"></div>
                      <input type="submit" name="Submit" value="Add to Cart" class="btn btn-primary float-right">
                      <input type="reset" name="clear" value="Clear Cart" class="btn btn-warning float-right">
