@@ -45,7 +45,7 @@
             <h3 class="text-center">Category</h3>
          </div>
          <div class="col pt-3">
-            <form action="" method="post">
+            <form action="browse_shop.php" method="post">
                <h3 class="text-center">Items</h3>
 
                <div class="row h-24"> <!-- Single item -->
