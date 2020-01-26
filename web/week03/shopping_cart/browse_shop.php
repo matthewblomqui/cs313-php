@@ -41,7 +41,7 @@
       <?php include 'nav.php';?>
 
       <div class="row">
-         <div class="col-3 pt-3 pokedark text-white">
+         <div class="col-3 pt-3 pokeDark text-white">
             <h3 class="pl-3">Message to Trainers</h3>
             <p class="pl-3">
                Welcome trainers! Here at the Pokemart, we have a
