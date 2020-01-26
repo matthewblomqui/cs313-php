@@ -22,6 +22,12 @@
          $("#delpb").click(function(){
             $("#pb").hide();
          });
+         $("#delgb").click(function(){
+            $("#gb").hide();
+         });
+         $("#delub").click(function(){
+            $("#ub").hide();
+         });
       });
    </script>
 </head>
@@ -35,10 +41,6 @@
          <hr>
          <h2 class="text-primary text-center">Cart Details</h2>
          <hr>
-         <?php
-               print_r($_SESSION);
-         ?>
-         <br>
 
          <div class="row text-white">
             <div class="container">
@@ -71,7 +73,7 @@
                            <button class="btn btn-danger btn-md" id="delpb">Delete</button>
                         </td>
                      </tr>
-                     <tr>
+                     <tr id="gb">
                         <td data-th="Product">
                            <div class="row">
                               <div class="col-sm-2 hidden-xs"><img src="greatball.png" alt="greatball" class="size" /></div>
@@ -84,12 +86,12 @@
                         <td data-th="Quantity">
                            <input type="number" class="form-control text-center" value="<?php echo $_SESSION['greatball']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center">600</td>
+                        <td data-th="Subtotal" class="text-center"><?php echo $_SESSION['greatball'] * 600?></td>
                         <td class="actions" data-th="">
-                           <button class="btn btn-danger btn-md">Delete</button>
+                           <button class="btn btn-danger btn-md" id="delgb">Delete</button>
                         </td>
                      </tr>
-                     <tr>
+                     <tr id="ub">
                         <td data-th="Product">
                            <div class="row">
                               <div class="col-sm-2 hidden-xs"><img src="ultraball.png" alt="ultraball" class="size" /></div>
@@ -102,9 +104,9 @@
                         <td data-th="Quantity">
                            <input type="number" class="form-control text-center" value="<?php echo $_SESSION['ultraball']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center">1200</td>
+                        <td data-th="Subtotal" class="text-center"><?php echo $_SESSION['ultraball'] * 1200?></td>
                         <td class="actions" data-th="">
-                           <button class="btn btn-danger btn-md">Delete</button>
+                           <button class="btn btn-danger btn-md" id="delub">Delete</button>
                         </td>
                      </tr>
                      <tr>
