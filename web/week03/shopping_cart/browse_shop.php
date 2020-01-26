@@ -42,7 +42,7 @@
 
       <div class="row">
          <div class="col-2 pt-3">
-            <h3 class="text-center">Message to Trainers</h3>
+            <h3 class="text-center pl-3">Message to Trainers</h3>
             <p class="pl-3">
                Welcome trainers! Here at the Pokemart, we have a
                collection of items that will help you on your journey
