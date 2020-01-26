@@ -92,9 +92,99 @@
                         </td>
                         <td data-th="Price">1200</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" value="<?php echo $_SESSION['pokeball']?>">
+                           <input type="number" class="form-control text-center" value="<?php echo $_SESSION['ultraball']?>">
                         </td>
                         <td data-th="Subtotal" class="text-center">1200</td>
+                        <td class="actions" data-th="">
+                           <button class="btn btn-danger btn-md">Delete</button>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td data-th="Product">
+                           <div class="row">
+                              <div class="col-sm-2 hidden-xs"><img src="maxpotion.png" alt="maxpotion" class="size" /></div>
+                              <div class="col-sm-10">
+                                 <h4 class="nomargin pl-3">Max Potion</h4>
+                              </div>
+                           </div>
+                        </td>
+                        <td data-th="Price">2500</td>
+                        <td data-th="Quantity">
+                           <input type="number" class="form-control text-center" value="<?php echo $_SESSION['maxpotion']?>">
+                        </td>
+                        <td data-th="Subtotal" class="text-center">2500</td>
+                        <td class="actions" data-th="">
+                           <button class="btn btn-danger btn-md">Delete</button>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td data-th="Product">
+                           <div class="row">
+                              <div class="col-sm-2 hidden-xs"><img src="fullpotion.png" alt="fullrestore" class="size" /></div>
+                              <div class="col-sm-10">
+                                 <h4 class="nomargin pl-3">Full Restore</h4>
+                              </div>
+                           </div>
+                        </td>
+                        <td data-th="Price">3000</td>
+                        <td data-th="Quantity">
+                           <input type="number" class="form-control text-center" value="<?php echo $_SESSION['fullrestore']?>">
+                        </td>
+                        <td data-th="Subtotal" class="text-center">3000</td>
+                        <td class="actions" data-th="">
+                           <button class="btn btn-danger btn-md">Delete</button>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td data-th="Product">
+                           <div class="row">
+                              <div class="col-sm-2 hidden-xs"><img src="superrepel.png" alt="superrepel" class="size" /></div>
+                              <div class="col-sm-10">
+                                 <h4 class="nomargin pl-3">Super Repel</h4>
+                              </div>
+                           </div>
+                        </td>
+                        <td data-th="Price">500</td>
+                        <td data-th="Quantity">
+                           <input type="number" class="form-control text-center" value="<?php echo $_SESSION['superrepel']?>">
+                        </td>
+                        <td data-th="Subtotal" class="text-center">500</td>
+                        <td class="actions" data-th="">
+                           <button class="btn btn-danger btn-md">Delete</button>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td data-th="Product">
+                           <div class="row">
+                              <div class="col-sm-2 hidden-xs"><img src="maxrepel.png" alt="maxrepel" class="size" /></div>
+                              <div class="col-sm-10">
+                                 <h4 class="nomargin pl-3">Max Repel</h4>
+                              </div>
+                           </div>
+                        </td>
+                        <td data-th="Price">700</td>
+                        <td data-th="Quantity">
+                           <input type="number" class="form-control text-center" value="<?php echo $_SESSION['maxrepel']?>">
+                        </td>
+                        <td data-th="Subtotal" class="text-center">700</td>
+                        <td class="actions" data-th="">
+                           <button class="btn btn-danger btn-md">Delete</button>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td data-th="Product">
+                           <div class="row">
+                              <div class="col-sm-2 hidden-xs"><img src="escaperope.png" alt="escaperope" class="size" /></div>
+                              <div class="col-sm-10">
+                                 <h4 class="nomargin pl-3">Escape Rope</h4>
+                              </div>
+                           </div>
+                        </td>
+                        <td data-th="Price">550</td>
+                        <td data-th="Quantity">
+                           <input type="number" class="form-control text-center" value="<?php echo $_SESSION['escaperope']?>">
+                        </td>
+                        <td data-th="Subtotal" class="text-center">550</td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md">Delete</button>
                         </td>
