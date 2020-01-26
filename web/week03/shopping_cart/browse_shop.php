@@ -33,7 +33,8 @@
          </div>
          <div class="col pt-3">
             <h3 class="text-center">Items</h3>
-            <div class="row"> <!-- Single item -->
+
+            <div class="row h-100"> <!-- Single item -->
                <div class="triangle-left col-2"></div>
                <img src="pokeball.png" alt="pokeball" class="col-1 bg-light">
                <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
@@ -46,7 +47,7 @@
 
             <br>
 
-            <div class="row"> <!-- Single item -->
+            <div class="row h-100"> <!-- Single item -->
                <div class="triangle-left col-2"></div>
                <img src="greatball.png" alt="pokeball" class="col-1 bg-light">
                <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
