@@ -58,7 +58,7 @@
 
                <div class="row h-24"> <!-- Single item -->
                   <div class="triangle-left col-2"></div>
-                  <img src="pokeball.png" alt="pokeball" class="col-1 bg-light">
+                  <img src="pokeball.png" alt="pokeball" class="col-1 bg-light img-fluid">
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
                      <input type="number" name="qtyPB" min="0" max="99" value="0">
@@ -70,7 +70,7 @@
 
                <div class="row h-24"> <!-- Single item -->
                   <div class="triangle-left col-2"></div>
-                  <img src="greatball.png" alt="greatball" class="col-1 bg-light">
+                  <img src="greatball.png" alt="greatball" class="col-1 bg-light img-fluid">
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
                      <input type="number" name="qtyGB" min="0" max="99" value="0">
@@ -82,7 +82,7 @@
 
                <div class="row h-24"> <!-- Single item -->
                   <div class="triangle-left col-2"></div>
-                  <img src="ultraball.png" alt="ultraball" class="col-1 bg-light">
+                  <img src="ultraball.png" alt="ultraball" class="col-1 bg-light img-fluid">
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
                      <input type="number" name="qtyUB" min="0" max="99" value="0">
@@ -94,7 +94,7 @@
 
                <div class="row h-24"> <!-- Single item -->
                   <div class="triangle-left col-2"></div>
-                  <img src="maxpotion.png" alt="maxpotion" class="col-1 bg-light">
+                  <img src="maxpotion.png" alt="maxpotion" class="col-1 bg-light img-fluid">
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
                      <input type="number" name="qtyMP" min="0" max="99" value="0">
@@ -106,7 +106,7 @@
 
                <div class="row h-24"> <!-- Single item -->
                   <div class="triangle-left col-2"></div>
-                  <img src="fullpotion.png" alt="fullrestore" class="col-1 bg-light">
+                  <img src="fullpotion.png" alt="fullrestore" class="col-1 bg-light img-fluid">
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
                      <input type="number" name="qtyFR" min="0" max="99" value="0">
@@ -118,7 +118,7 @@
 
                <div class="row h-24"> <!-- Single item -->
                   <div class="triangle-left col-2"></div>
-                  <img src="superrepel.png" alt="superrepel" class="col-1 bg-light">
+                  <img src="superrepel.png" alt="superrepel" class="col-1 bg-light img-fluid">
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
                      <input type="number" name="qtySR" min="0" max="99" value="0">
@@ -130,7 +130,7 @@
 
                <div class="row h-24"> <!-- Single item -->
                   <div class="triangle-left col-2"></div>
-                  <img src="maxrepel.png" alt="maxrepel" class="col-1 bg-light">
+                  <img src="maxrepel.png" alt="maxrepel" class="col-1 bg-light img-fluid">
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
                      <input type="number" name="qtyMR" min="0" max="99" value="0">
@@ -142,7 +142,7 @@
 
                <div class="row h-24"> <!-- Single item -->
                   <div class="triangle-left col-2"></div>
-                  <img src="escaperope.png" alt="escaperope" class="col-1 bg-light">
+                  <img src="escaperope.png" alt="escaperope" class="col-1 bg-light img-fluid">
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
                      <input type="number" name="qtyER" min="0" max="99" value="0">
