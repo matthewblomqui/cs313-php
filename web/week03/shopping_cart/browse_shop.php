@@ -30,10 +30,11 @@
          </div>
       </nav>
 
-      <div class="container">
-         Item template...
+      <div class="row">
+         <div class="col-4">Categories</div>
+         <div class="col-8">Items</div>
       </div>
-      
+            
       <?php include '../../footer.php';?>
    </body>
 </html>
