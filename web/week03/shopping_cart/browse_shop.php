@@ -39,8 +39,10 @@
             <div class="row"> <!-- Single item -->
                <div class="triangle-left col-2"></div>
                <img src="pokeball.png" alt="pokeball" class="col-1">
-               <div class="col">Info</div>
-               Qty: <input type="number" name="qty1" min="0" max="99">
+               <div class="col align-middle">Info</div>
+               <div class="algin-middle">Qty: 
+                  <input type="number" name="qty1" min="0" max="99">
+               </div>
                <input type="submit" name="Submit" value="Add to Cart">
                <div class="triangle-right col-2"></div>
             </div>
