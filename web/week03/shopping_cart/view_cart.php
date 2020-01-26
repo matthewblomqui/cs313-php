@@ -62,7 +62,7 @@
                         <td data-th="Subtotal" class="text-center">200</td>
                         <td class="actions" data-th="">
                            <!-- <button class="btn btn-info btn-sm"><span class="glyphicon glyphicon-refresh"></span></button> -->
-                           <button class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span></button>
+                           <button class="btn btn-danger btn-md"><span class="glyphicon glyphicon-trash"></span></button>
                         </td>
                      </tr>
                   </tbody>
