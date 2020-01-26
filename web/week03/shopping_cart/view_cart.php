@@ -51,7 +51,7 @@
                               </div>
                            </div>
                         </td>
-                        <td data-th="Price"><img src="pokedollar.png" alt="pokedollar" class="dollar">$200</td>
+                        <td data-th="Price"><img src="pokedollar.png" alt="pokedollar" class="dollar-white">200</td>
                         <td data-th="Quantity">
                            <input type="number" class="form-control text-center" value="1">
                         </td>
