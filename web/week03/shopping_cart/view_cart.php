@@ -61,9 +61,9 @@
                             </tr>
                         </tbody>
                         <tfoot>
-                            <tr class="visible-xs">
+                            <!-- <tr class="visible-xs">
                                 <td class="text-center"><strong>Total 1.99</strong></td>
-                            </tr>
+                            </tr> -->
                             <tr>
                                 <td><a href="#" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
                                 <td colspan="2" class="hidden-xs"></td>
