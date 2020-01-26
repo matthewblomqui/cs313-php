@@ -21,7 +21,7 @@
             <hr>
             <h2 class="text-primary text-center">Cart Details</h2>
             <hr>
-            <div class="row">
+            <div class="row text-white">
                <?php
                   print_r($_SESSION);
                ?>
