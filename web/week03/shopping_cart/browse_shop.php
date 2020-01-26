@@ -31,10 +31,14 @@
       </nav>
 
       <div class="row">
-         <div class="col-4">Categories</div>
-         <div class="col-8">Items</div>
+         <div class="col-4">
+            <h3 class="text-center">Categories</h3>
+         </div>
+         <div class="col-8">
+            <h3 class="text-center">Items</h3>
+         </div>
       </div>
-            
+
       <?php include '../../footer.php';?>
    </body>
 </html>
