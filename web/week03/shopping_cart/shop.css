@@ -35,3 +35,7 @@ body {
     max-width: 30px;
     height: 30px;
  }
+
+ .dollar-amount {
+    padding-top: 10px;
+ }
