@@ -1,5 +1,29 @@
 <?php
    session_start();
+   if (!isset($_SESSION['pokeball'])) {
+      $_SESSION['pokeball'] = 0;
+   }
+   if (!isset($_SESSION['greatball'])) {
+      $_SESSION['greatball'] = 0;
+   }
+   if (!isset($_SESSION['ultraball'])) {
+      $_SESSION['ultraball'] = 0;
+   }
+   if (!isset($_SESSION['maxpotion'])) {
+      $_SESSION['maxpotion'] = 0;
+   }
+   if (!isset($_SESSION['fullrestore'])) {
+      $_SESSION['fullrestore'] = 0;
+   }
+   if (!isset($_SESSION['superrepel'])) {
+      $_SESSION['superrepel'] = 0;
+   }
+   if (!isset($_SESSION['maxrepel'])) {
+      $_SESSION['maxrepel'] = 0;
+   }
+   if (!isset($_SESSION['escaperope'])) {
+      $_SESSION['escaperope'] = 0;
+   }
 ?>
 
 <!DOCTYPE html>
@@ -29,7 +53,7 @@
                   <img src="pokeball.png" alt="pokeball" class="col-1 bg-light">
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
-                     <input type="number" name="qtyPB" min="0" max="99">
+                     <input type="number" name="qtyPB" min="0" max="99" value="<?php $_SESSION['pokeball']?>">
                      <input type="submit" name="submitPB" value="Add to Cart" class="btn btn-primary">
                   </div>
                   <div class="triangle-right col-2"></div>
@@ -39,10 +63,10 @@
 
                <div class="row h-24"> <!-- Single item -->
                   <div class="triangle-left col-2"></div>
-                  <img src="greatball.png" alt="pokeball" class="col-1 bg-light">
+                  <img src="greatball.png" alt="greatball" class="col-1 bg-light">
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
-                     <input type="number" name="qtyGB" min="0" max="99">
+                     <input type="number" name="qtyGB" min="0" max="99" value="<?php $_SESSION['greatball']?>">
                      <input type="submit" name="submitGB" value="Add to Cart" class="btn btn-primary">
                   </div>
                   <div class="triangle-right col-2"></div>
@@ -52,10 +76,10 @@
 
                <div class="row h-24"> <!-- Single item -->
                   <div class="triangle-left col-2"></div>
-                  <img src="ultraball.png" alt="pokeball" class="col-1 bg-light">
+                  <img src="ultraball.png" alt="ultraball" class="col-1 bg-light">
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
-                     <input type="number" name="qtyUB" min="0" max="99">
+                     <input type="number" name="qtyUB" min="0" max="99" value="<?php $_SESSION['ultraball']?>">
                      <input type="submit" name="submitUB" value="Add to Cart" class="btn btn-primary">
                   </div>
                   <div class="triangle-right col-2"></div>
@@ -73,6 +97,7 @@
                   if(isset($_POST['submitUB'])) {
                      $_SESSION['ultraball'] = $_POST['qtyUB'];
                   }
+                  
                ?>
             </form>   
          </div>
