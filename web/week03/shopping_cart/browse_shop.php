@@ -161,6 +161,8 @@
                   <div class="col-2"></div>
                </div>
 
+               <br><br><br><br><br><br>
+
                <?php
                   if(isset($_POST['Submit'])) {
                      $_SESSION['pokeball'] = $_POST['qtyPB'];
