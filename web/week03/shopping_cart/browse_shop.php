@@ -36,10 +36,22 @@
          </div>
          <div class="col pt-3">
             <h3 class="text-center">Items</h3>
-            <div class="row">
+            <div class="row"> <!-- Single item -->
                <div class="triangle-left col-2"></div>
                <img src="pokeball.png" alt="pokeball" class="col-1">
-               <div class="col">STUFF</div>
+               <div class="col">Info</div>
+               <div class="triangle-right col-2"></div>
+            </div>
+            <div class="row"> <!-- Single item -->
+               <div class="triangle-left col-2"></div>
+               <img src="greatball.png" alt="pokeball" class="col-1">
+               <div class="col">Info</div>
+               <div class="triangle-right col-2"></div>
+            </div>
+            <div class="row"> <!-- Single item -->
+               <div class="triangle-left col-2"></div>
+               <img src="ultraball.png" alt="pokeball" class="col-1">
+               <div class="col">Info</div>
                <div class="triangle-right col-2"></div>
             </div>
          </div>
