@@ -37,9 +37,8 @@ body {
  }
 
  .dollar-white {
-    padding-top: 10px;
-    max-width: 30px;
-    height: 30px;
+    max-width: 25px;
+    height: 25px;
     filter: invert(1);
  }
 
