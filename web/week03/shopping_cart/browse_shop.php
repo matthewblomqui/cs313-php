@@ -42,7 +42,15 @@
 
       <div class="row">
          <div class="col-2 pt-3">
-            <h3 class="text-center">Category</h3>
+            <h3 class="text-center">Message to Trainers</h3>
+            <p>
+               Welcome trainers! Here at the Pokemart, we have a
+               collection of items that will help you on your journey
+               to become the the best trainers out there. If there are
+               items that you need, we have it! If there is something
+               that you need that is not here, check back next week. 
+               New items are in stock every week!
+            </p>
          </div>
          <div class="col pt-3">
             <form action="browse_shop.php" method="post">
@@ -89,7 +97,7 @@
                   <div class="col-2"></div>
                   <div class="col">
                      <input type="submit" name="Submit" value="Update Cart" class="btn btn-primary float-right">
-                     <input type="reset" name="clear" value="Clear Quantities" class="btn btn-warning float-right">
+                     <input type="reset" name="clear" value="Clear" class="btn btn-warning float-right">
                   </div>
                   <div class="col-2"></div>
                </div>
