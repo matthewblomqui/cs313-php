@@ -25,6 +25,8 @@
                <?php
                   print_r($_SESSION);
                ?>
+               <input type="submit" name="Submit" value="Checkout" class="btn btn-primary float-right">
+               <input type="reset" name="clear" value="Empty Cart" class="btn btn-danger float-right">
             </div>
          </div>
          <div class="col-2"></div>
