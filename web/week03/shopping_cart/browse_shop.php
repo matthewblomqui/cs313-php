@@ -14,7 +14,7 @@
          <a class="navbar-brand" href="#">
             <img src="pokemart_logo_small.jpg" alt="Logo" style="width:40px;">
          </a>
-         <h3 class="text-center">Pokemart Shop</h3>
+         <h3 class="text-light">Pokemart Shop</h3>
       </nav>
 
       <div class="container">
