@@ -16,6 +16,6 @@
          Item template...
       </div>
       
-      <?php include 'https://matthewblomqui.herokuapp.com/footer.php';?>
+      <?php include '../../footer.php';?>
    </body>
 </html>
