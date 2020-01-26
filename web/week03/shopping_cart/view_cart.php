@@ -23,11 +23,11 @@
          <hr>
          <h2 class="text-primary text-center">Cart Details</h2>
          <hr>
-         <div class="row text-white">
-             <?php
+         <?php
                print_r($_SESSION);
-            ?>
-            <br>
+         ?>
+         <br>
+         <div class="row text-white">
             <div class="container">
                <table id="cart" class="table table-hover table-condensed text-white">
                   <thead>
