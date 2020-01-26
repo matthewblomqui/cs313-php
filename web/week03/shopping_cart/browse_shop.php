@@ -61,7 +61,7 @@
                   <img src="pokeball.png" alt="pokeball" class="col-1 bg-light size">
                   <div class="col-1 bg-light">
                      <img src="pokedollar.png" alt="pokedollar" class="dollar">
-                     <b class="dollar-amount">200</b>
+                     <b>200</b>
                   </div>
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
