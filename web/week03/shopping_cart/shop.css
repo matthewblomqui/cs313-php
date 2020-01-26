@@ -12,7 +12,7 @@ body {
    width: 0;
    height: 0;
    border-top: 50px solid transparent;
-   border-right: 100px solid grey;
+   border-right: 100px solid lightgray;
    border-bottom: 50px solid transparent;
  }
 
@@ -20,6 +20,6 @@ body {
    width: 0;
    height: 0;
    border-top: 50px solid transparent;
-   border-left: 100px solid grey;
+   border-left: 100px solid lightgray;
    border-bottom: 50px solid transparent;
  }

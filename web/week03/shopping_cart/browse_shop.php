@@ -36,7 +36,7 @@
          </div>
          <div class="col pt-3">
             <h3 class="text-center">Items</h3>
-            <div class="row"> <!-- Single item -->
+            <div class="row bg-light"> <!-- Single item -->
                <div class="triangle-left col-2"></div>
                <img src="pokeball.png" alt="pokeball" class="col-1">
                <div class="col align-middle">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
