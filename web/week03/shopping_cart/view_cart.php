@@ -18,7 +18,7 @@
     <?php include 'nav.php';?>
 
     <div class="row">
-        <div class="col-2"></div>
+        <div class="col-2"></div> <!-- placeholder for spacing -->
         <div class="col pt-3 pokeDark">
             <hr>
             <h2 class="text-primary text-center">Cart Details</h2>
@@ -42,7 +42,7 @@
                             <tr>
                                 <td data-th="Product">
                                     <div class="row">
-                                        <div class="col-sm-2 hidden-xs"><img src="http://placehold.it/100x100" alt="..." class="img-responsive" /></div>
+                                        <div class="col-sm-2 hidden-xs"><img src="pokeball.png" alt="pokeball" class="img-responsive" /></div>
                                         <div class="col-sm-10">
                                             <h4 class="nomargin">Product 1</h4>
                                             <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
@@ -77,7 +77,7 @@
                 <input type="submit" name="Submit" value="Checkout" class="btn btn-primary float-right">
             </div>
         </div>
-        <div class="col-2"></div>
+        <div class="col-2"></div> <!-- placeholder for spacing -->
     </div>
 
     <?php include '../../footer.php';?>
