@@ -48,14 +48,22 @@
             </div>
             <div class="row"> <!-- Single item -->
                <div class="triangle-left col-2"></div>
-               <img src="greatball.png" alt="pokeball" class="col-1">
-               <div class="col">Info</div>
+               <img src="greatball.png" alt="pokeball" class="col-1 bg-light">
+               <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
+               <div class="algin-middle bg-light">Qty: 
+                  <input type="number" name="qty1" min="0" max="99">
+                  <input type="submit" name="Submit" value="Add to Cart">
+               </div>
                <div class="triangle-right col-2"></div>
             </div>
             <div class="row"> <!-- Single item -->
                <div class="triangle-left col-2"></div>
-               <img src="ultraball.png" alt="pokeball" class="col-1">
-               <div class="col">Info</div>
+               <img src="ultraball.png" alt="pokeball" class="col-1 bg-light">
+               <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
+               <div class="algin-middle bg-light">Qty: 
+                  <input type="number" name="qty1" min="0" max="99">
+                  <input type="submit" name="Submit" value="Add to Cart">
+               </div>
                <div class="triangle-right col-2"></div>
             </div>
          </div>
