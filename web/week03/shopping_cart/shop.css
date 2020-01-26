@@ -36,6 +36,13 @@ body {
     height: 30px;
  }
 
+ .dollar-white {
+    padding-top: 10px;
+    max-width: 30px;
+    height: 30px;
+    filter: invert(1);
+ }
+
  /* view_cart css */
  .table>tbody>tr>td, .table>tfoot>tr>td{
    vertical-align: middle;
