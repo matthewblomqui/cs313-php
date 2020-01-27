@@ -58,6 +58,11 @@
          $("#deler").click(function(){
             $("#er").hide();
          });
+
+         $("#delpb").load(function(){
+            if ($("$datapb").val() == 0) { $("#pb").hide(); }
+         });
+
          $("#datapb").on("change", function(){
             $("#subpb").text($("#datapb").val() * 200);
             tally();
@@ -266,7 +271,6 @@
                      <tr>
                         <td>
                            <a href="browse_shop.php" class="btn btn-primary">Continue Shopping</a>
-                           <a href="#" class="btn btn-warning">Update Cart</a>
                         </td>
                         <td colspan="2" class="hidden-xs"></td>
                         <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <div id="total"><?php $t = 0; $i = 0; foreach($_SESSION as $x => $val) { $t += $val * $price[$i]; $i += 1;} echo $t; ?></div></strong></td>
