@@ -41,37 +41,37 @@
             tally();
          });
          $("#delgb").click(function(){
-            // $("#datagb").val() = 0;
+            $("#datagb").val(0);
             $("#gb").hide();
             tally();
          });
          $("#delub").click(function(){
-            // $("#dataub").val() = 0;
+            $("#dataub").val(0);
             $("#ub").hide();
             tally();
          });
          $("#delmp").click(function(){
-            // $("#datamp").val() = 0;
+            $("#datamp").val(0);
             $("#mp").hide();
             tally();
          });
          $("#delfr").click(function(){
-            // $("#datafr").val() = 0;
+            $("#datafr").val(0);
             $("#fr").hide();
             tally();
          });
          $("#delsr").click(function(){
-            // $("#datasr").val() = 0;
+            $("#datasr").val(0);
             $("#sr").hide();
             tally();
          });
          $("#delmr").click(function(){
-            // $("#datamr").val() = 0;
+            $("#datamr").val(0);
             $("#mr").hide();
             tally();
          });
          $("#deler").click(function(){
-            // $("#dataer").val() = 0;
+            $("#dataer").val(0);
             $("#er").hide();
             tally();
          });
