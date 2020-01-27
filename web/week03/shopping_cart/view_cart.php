@@ -1,6 +1,6 @@
 <?php
    session_start();
-   $price = array(200, 600, 1200, 2500, 3000, 500, 700, 550);
+   $total = 0;
 
 ?>
 <!DOCTYPE html>
@@ -121,6 +121,7 @@
                      <?php if ($_SESSION['pokeball'] != 0) {
                         $num = $_SESSION['pokeball'];
                         $price = $num * 200;
+                        $total += $price;
                         echo '<tr id="pb">
                         <td data-th="Product">
                            <div class="row">
@@ -142,6 +143,7 @@
                      <?php if ($_SESSION['greatball'] != 0) {
                         $num = $_SESSION['greatball'];
                         $price = $num * 600;
+                        $total += $price;
                         echo '<tr id="gb">
                         <td data-th="Product">
                            <div class="row">
@@ -163,6 +165,7 @@
                      <?php if ($_SESSION['ultraball'] != 0) {
                         $num = $_SESSION['ultraball'];
                         $price = $num * 1200;
+                        $total += $price;
                         echo '<tr id="ub">
                         <td data-th="Product">
                            <div class="row">
@@ -184,6 +187,7 @@
                      <?php if ($_SESSION['maxpotion'] != 0) {
                         $num = $_SESSION['maxpotion'];
                         $price = $num * 2500;
+                        $total += $price;
                         echo '<tr id="mp">
                         <td data-th="Product">
                            <div class="row">
@@ -205,6 +209,7 @@
                      <?php if ($_SESSION['fullrestore'] != 0) {
                         $num = $_SESSION['fullrestore'];
                         $price = $num * 3000;
+                        $total += $price;
                         echo '<tr id="fr">
                         <td data-th="Product">
                            <div class="row">
@@ -226,6 +231,7 @@
                      <?php if ($_SESSION['superrepel'] != 0) {
                         $num = $_SESSION['superrepel'];
                         $price = $num * 500;
+                        $total += $price;
                         echo '<tr id="sr">
                         <td data-th="Product">
                            <div class="row">
@@ -247,6 +253,7 @@
                      <?php if ($_SESSION['maxrepel'] != 0) {
                         $num = $_SESSION['maxrepel'];
                         $price = $num * 700;
+                        $total += $price;
                         echo '<tr id="mr">
                         <td data-th="Product">
                            <div class="row">
@@ -268,6 +275,7 @@
                      <?php if ($_SESSION['maxrepel'] != 0) {
                         $num = $_SESSION['maxrepel'];
                         $price = $num * 550;
+                        $total += $price;
                         echo '<tr id="er">
                         <td data-th="Product">
                            <div class="row">
@@ -293,7 +301,7 @@
                            <a href="browse_shop.php" class="btn btn-primary">Continue Shopping</a>
                         </td>
                         <td colspan="2" class="hidden-xs"></td>
-                        <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <div id="total"><?php $t = 0; $i = 0; foreach($_SESSION as $x => $val) { $t += $val * $price[$i]; $i += 1;} echo $t; ?></div></strong></td>
+                        <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <div id="total"><?php echo $total;?></div></strong></td>
                         <td><a href="checkout.php" class="btn btn-success btn-block">Checkout</a></td>
                      </tr>
                   </tfoot>
