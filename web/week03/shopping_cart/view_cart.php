@@ -123,6 +123,7 @@
          <hr>
 
          <div class="row text-white">
+            <?php print_r($_POST); ?>
             <div class="container">
                <form action="" method="post">
                <table id="cart" class="table table-condensed text-white">
