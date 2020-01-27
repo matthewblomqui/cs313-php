@@ -1,10 +1,16 @@
 <?php
    session_start();
-   $name = htmlspecialchars($_POST["name"]);
-   $address = htmlspecialchars($_POST["address"]);
-   $state = htmlspecialchars($_POST["state"]);
-   $comment = htmlspecialchars($_POST["comment"]);
+   $name = test_input($_POST["name"]);
+   $address = test_input($_POST["address"]);
+   $state = test_input($_POST["state"]);
+   $comment = test_input($_POST["comment"]);
 
+   function test_input($data) {
+      $data = trim($data);
+      $data = stripslashes($data);
+      $data = htmlspecialchars($data);
+      return $data;
+    }
 ?>
 
 <!DOCTYPE html>
