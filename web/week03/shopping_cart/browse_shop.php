@@ -75,7 +75,7 @@
                   </div>
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
-                     <input type="number" name="qtyPB" min="0" max="99" value="0">
+                     <input type="number" name="qtyPB" min="0" max="99" value="<?php echo $_SESSION['pokedollar'];?>">
                   </div>
                   <div class="triangle-right col-2"></div>
                </div>
@@ -91,7 +91,7 @@
                   </div>
                   <div class="col align-middle bg-light">A good, high-performance Poké Ball that provides a higher success rate for catching Pokémon than a standard Poké Ball.</div>
                   <div class="algin-middle bg-light">Qty: 
-                     <input type="number" name="qtyGB" min="0" max="99" value="0">
+                     <input type="number" name="qtyGB" min="0" max="99" value="<?php echo $_SESSION['greatball'];?>">
                   </div>
                   <div class="triangle-right col-2"></div>
                </div>
@@ -107,7 +107,7 @@
                   </div>
                   <div class="col align-middle bg-light">An ultra-high-performance Poké Ball that provides a higher success rate for catching Pokémon than a Great Ball.</div>
                   <div class="algin-middle bg-light">Qty: 
-                     <input type="number" name="qtyUB" min="0" max="99" value="0">
+                     <input type="number" name="qtyUB" min="0" max="99" value="<?php echo $_SESSION['ultraball'];?>">
                   </div>
                   <div class="triangle-right col-2"></div>
                </div>
@@ -123,7 +123,7 @@
                   </div>
                   <div class="col align-middle bg-light">A spray-type medicine for treating wounds. It can be used to completely restore the max HP of a single Pokémon.</div>
                   <div class="algin-middle bg-light">Qty: 
-                     <input type="number" name="qtyMP" min="0" max="99" value="0">
+                     <input type="number" name="qtyMP" min="0" max="99" value="<?php echo $_SESSION['maxpotion'];?>">
                   </div>
                   <div class="triangle-right col-2"></div>
                </div>
@@ -139,7 +139,7 @@
                   </div>
                   <div class="col align-middle bg-light">A medicine that can be used to fully restore the HP of a single Pokémon and heal any status conditions it has.</div>
                   <div class="algin-middle bg-light">Qty: 
-                     <input type="number" name="qtyFR" min="0" max="99" value="0">
+                     <input type="number" name="qtyFR" min="0" max="99" value="<?php echo $_SESSION['fullrestore'];?>">
                   </div>
                   <div class="triangle-right col-2"></div>
                </div>
@@ -155,7 +155,7 @@
                   </div>
                   <div class="col align-middle bg-light">An item that prevents any low-level wild Pokémon from jumping out at you for a while. It lasts longer than Repel.</div>
                   <div class="algin-middle bg-light">Qty: 
-                     <input type="number" name="qtySR" min="0" max="99" value="0">
+                     <input type="number" name="qtySR" min="0" max="99" value="<?php echo $_SESSION['superrepel'];?>">
                   </div>
                   <div class="triangle-right col-2"></div>
                </div>
@@ -171,7 +171,7 @@
                   </div>
                   <div class="col align-middle bg-light">An item that prevents any low-level wild Pokémon from jumping out at you for a while. It lasts longer than Super Repel.</div>
                   <div class="algin-middle bg-light">Qty: 
-                     <input type="number" name="qtyMR" min="0" max="99" value="0">
+                     <input type="number" name="qtyMR" min="0" max="99" value="<?php echo $_SESSION['maxrepel'];?>">
                   </div>
                   <div class="triangle-right col-2"></div>
                </div>
@@ -187,7 +187,7 @@
                   </div>
                   <div class="col align-middle bg-light">A long and durable rope. Use it to escape instantly from locations like caves or dungeons. It can be used any number of times.</div>
                   <div class="algin-middle bg-light">Qty: 
-                     <input type="number" name="qtyER" min="0" max="99" value="0">
+                     <input type="number" name="qtyER" min="0" max="99" value="<?php echo $_SESSION['escaperope'];?>">
                   </div>
                   <div class="triangle-right col-2"></div>
                </div>
