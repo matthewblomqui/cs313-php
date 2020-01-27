@@ -15,14 +15,14 @@
     }
     unset($_POST);
 
-    $items = array(["Pokeball"=>$_SESSION['pokeball'], 
+    $items = array("Pokeball"=>$_SESSION['pokeball'], 
                    "Greatball"=>$_SESSION['greatball'], 
                    "Ultraball"=>$_SESSION['ultraball'], 
                    "Max Potion"=>$_SESSION['maxpotion'], 
                    "Full Restore"=>$_SESSION['fullrestore'], 
                    "Super Repel"=>$_SESSION['superrepel'], 
                    "Max Repel"=>$_SESSION['maxrepel'], 
-                   "Escape Rope"=>$_SESSION['escaperope']])
+                   "Escape Rope"=>$_SESSION['escaperope'])
 ?>
 
 <!DOCTYPE html>
