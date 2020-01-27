@@ -43,7 +43,7 @@
             <div class="text-center">
                <strong>Shipping Address:</strong>
                <hr>
-               <p><?php echo $name.'<br>'.$address.'<br>'.$city.' '.$state.', '.$zip.'<br><strong>Comments</strong>'.$comment?></p>
+               <p><?php echo $name.'<br>'.$address.'<br>'.$city.' '.$state.', '.$zip.'<br><strong>Comments:</strong><br>'.$comment?></p>
                <hr>
                <strong>Items in Order:</strong>
                <hr>
