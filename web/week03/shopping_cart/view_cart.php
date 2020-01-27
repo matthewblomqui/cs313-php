@@ -44,8 +44,8 @@
          $("#deler").click(function(){
             $("#er").hide();
          });
-         $("#datapb").click(function(){
-            alert("The thing has been changed.");
+         $("#datapb").change(function(){
+            $("#subpb").innerText = $("#datapb").value * 200;
          });
       });
    </script>
@@ -85,9 +85,9 @@
                         </td>
                         <td data-th="Price">200</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" value="<?php echo $_SESSION['pokeball']?>">
+                           <input type="number" class="form-control text-center"  id="datapb" value="<?php echo $_SESSION['pokeball']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center" id="datapb"><?php echo ($_SESSION['pokeball'] * 200) ?></td>
+                        <td data-th="Subtotal" class="text-center" id="subpb"><?php echo ($_SESSION['pokeball'] * 200) ?></td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delpb">Delete</button>
                         </td>
