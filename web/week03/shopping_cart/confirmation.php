@@ -50,7 +50,7 @@
                <hr>
                <strong>Total Price:</strong>
                <hr>
-               <?php echo "$7000"; ?>
+               <?php echo $_SESSION['total']; ?>
             </div>
             <br><br><br><br><br><br><br><br>
          </div>
