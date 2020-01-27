@@ -1,8 +1,22 @@
 <?php
    session_start();
    if (isset($_POST['View'])) {
-      
+      $name = test_input($_POST["name"]);
+      $address = test_input($_POST["address"]);
+      $city = test_input($_POST["city"]);
+      $state = test_input($_POST["state"]);
+      $zip = test_input($_POST["zip"]);
+      $comment = test_input($_POST["comment"]);
+      setcookie([$c_name, $c_address, $c_city, $c_state, $c_zip, $c_comment], time() + (86400 * 30), "/");
    }
+
+   function test_input($data) {
+      $data = trim($data);
+      $data = stripslashes($data);
+      $data = htmlspecialchars($data);
+      return $data;
+    }
+
    $total = 0;
 
 ?>
