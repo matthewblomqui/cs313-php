@@ -52,6 +52,7 @@
                <strong>Total Price:</strong>
                <?php echo "$7000"; ?>
             </div>
+            <br><br><br><br><br><br><br><br>
          </div>
          <div class="col-2"></div> <!-- placeholder for spacing -->
       </div>
