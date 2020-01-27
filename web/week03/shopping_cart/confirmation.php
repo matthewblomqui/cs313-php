@@ -1,9 +1,9 @@
 <?php
    session_start();
-   $name = test_input(htmlspecialchars($_POST["name"]));
-   $address = test_input(htmlspecialchars($_POST["address"]));
-   $state = test_input(htmlspecialchars($_POST["state"]));
-   $comment = test_input(htmlspecialchars($_POST["comment"]));
+   $name = htmlspecialchars($_POST["name"]);
+   $address = htmlspecialchars($_POST["address"]);
+   $state = htmlspecialchars($_POST["state"]);
+   $comment = htmlspecialchars($_POST["comment"]);
 
 ?>
 
