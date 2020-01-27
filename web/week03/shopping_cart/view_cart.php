@@ -150,7 +150,7 @@
                         </td>
                         <td data-th="Price">200</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center"  id="datapb" min="0" max="99" value="'; echo $num.'">
+                           <input type="number" class="form-control text-center" name="pokeball" id="datapb" min="0" max="99" value="'; echo $num.'">
                         </td>
                         <td data-th="Subtotal" class="text-center" id="subpb">'; echo $price.'</td>
                         <td class="actions" data-th="">
@@ -172,7 +172,7 @@
                         </td>
                         <td data-th="Price">600</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="datagb" min="0" max="99" value="'; echo $num.'">
+                           <input type="number" class="form-control text-center" name="greatball" id="datagb" min="0" max="99" value="'; echo $num.'">
                         </td>
                         <td data-th="Subtotal" class="text-center" id="subgb">'; echo $price.'</td>
                         <td class="actions" data-th="">
@@ -194,7 +194,7 @@
                         </td>
                         <td data-th="Price">1200</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="dataub" min="0" max="99" value="'; echo $num.'">
+                           <input type="number" class="form-control text-center" name="ultraball" id="dataub" min="0" max="99" value="'; echo $num.'">
                         </td>
                         <td data-th="Subtotal" class="text-center" id="subub">'; echo $price.'</td>
                         <td class="actions" data-th="">
@@ -216,7 +216,7 @@
                         </td>
                         <td data-th="Price">2500</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="datamp" min="0" max="99" value="'; echo $num.'">
+                           <input type="number" class="form-control text-center" name="maxpotion" id="datamp" min="0" max="99" value="'; echo $num.'">
                         </td>
                         <td data-th="Subtotal" class="text-center" id="submp">'; echo $price.'</td>
                         <td class="actions" data-th="">
@@ -238,7 +238,7 @@
                         </td>
                         <td data-th="Price">3000</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="datafr" min="0" max="99" value="'; echo $num.'">
+                           <input type="number" class="form-control text-center" name="fullrestore" id="datafr" min="0" max="99" value="'; echo $num.'">
                         </td>
                         <td data-th="Subtotal" class="text-center" id="subfr">'; echo $price.'</td>
                         <td class="actions" data-th="">
@@ -260,7 +260,7 @@
                         </td>
                         <td data-th="Price">500</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="datasr" min="0" max="99" value="'; echo $num.'">
+                           <input type="number" class="form-control text-center" name="superrepel" id="datasr" min="0" max="99" value="'; echo $num.'">
                         </td>
                         <td data-th="Subtotal" class="text-center" id="subsr">'; echo $price.'</td>
                         <td class="actions" data-th="">
@@ -282,7 +282,7 @@
                         </td>
                         <td data-th="Price">700</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="datamr" min="0" max="99" value="'; echo $num.'">
+                           <input type="number" class="form-control text-center" name="maxrepel" id="datamr" min="0" max="99" value="'; echo $num.'">
                         </td>
                         <td data-th="Subtotal" class="text-center" id="submr">'; echo $price.'</td>
                         <td class="actions" data-th="">
@@ -304,7 +304,7 @@
                         </td>
                         <td data-th="Price">550</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="dataer" min="0" max="99" value="'; echo $num.'">
+                           <input type="number" class="form-control text-center" name="escaperope" id="dataer" min="0" max="99" value="'; echo $num.'">
                         </td>
                         <td data-th="Subtotal" class="text-center" id="suber">'; echo $price.'</td>
                         <td class="actions" data-th="">
@@ -323,6 +323,18 @@
                      </tr>
                   </tfoot>
                </table>
+               <?php
+                  if(isset($_POST['Submit'])) {
+                     $_SESSION['pokeball'] = $_POST['pokeball'];
+                     $_SESSION['greatball'] = $_POST['greatball'];
+                     $_SESSION['ultraball'] = $_POST['utlraball'];
+                     $_SESSION['maxpotion'] = $_POST['maxpotion'];
+                     $_SESSION['fullrestore'] = $_POST['fullrestore'];
+                     $_SESSION['superrepel'] = $_POST['superrepel'];
+                     $_SESSION['maxrepel'] = $_POST['maxrepel'];
+                     $_SESSION['escaperope'] = $_POST['excaperope'];
+                  }                  
+               ?>
                </form>
                <br><br><br><br>
             </div>
