@@ -1,5 +1,11 @@
 <?php
    session_start();
+   if ($_SERVER["REQUEST_METHOD"] == "POST") {
+      $name = test_input($_POST["name"]);
+      $address = test_input($_POST["address"]);
+      $state = test_input($_POST["state"]);
+      $comment = test_input($_POST["comment"]);
+    }
 
 ?>
 
@@ -22,7 +28,7 @@
       <div class="row">
          <div class="col-2"></div> <!-- placeholder for spacing -->
          <div class="col-8 pt-3 pokeDark text-white">
-            <?php print_r($_SESSION); ?>
+            <?php print_r($_SESSION); echo $name.'-'.$address.'-'.$state.'-'.$comment;?>
             <hr>
             <h2 class="text-primary text-center">Order Successful</h2>
             <hr>
