@@ -139,7 +139,10 @@
                            <button class="btn btn-danger btn-md" id="delpb">Delete</button>
                         </td>
                      </tr>'; }?>
-                     <tr id="gb">
+                     <?php if ($_SESSION['greatball'] != 0) {
+                        $num = $_SESSION['greatball'];
+                        $price = $num * 600;
+                        echo '<tr id="gb">
                         <td data-th="Product">
                            <div class="row">
                               <div class="col-sm-2 hidden-xs"><img src="greatball.png" alt="greatball" class="size" /></div>
@@ -150,14 +153,17 @@
                         </td>
                         <td data-th="Price">600</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="datagb" value="<?php echo $_SESSION['greatball']?>">
+                           <input type="number" class="form-control text-center" id="datagb" value="$num">
                         </td>
-                        <td data-th="Subtotal" class="text-center" id="subgb"><?php echo $_SESSION['greatball'] * 600?></td>
+                        <td data-th="Subtotal" class="text-center" id="subgb">$price</td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delgb">Delete</button>
                         </td>
-                     </tr>
-                     <tr id="ub">
+                     </tr>'; }?>
+                     <?php if ($_SESSION['ultraball'] != 0) {
+                        $num = $_SESSION['ultraball'];
+                        $price = $num * 1200;
+                        echo '<tr id="ub">
                         <td data-th="Product">
                            <div class="row">
                               <div class="col-sm-2 hidden-xs"><img src="ultraball.png" alt="ultraball" class="size" /></div>
@@ -168,13 +174,13 @@
                         </td>
                         <td data-th="Price">1200</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="dataub" value="<?php echo $_SESSION['ultraball']?>">
+                           <input type="number" class="form-control text-center" id="dataub" value="$num">
                         </td>
-                        <td data-th="Subtotal" class="text-center" id="subub"><?php echo $_SESSION['ultraball'] * 1200?></td>
+                        <td data-th="Subtotal" class="text-center" id="subub">$price</td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delub">Delete</button>
                         </td>
-                     </tr>
+                     </tr>'; }?>
                      <tr id="mp">
                         <td data-th="Product">
                            <div class="row">
