@@ -36,7 +36,7 @@
 
       $(document).ready(function(){
          $("#delpb").click(function(){
-            // $("#datapb").val() = 0;
+            $("#datapb").val() = 0;
             $("#pb").hide();
             tally();
          });
@@ -149,7 +149,7 @@
                         </td>
                         <td data-th="Price">200</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center"  id="datapb" value="'; echo $num.'">
+                           <input type="number" class="form-control text-center"  id="datapb" min="0" max="99" value="'; echo $num.'">
                         </td>
                         <td data-th="Subtotal" class="text-center" id="subpb">'; echo $price.'</td>
                         <td class="actions" data-th="">
@@ -171,7 +171,7 @@
                         </td>
                         <td data-th="Price">600</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="datagb" value="'; echo $num.'">
+                           <input type="number" class="form-control text-center" id="datagb" min="0" max="99" value="'; echo $num.'">
                         </td>
                         <td data-th="Subtotal" class="text-center" id="subgb">'; echo $price.'</td>
                         <td class="actions" data-th="">
@@ -193,7 +193,7 @@
                         </td>
                         <td data-th="Price">1200</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="dataub" value="'; echo $num.'">
+                           <input type="number" class="form-control text-center" id="dataub" min="0" max="99" value="'; echo $num.'">
                         </td>
                         <td data-th="Subtotal" class="text-center" id="subub">'; echo $price.'</td>
                         <td class="actions" data-th="">
@@ -215,7 +215,7 @@
                         </td>
                         <td data-th="Price">2500</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="datamp" value="'; echo $num.'">
+                           <input type="number" class="form-control text-center" id="datamp" min="0" max="99" value="'; echo $num.'">
                         </td>
                         <td data-th="Subtotal" class="text-center" id="submp">'; echo $price.'</td>
                         <td class="actions" data-th="">
@@ -237,7 +237,7 @@
                         </td>
                         <td data-th="Price">3000</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="datafr" value="'; echo $num.'">
+                           <input type="number" class="form-control text-center" id="datafr" min="0" max="99" value="'; echo $num.'">
                         </td>
                         <td data-th="Subtotal" class="text-center" id="subfr">'; echo $price.'</td>
                         <td class="actions" data-th="">
@@ -259,7 +259,7 @@
                         </td>
                         <td data-th="Price">500</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="datasr" value="'; echo $num.'">
+                           <input type="number" class="form-control text-center" id="datasr" min="0" max="99" value="'; echo $num.'">
                         </td>
                         <td data-th="Subtotal" class="text-center" id="subsr">'; echo $price.'</td>
                         <td class="actions" data-th="">
@@ -281,7 +281,7 @@
                         </td>
                         <td data-th="Price">700</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="datamr" value="'; echo $num.'">
+                           <input type="number" class="form-control text-center" id="datamr" min="0" max="99" value="'; echo $num.'">
                         </td>
                         <td data-th="Subtotal" class="text-center" id="submr">'; echo $price.'</td>
                         <td class="actions" data-th="">
@@ -303,7 +303,7 @@
                         </td>
                         <td data-th="Price">550</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="dataer" value="'; echo $num.'">
+                           <input type="number" class="form-control text-center" id="dataer" min="0" max="99" value="'; echo $num.'">
                         </td>
                         <td data-th="Subtotal" class="text-center" id="suber">'; echo $price.'</td>
                         <td class="actions" data-th="">
