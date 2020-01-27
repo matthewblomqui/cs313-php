@@ -45,7 +45,22 @@
 
       <div class="row">
          <div class="col-2"></div>
-         <div class="col-8 pt-3 pokeDark text-white"><?php print_r($_COOKIE); print_r($_SESSION); ?></div>
+         <div class="col-8 pt-3 pokeDark text-white">
+            <?php print_r($_SESSION); ?>
+            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+               Name: <input type="text" name="name">
+               <br><br>
+               E-mail: <input type="text" name="email">
+               <br><br>
+               Website: <input type="text" name="website">
+               <br><br>
+               Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+               <br><br>
+               <input type="submit" name="submit" value="Submit">  
+            </form>
+
+
+         </div>
          <div class="col-2"></div>
       </div>
       
