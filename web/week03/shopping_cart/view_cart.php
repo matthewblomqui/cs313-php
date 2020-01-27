@@ -21,6 +21,7 @@
    <script>
       function tally() {
          var total = document.getElementById("total");
+         var input = document.getElementById("tInput");
          var ball1 = ($("#datapb").val() == null ? 0 : $("#datapb").val());
          var ball2 = ($("#datagb").val() == null ? 0 : $("#datagb").val());
          var ball3 = ($("#dataub").val() == null ? 0 : $("#dataub").val());
@@ -32,6 +33,7 @@
          total.innerText = ball1*200 + ball2*600 + ball3*1200 +
                            pot1*2500 + pot2*3000 + rep1*500 +
                            rep2*700 + escr*550;
+         input.value = total.innerText;
       }
 
       $(document).ready(function(){
@@ -318,7 +320,7 @@
                            <input type="submit" name="Browse" value="Continue Shopping" onclick="javascript: form.action='browse_shop.php';" class="btn btn-primary">
                         </td>
                         <td colspan="2" class="hidden-xs"></td>
-                        <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <output name="total" id="total" for=""><?php echo $total;?>"</output></strong></td>
+                        <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <div id="total"><?php echo $total;?>"</div><input style="hidden" name="total" id="tInput"></strong></td>
                         <td><input type="submit" name="Check" value="Checkout" onclick="javascript: form.action='checkout.php';" class="btn btn-success btn-block"></td>
                      </tr>
                   </tfoot>
