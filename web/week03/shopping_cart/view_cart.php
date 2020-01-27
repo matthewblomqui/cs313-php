@@ -93,13 +93,15 @@
          });
       });
    
+   document.getElementById("load").onload = function() {test()};
+
    function test() {
       alert("test");
    }
    </script>
 </head>
 
-<body>
+<body id="load">
    <?php include 'nav.php';?>
 
    <div class="row">
@@ -111,7 +113,7 @@
 
          <div class="row text-white">
             <div class="container">
-               <table id="cart" class="table table-condensed text-white" onload="test()">
+               <table id="cart" class="table table-condensed text-white">
                   <thead>
                      <tr>
                         <th style="width:50%">Product</th>
