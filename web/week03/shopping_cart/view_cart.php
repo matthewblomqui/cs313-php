@@ -319,7 +319,7 @@
                         </td>
                         <td colspan="2" class="hidden-xs"></td>
                         <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <div id="total"><?php echo $total;?></div></strong></td>
-                        <td><a href="checkout.php" class="btn btn-success btn-block">Checkout</a></td>
+                        <td><a href="checkout.php" class="btn btn-success btn-block" name="Submit">Checkout</a></td>
                      </tr>
                   </tfoot>
                </table>
