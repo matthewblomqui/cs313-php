@@ -308,7 +308,7 @@
                         </td>
                         <td data-th="Subtotal" class="text-center" id="suber">'; echo $price.'</td>
                         <td class="actions" data-th="">
-                           <button class="btn btn-danger btn-md" id="deler">Delete</button>
+                           <div class="btn btn-danger btn-md" id="deler">Delete</div>
                         </td>
                      </tr>'; }?>
                   </tbody>
