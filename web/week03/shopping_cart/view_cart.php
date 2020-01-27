@@ -67,6 +67,7 @@
          });
          $("#datagb").on("change", function(){
             $("#subgb").text($("#datagb").val() * 600);
+            alert("greatball changed");
             tally();
          });
          $("#dataub").on("change", function(){
