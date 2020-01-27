@@ -123,6 +123,7 @@
 
          <div class="row text-white">
             <div class="container">
+               <form action="checkout.php" method="post">
                <table id="cart" class="table table-condensed text-white">
                   <thead>
                      <tr>
@@ -322,6 +323,7 @@
                      </tr>
                   </tfoot>
                </table>
+               </form>
                <br><br><br><br>
             </div>
          </div>
