@@ -36,43 +36,43 @@
 
       $(document).ready(function(){
          $("#delpb").click(function(){
-            $("#pb").hide();
             $("#datapb").val() = 0;
+            $("#pb").hide();
             tally();
          });
          $("#delgb").click(function(){
-            $("#gb").hide();
             $("#datagb").val() = 0;
+            $("#gb").hide();
             tally();
          });
          $("#delub").click(function(){
-            $("#ub").hide();
             $("#dataub").val() = 0;
+            $("#ub").hide();
             tally();
          });
          $("#delmp").click(function(){
-            $("#mp").hide();
             $("#datamp").val() = 0;
+            $("#mp").hide();
             tally();
          });
          $("#delfr").click(function(){
-            $("#fr").hide();
             $("#datafr").val() = 0;
+            $("#fr").hide();
             tally();
          });
          $("#delsr").click(function(){
-            $("#sr").hide();
             $("#datasr").val() = 0;
+            $("#sr").hide();
             tally();
          });
          $("#delmr").click(function(){
-            $("#mr").hide();
             $("#datamr").val() = 0;
+            $("#mr").hide();
             tally();
          });
          $("#deler").click(function(){
-            $("#er").hide();
             $("#dataer").val() = 0;
+            $("#er").hide();
             tally();
          });
          $("#datapb").on("change", function(){
