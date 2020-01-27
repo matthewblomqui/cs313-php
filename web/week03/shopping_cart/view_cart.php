@@ -181,7 +181,10 @@
                            <button class="btn btn-danger btn-md" id="delub">Delete</button>
                         </td>
                      </tr>'; }?>
-                     <tr id="mp">
+                     <?php if ($_SESSION['maxpotion'] != 0) {
+                        $num = $_SESSION['maxpotion'];
+                        $price = $num * 2500;
+                        echo '<tr id="mp">
                         <td data-th="Product">
                            <div class="row">
                               <div class="col-sm-2 hidden-xs"><img src="maxpotion.png" alt="maxpotion" class="size" /></div>
@@ -192,14 +195,17 @@
                         </td>
                         <td data-th="Price">2500</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="datamp" value="<?php echo $_SESSION['maxpotion']?>">
+                           <input type="number" class="form-control text-center" id="datamp" value="'; echo $num.'">
                         </td>
-                        <td data-th="Subtotal" class="text-center" id="submp"><?php echo $_SESSION['maxpotion']*2500?></td>
+                        <td data-th="Subtotal" class="text-center" id="submp">'; echo $price.'</td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delmp">Delete</button>
                         </td>
-                     </tr>
-                     <tr id="fr">
+                     </tr>'; }?>
+                     <?php if ($_SESSION['fullrestore'] != 0) {
+                        $num = $_SESSION['fullrestore'];
+                        $price = $num * 3000;
+                        echo '<tr id="fr">
                         <td data-th="Product">
                            <div class="row">
                               <div class="col-sm-2 hidden-xs"><img src="fullpotion.png" alt="fullrestore" class="size" /></div>
@@ -210,14 +216,17 @@
                         </td>
                         <td data-th="Price">3000</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="datafr" value="<?php echo $_SESSION['fullrestore']?>">
+                           <input type="number" class="form-control text-center" id="datafr" value="'; echo $num.'">
                         </td>
-                        <td data-th="Subtotal" class="text-center" id="subfr"><?php echo $_SESSION['fullrestore']*3000?></td>
+                        <td data-th="Subtotal" class="text-center" id="subfr">'; echo $price.'</td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delfr">Delete</button>
                         </td>
-                     </tr>
-                     <tr id="sr">
+                     </tr>'; }?>
+                     <?php if ($_SESSION['superrepel'] != 0) {
+                        $num = $_SESSION['superrepel'];
+                        $price = $num * 500;
+                        echo '<tr id="sr">
                         <td data-th="Product">
                            <div class="row">
                               <div class="col-sm-2 hidden-xs"><img src="superrepel.png" alt="superrepel" class="size" /></div>
@@ -228,14 +237,17 @@
                         </td>
                         <td data-th="Price">500</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="datasr" value="<?php echo $_SESSION['superrepel']?>">
+                           <input type="number" class="form-control text-center" id="datasr" value="'; echo $num.'">
                         </td>
-                        <td data-th="Subtotal" class="text-center" id="subsr"><?php echo $_SESSION['superrepel']*500?></td>
+                        <td data-th="Subtotal" class="text-center" id="subsr">'; echo $price.'</td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delsr">Delete</button>
                         </td>
-                     </tr>
-                     <tr id="mr">
+                     </tr>'; }?>
+                     <?php if ($_SESSION['maxrepel'] != 0) {
+                        $num = $_SESSION['maxrepel'];
+                        $price = $num * 700;
+                        echo '<tr id="mr">
                         <td data-th="Product">
                            <div class="row">
                               <div class="col-sm-2 hidden-xs"><img src="maxrepel.png" alt="maxrepel" class="size" /></div>
@@ -246,14 +258,17 @@
                         </td>
                         <td data-th="Price">700</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="datamr" value="<?php echo $_SESSION['maxrepel']?>">
+                           <input type="number" class="form-control text-center" id="datamr" value="'; echo $num.'">
                         </td>
-                        <td data-th="Subtotal" class="text-center" id="submr"><?php echo $_SESSION['maxrepel']*700?></td>
+                        <td data-th="Subtotal" class="text-center" id="submr">'; echo $price.'</td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delmr">Delete</button>
                         </td>
-                     </tr>
-                     <tr id="er">
+                     </tr>'; }?>
+                     <?php if ($_SESSION['maxrepel'] != 0) {
+                        $num = $_SESSION['maxrepel'];
+                        $price = $num * 550;
+                        echo '<tr id="er">
                         <td data-th="Product">
                            <div class="row">
                               <div class="col-sm-2 hidden-xs"><img src="escaperope.png" alt="escaperope" class="size" /></div>
@@ -264,13 +279,13 @@
                         </td>
                         <td data-th="Price">550</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="dataer" value="<?php echo $_SESSION['escaperope']?>">
+                           <input type="number" class="form-control text-center" id="dataer" value="'; echo $num.'">
                         </td>
-                        <td data-th="Subtotal" class="text-center" id="suber"><?php echo $_SESSION['escaperope']*550?></td>
+                        <td data-th="Subtotal" class="text-center" id="suber">'; echo $price.'</td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="deler">Delete</button>
                         </td>
-                     </tr>
+                     </tr>'; }?>
                   </tbody>
                   <tfoot>
                      <tr>
