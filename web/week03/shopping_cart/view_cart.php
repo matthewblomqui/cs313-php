@@ -33,6 +33,10 @@
                            pot1*2500 + pot2*3000 + rep1*500 +
                            rep2*700 + escr*550;
       }
+
+      function remove_zeros() {
+            if ($("$datapb").val() == 0) { $("$datapb").hide(); }
+      }
       $(document).ready(function(){
          $("#delpb").click(function(){
             $("#pb").hide();
@@ -58,11 +62,6 @@
          $("#deler").click(function(){
             $("#er").hide();
          });
-
-         $("#delpb").load(function(){
-            if ($("$datapb").val() == 0) { alert("nothing"); }
-         });
-
          $("#datapb").on("change", function(){
             $("#subpb").text($("#datapb").val() * 200);
             tally();
@@ -99,7 +98,7 @@
    </script>
 </head>
 
-<body>
+<body onload="remove_zeros()">
    <?php include 'nav.php';?>
 
    <div class="row">
