@@ -153,9 +153,9 @@
                         </td>
                         <td data-th="Price">600</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="datagb" value="$num">
+                           <input type="number" class="form-control text-center" id="datagb" value="'; echo $num.'">
                         </td>
-                        <td data-th="Subtotal" class="text-center" id="subgb">$price</td>
+                        <td data-th="Subtotal" class="text-center" id="subgb">'; echo $price.'</td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delgb">Delete</button>
                         </td>
@@ -174,9 +174,9 @@
                         </td>
                         <td data-th="Price">1200</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" id="dataub" value="$num">
+                           <input type="number" class="form-control text-center" id="dataub" value="'; echo $num.'">
                         </td>
-                        <td data-th="Subtotal" class="text-center" id="subub">$price</td>
+                        <td data-th="Subtotal" class="text-center" id="subub">'; echo $price.'</td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delub">Delete</button>
                         </td>
