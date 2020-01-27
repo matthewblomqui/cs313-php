@@ -62,7 +62,8 @@
                <br><br>
                Comment: <br><textarea name="comment" rows="5" cols="40"></textarea>
                <br><br>
-               <input type="submit" name="submit" value="Submit">  
+               <input type="submit" name="View" value="View Cart" onclick="javascript: form.action='view_cart.php';" class="btn btn-primary">
+               <input type="submit" name="Confirm" value="Confirm" onclick="javascript: form.action='confirmation.php';" class="btn btn-success">
             </form>
 
 
