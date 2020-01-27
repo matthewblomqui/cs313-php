@@ -1,6 +1,5 @@
 <?php
    session_start();
-   unset($_POST);
    $total = 0;
 
 ?>
