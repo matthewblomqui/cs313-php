@@ -333,6 +333,7 @@
                      $_SESSION['superrepel'] = $_POST['qtySR'];
                      $_SESSION['maxrepel'] = $_POST['qtyMR'];
                      $_SESSION['escaperope'] = $_POST['qtyER'];
+                     $_SESSION['test'] = 100;
                   }                  
                ?>
                </form>
