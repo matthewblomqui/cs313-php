@@ -21,7 +21,7 @@
    <script>
       function tally() {
          var total = document.getElementById("total");
-         alert("here");
+         alert(document.getElementByTag("table"));
          //var ball1 = document.getElementById("datapb").value;
          /*
          var ball2 = (document.getElementById("datagb").value == null ? 0 : document.getElementById("datagb").value);
