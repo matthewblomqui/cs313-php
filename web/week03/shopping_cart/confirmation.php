@@ -41,7 +41,8 @@
             <hr>
             
             <div class="text-center">
-               Shipping Address:
+               <strong>Shipping Address:</strong>
+               <hr>
                <p><?php echo $name.'<br>'.$address.'<br>'.$city.' '.$state.', '.$zip?></p>
             </div>
          </div>
