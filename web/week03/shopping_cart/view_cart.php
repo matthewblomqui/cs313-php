@@ -344,7 +344,7 @@
       <div class="col-2"></div> <!-- placeholder for spacing -->
    </div>
 
-   <?php include '../../footer.php'; session_unset();?>
+   <?php include '../../footer.php'; unset($_POST);?>
 </body>
 
 </html>
