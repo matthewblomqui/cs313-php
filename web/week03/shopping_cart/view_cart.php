@@ -92,6 +92,10 @@
             tally();
          });
       });
+   
+   function test() {
+      alert("test");
+   }
    </script>
 </head>
 
@@ -107,7 +111,7 @@
 
          <div class="row text-white">
             <div class="container">
-               <table id="cart" class="table table-condensed text-white">
+               <table id="cart" class="table table-condensed text-white" onload="test()">
                   <thead>
                      <tr>
                         <th style="width:50%">Product</th>
@@ -118,8 +122,7 @@
                      </tr>
                   </thead>
                   <tbody>
-                     <?php if ($_SESSION['pokeball'] != 0) { 
-                        echo '<tr id="pb">
+                     <tr id="pb">
                         <td data-th="Product">
                            <div class="row">
                               <div class="col-sm-2 hidden-xs"><img src="pokeball.png" alt="pokeball" class="size" /></div>
@@ -136,7 +139,7 @@
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delpb">Delete</button>
                         </td>
-                     </tr>';?>
+                     </tr>
                      <tr id="gb">
                         <td data-th="Product">
                            <div class="row">
