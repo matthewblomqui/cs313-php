@@ -47,12 +47,18 @@
          <div class="col-2"></div>
          <div class="col-8 pt-3 pokeDark text-white">
             <?php print_r($_SESSION); ?>
-            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+            <hr>
+            <h2 class="text-primary text-center">Checkout</h2>
+            <hr>
+
+            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" class="text-center">  
                Name: <input type="text" name="name">
                <br><br>
-               E-mail: <input type="text" name="email">
+               Address: <input type="text" name="email">
                <br><br>
-               Website: <input type="text" name="website">
+               State: <input type="text" name="state">
+               <br><br>
+               Zip Code: <input type="text" name="zip">
                <br><br>
                Comment: <textarea name="comment" rows="5" cols="40"></textarea>
                <br><br>
