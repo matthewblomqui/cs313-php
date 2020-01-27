@@ -24,7 +24,7 @@
    if (!isset($_SESSION['escaperope'])) {
       $_SESSION['escaperope'] = 0;
    }
-   if(isset($_POST['Submit'])) {
+   if(isset($_POST['Submit']) || isset($_POST['Browse'])) {
       $_SESSION['pokeball'] = $_POST['qtyPB'];
       $_SESSION['greatball'] = $_POST['qtyGB'];
       $_SESSION['ultraball'] = $_POST['qtyUB'];
