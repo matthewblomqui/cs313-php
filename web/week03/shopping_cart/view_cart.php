@@ -273,8 +273,8 @@
                            <button class="btn btn-danger btn-md" id="delmr">Delete</button>
                         </td>
                      </tr>'; }?>
-                     <?php if ($_SESSION['maxrepel'] != 0) {
-                        $num = $_SESSION['maxrepel'];
+                     <?php if ($_SESSION['escaperope'] != 0) {
+                        $num = $_SESSION['escaperope'];
                         $price = $num * 550;
                         $total += $price;
                         echo '<tr id="er">
