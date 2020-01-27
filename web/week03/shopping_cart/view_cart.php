@@ -47,6 +47,27 @@
          $("#datapb").on("change", function(){
             $("#subpb").text($("#datapb").val() * 200);
          });
+         $("#datagb").on("change", function(){
+            $("#subgb").text($("#datagb").val() * 600);
+         });
+         $("#dataub").on("change", function(){
+            $("#subub").text($("#dataub").val() * 1200);
+         });
+         $("#datamp").on("change", function(){
+            $("#submp").text($("#datamp").val() * 2500);
+         });
+         $("#datafr").on("change", function(){
+            $("#subfr").text($("#datafr").val() * 3000);
+         });
+         $("#datasr").on("change", function(){
+            $("#subsr").text($("#datasr").val() * 500);
+         });
+         $("#datamr").on("change", function(){
+            $("#submr").text($("#datamr").val() * 700);
+         });
+         $("#dataer").on("change", function(){
+            $("#suber").text($("#dataer").val() * 550);
+         });
       });
    </script>
 </head>
@@ -103,9 +124,9 @@
                         </td>
                         <td data-th="Price">600</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" value="<?php echo $_SESSION['greatball']?>">
+                           <input type="number" class="form-control text-center" id="datagb" value="<?php echo $_SESSION['greatball']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center"><?php echo $_SESSION['greatball'] * 600?></td>
+                        <td data-th="Subtotal" class="text-center" id="subgb"><?php echo $_SESSION['greatball'] * 600?></td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delgb">Delete</button>
                         </td>
@@ -121,9 +142,9 @@
                         </td>
                         <td data-th="Price">1200</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" value="<?php echo $_SESSION['ultraball']?>">
+                           <input type="number" class="form-control text-center" id="dataub" value="<?php echo $_SESSION['ultraball']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center"><?php echo $_SESSION['ultraball'] * 1200?></td>
+                        <td data-th="Subtotal" class="text-center" id="subub"><?php echo $_SESSION['ultraball'] * 1200?></td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delub">Delete</button>
                         </td>
@@ -139,9 +160,9 @@
                         </td>
                         <td data-th="Price">2500</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" value="<?php echo $_SESSION['maxpotion']?>">
+                           <input type="number" class="form-control text-center" id="datamp" value="<?php echo $_SESSION['maxpotion']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center"><?php echo $_SESSION['maxpotion']*2500?></td>
+                        <td data-th="Subtotal" class="text-center" id="submp"><?php echo $_SESSION['maxpotion']*2500?></td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delmp">Delete</button>
                         </td>
@@ -157,9 +178,9 @@
                         </td>
                         <td data-th="Price">3000</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" value="<?php echo $_SESSION['fullrestore']?>">
+                           <input type="number" class="form-control text-center" id="datafr" value="<?php echo $_SESSION['fullrestore']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center"><?php echo $_SESSION['fullrestore']*3000?></td>
+                        <td data-th="Subtotal" class="text-center" id="subfr"><?php echo $_SESSION['fullrestore']*3000?></td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delfr">Delete</button>
                         </td>
@@ -175,9 +196,9 @@
                         </td>
                         <td data-th="Price">500</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" value="<?php echo $_SESSION['superrepel']?>">
+                           <input type="number" class="form-control text-center" id="datasr" value="<?php echo $_SESSION['superrepel']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center"><?php echo $_SESSION['superrepel']*500?></td>
+                        <td data-th="Subtotal" class="text-center" id="subsr"><?php echo $_SESSION['superrepel']*500?></td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delsr">Delete</button>
                         </td>
@@ -193,9 +214,9 @@
                         </td>
                         <td data-th="Price">700</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" value="<?php echo $_SESSION['maxrepel']?>">
+                           <input type="number" class="form-control text-center" id="datamr" value="<?php echo $_SESSION['maxrepel']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center"><?php echo $_SESSION['maxrepel']*700?></td>
+                        <td data-th="Subtotal" class="text-center" id="submr"><?php echo $_SESSION['maxrepel']*700?></td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delmr">Delete</button>
                         </td>
@@ -211,9 +232,9 @@
                         </td>
                         <td data-th="Price">550</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center" value="<?php echo $_SESSION['escaperope']?>">
+                           <input type="number" class="form-control text-center" id="dataer" value="<?php echo $_SESSION['escaperope']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center"><?php echo $_SESSION['escaperope']*550?></td>
+                        <td data-th="Subtotal" class="text-center" id="suber"><?php echo $_SESSION['escaperope']*550?></td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="deler">Delete</button>
                         </td>
