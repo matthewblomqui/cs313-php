@@ -48,7 +48,7 @@
          <div class="col-8 pt-3 pokeDark text-white">
             <?php print_r($_SESSION); ?>
             <hr>
-            <h2 class="text-primary text-center">Checkout</h2>
+            <h2 class="text-primary text-center">Checkout Details</h2>
             <hr>
 
             <form method="post" action="" class="text-center">  
