@@ -1,5 +1,8 @@
 <?php
    session_start();
+   if (isset($_POST['View'])) {
+      
+   }
    $total = 0;
 
 ?>
