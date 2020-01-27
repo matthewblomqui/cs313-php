@@ -328,8 +328,8 @@
             </div>
          </div>
       </div>
-      <div class="col-2"></div> <!-- placeholder for spacing -->
    </div>
+   <div class="col-2"></div> <!-- placeholder for spacing -->
 
    <?php include '../../footer.php';?>
 </body>
