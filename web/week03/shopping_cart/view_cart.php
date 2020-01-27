@@ -1,5 +1,6 @@
 <?php
    session_start();
+   unset($_POST);
    $total = 0;
 
 ?>
@@ -344,7 +345,7 @@
       <div class="col-2"></div> <!-- placeholder for spacing -->
    </div>
 
-   <?php include '../../footer.php'; unset($_POST);?>
+   <?php include '../../footer.php';?>
 </body>
 
 </html>
