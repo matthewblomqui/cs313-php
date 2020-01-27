@@ -21,7 +21,6 @@
    <script>
       function tally() {
          var total = document.getElementById("total");
-         //alert(($("#datapb").val() == null ? "null" : $("#datapb").val()));
          var ball1 = ($("#datapb").val() == null ? 0 : $("#datapb").val());
          var ball2 = ($("#datagb").val() == null ? 0 : $("#datagb").val());
          var ball3 = ($("#dataub").val() == null ? 0 : $("#dataub").val());
@@ -38,27 +37,35 @@
       $(document).ready(function(){
          $("#delpb").click(function(){
             $("#pb").hide();
+            tally();
          });
          $("#delgb").click(function(){
             $("#gb").hide();
+            tally();
          });
          $("#delub").click(function(){
             $("#ub").hide();
+            tally();
          });
          $("#delmp").click(function(){
             $("#mp").hide();
+            tally();
          });
          $("#delfr").click(function(){
             $("#fr").hide();
+            tally();
          });
          $("#delsr").click(function(){
             $("#sr").hide();
+            tally();
          });
          $("#delmr").click(function(){
             $("#mr").hide();
+            tally();
          });
          $("#deler").click(function(){
             $("#er").hide();
+            tally();
          });
          $("#datapb").on("change", function(){
             $("#subpb").text($("#datapb").val() * 200);
