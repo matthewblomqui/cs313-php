@@ -21,7 +21,7 @@
    <script>
       function tally() {
          var total = document.getElementById("total");
-         alert(($("#datapb").val() == undefined ? "null" : $("#datapb").val());
+         alert(($("#datapb").val() == null ? "null" : $("#datapb").val()));
          var ball1 = document.getElementById("datapb").value;
          var ball2 = document.getElementById("datagb").value;
          var ball3 = document.getElementById("dataub").value;
