@@ -154,7 +154,7 @@
                         </td>
                         <td data-th="Subtotal" class="text-center" id="subpb">'; echo $price.'</td>
                         <td class="actions" data-th="">
-                           <button class="btn btn-danger btn-md" id="delpb">Delete</button>
+                           <div class="btn btn-danger btn-md" id="delpb">Delete</div>
                         </td>
                      </tr>'; }?>
                      <?php if ($_SESSION['greatball'] != 0) {
