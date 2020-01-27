@@ -51,10 +51,10 @@
             <h2 class="text-primary text-center">Checkout</h2>
             <hr>
 
-            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" class="text-center">  
+            <form method="post" action="" class="text-center">  
                Name: <br><input type="text" name="name">
                <br><br>
-               Address: <br><input type="text" name="email">
+               Address: <br><input type="text" name="address">
                <br><br>
                State: <br><input type="text" name="state">
                <br><br>

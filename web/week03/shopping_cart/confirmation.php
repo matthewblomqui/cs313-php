@@ -1,10 +1,10 @@
 <?php
    session_start();
    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-      $name = test_input($_POST["name"]);
-      $address = test_input($_POST["address"]);
-      $state = test_input($_POST["state"]);
-      $comment = test_input($_POST["comment"]);
+      $name = test_input(htmlspecialchars($_POST["name"]));
+      $address = test_input(htmlspecialchars($_POST["address"]));
+      $state = test_input(htmlspecialchars($_POST["state"]));
+      $comment = test_input(htmlspecialchars($_POST["comment"]));
     }
 
 ?>
