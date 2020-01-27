@@ -23,13 +23,13 @@
          var total = document.getElementById("total");
          //alert(($("#datapb").val() == null ? "null" : $("#datapb").val()));
          var ball1 = ($("#datapb").val() == null ? 0 : $("#datapb").val());
-         var ball2 = document.getElementById("datagb").value;
-         var ball3 = document.getElementById("dataub").value;
-         var pot1 = document.getElementById("datamp").value;
-         var pot2 = document.getElementById("datafr").value;
-         var rep1 = document.getElementById("datasr").value;
-         var rep2 = document.getElementById("datamr").value;
-         var escr = document.getElementById("dataer").value;
+         var ball2 = ($("#datagb").val() == null ? 0 : $("#datagb").val());
+         var ball3 = ($("#dataub").val() == null ? 0 : $("#dataub").val());
+         var pot1 = ($("#datamp").val() == null ? 0 : $("#datamp").val());
+         var pot2 = ($("#datafr").val() == null ? 0 : $("#datafr").val());
+         var rep1 = ($("#datasr").val() == null ? 0 : $("#datasr").val());
+         var rep2 = ($("#datamr").val() == null ? 0 : $("#datamr").val());
+         var escr = ($("#dataer").val() == null ? 0 : $("#dataer").val());
          total.innerText = ball1*200 + ball2*600 + ball3*1200 +
                            pot1*2500 + pot2*3000 + rep1*500 +
                            rep2*700 + escr*550;
