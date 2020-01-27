@@ -47,6 +47,7 @@
             <hr>
             <h2 class="text-primary text-center">Order Successful</h2>
             <hr>
+            <?php print_r($_SESSION); print_r($items);?>
             <div class="text-center">
                <strong>Shipping Address:</strong>
                <hr>
