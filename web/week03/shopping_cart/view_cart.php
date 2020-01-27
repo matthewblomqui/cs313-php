@@ -79,35 +79,27 @@
          });
          $("#datapb").on("change", function(){
             $("#subpb").text($("#datapb").val() * 200);
-            //tally();
          });
          $("#datagb").on("change", function(){
             $("#subgb").text($("#datagb").val() * 600);
-            //tally();
          });
          $("#dataub").on("change", function(){
             $("#subub").text($("#dataub").val() * 1200);
-            //tally();
          });
          $("#datamp").on("change", function(){
             $("#submp").text($("#datamp").val() * 2500);
-            //tally();
          });
          $("#datafr").on("change", function(){
             $("#subfr").text($("#datafr").val() * 3000);
-            //tally();
          });
          $("#datasr").on("change", function(){
             $("#subsr").text($("#datasr").val() * 500);
-            //tally();
          });
          $("#datamr").on("change", function(){
             $("#submr").text($("#datamr").val() * 700);
-            //tally();
          });
          $("#dataer").on("change", function(){
             $("#suber").text($("#dataer").val() * 550);
-            //tally();
          });
       });
    </script>
@@ -320,7 +312,7 @@
                            <input type="submit" name="Browse" value="Continue Shopping" onclick="javascript: form.action='browse_shop.php';" class="btn btn-primary">
                         </td>
                         <td colspan="2" class="hidden-xs"></td>
-                        <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <div id="total"><?php echo $total;?></div><input style="visibility: hidden;" name="total" id="tInput" value="<?php echo $total;?>"></strong></td>
+                        <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <div id="total"><?php echo $total;?></div><input style="visibility: hidden;" name="tInput" id="tInput" value="<?php echo $total;?>"></strong></td>
                         <td><input type="submit" name="Check" value="Checkout" onclick="javascript: form.action='checkout.php';" class="btn btn-success btn-block"></td>
                      </tr>
                   </tfoot>
