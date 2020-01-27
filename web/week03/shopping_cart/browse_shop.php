@@ -24,6 +24,16 @@
    if (!isset($_SESSION['escaperope'])) {
       $_SESSION['escaperope'] = 0;
    }
+   if(isset($_POST['Submit'])) {
+      $_SESSION['pokeball'] = $_POST['qtyPB'];
+      $_SESSION['greatball'] = $_POST['qtyGB'];
+      $_SESSION['ultraball'] = $_POST['qtyUB'];
+      $_SESSION['maxpotion'] = $_POST['qtyMP'];
+      $_SESSION['fullrestore'] = $_POST['qtyFR'];
+      $_SESSION['superrepel'] = $_POST['qtySR'];
+      $_SESSION['maxrepel'] = $_POST['qtyMR'];
+      $_SESSION['escaperope'] = $_POST['qtyER'];
+   } 
 ?>
 
 <!DOCTYPE html>
@@ -194,19 +204,6 @@
                </div>
 
                <br><br><br><br><br><br>
-
-               <?php
-                  if(isset($_POST['Submit'])) {
-                     $_SESSION['pokeball'] = $_POST['qtyPB'];
-                     $_SESSION['greatball'] = $_POST['qtyGB'];
-                     $_SESSION['ultraball'] = $_POST['qtyUB'];
-                     $_SESSION['maxpotion'] = $_POST['qtyMP'];
-                     $_SESSION['fullrestore'] = $_POST['qtyFR'];
-                     $_SESSION['superrepel'] = $_POST['qtySR'];
-                     $_SESSION['maxrepel'] = $_POST['qtyMR'];
-                     $_SESSION['escaperope'] = $_POST['qtyER'];
-                  }                  
-               ?>
             </form>   
          </div>
          
