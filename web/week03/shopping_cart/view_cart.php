@@ -44,6 +44,9 @@
          $("#deler").click(function(){
             $("#er").hide();
          });
+         $("#datapb").change(function(){
+            alert("The thing has been changed.");
+         });
       });
    </script>
 </head>
@@ -84,7 +87,7 @@
                         <td data-th="Quantity">
                            <input type="number" class="form-control text-center" value="<?php echo $_SESSION['pokeball']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center"><?php echo ($_SESSION['pokeball'] * 200) ?></td>
+                        <td data-th="Subtotal" class="text-center" id="datapb"><?php echo ($_SESSION['pokeball'] * 200) ?></td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delpb">Delete</button>
                         </td>
@@ -224,7 +227,7 @@
                         </td>
                         <td colspan="2" class="hidden-xs"></td>
                         <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <?php $t = 0; $i = 0; foreach($_SESSION as $x => $val) { $t += $val * $price[$i]; $i += 1;} echo $t; ?></strong></td>
-                        <td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
+                        <td><a href="checkout.php" class="btn btn-success btn-block">Checkout</a></td>
                      </tr>
                   </tfoot>
                </table>
