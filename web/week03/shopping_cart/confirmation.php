@@ -56,7 +56,7 @@
                <hr>
                <?php 
                   foreach($items as $key => $val) {
-                     echo $key." x".$val."<br>";
+                     echo $key." x".0."<br>";
                   }
                ?>
                <hr>
