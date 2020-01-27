@@ -124,7 +124,7 @@
 
          <div class="row text-white">
             <div class="container">
-               <form action="checkout.php" method="post">
+               <form action="" method="post">
                <table id="cart" class="table table-condensed text-white">
                   <thead>
                      <tr>
@@ -316,27 +316,15 @@
                   <tfoot>
                      <tr>
                         <td>
-                           <a href="browse_shop.php" class="btn btn-primary">Continue Shopping</a>
+                           <!-- <a href="browse_shop.php" class="btn btn-primary">Continue Shopping</a> -->
+                           <input type="submit" name="Browse" value="Continue Shopping" onclick="javascript: form.action='browse_shop.php';" class="btn btn-primary btn-block">
                         </td>
                         <td colspan="2" class="hidden-xs"></td>
                         <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <div id="total"><?php echo $total;?></div></strong></td>
-                        <td><input type="submit" name="Check" value="Checkout" class="btn btn-success btn-block"></td>
+                        <td><input type="submit" name="Check" value="Checkout" onclick="javascript: form.action='checkout.php';" class="btn btn-success btn-block"></td>
                      </tr>
                   </tfoot>
                </table>
-               <?php
-                  if(isset($_POST['Check'])) {
-                     $_COOKIE['pokeball'] = $_POST['qtyPB'];
-                     $_COOKIE['greatball'] = $_POST['qtyGB'];
-                     $_COOKIE['ultraball'] = $_POST['qtyUB'];
-                     $_COOKIE['maxpotion'] = $_POST['qtyMP'];
-                     $_COOKIE['fullrestore'] = $_POST['qtyFR'];
-                     $_COOKIE['superrepel'] = $_POST['qtySR'];
-                     $_COOKIE['maxrepel'] = $_POST['qtyMR'];
-                     $_COOKIE['escaperope'] = $_POST['qtyER'];
-                     $_COOKIE['test'] = 100;
-                  }                  
-               ?>
                </form>
                <br><br><br><br>
             </div>
