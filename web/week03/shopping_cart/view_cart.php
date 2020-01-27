@@ -28,6 +28,21 @@
          $("#delub").click(function(){
             $("#ub").hide();
          });
+         $("#delmp").click(function(){
+            $("#mp").hide();
+         });
+         $("#delfr").click(function(){
+            $("#fr").hide();
+         });
+         $("#delsr").click(function(){
+            $("#sr").hide();
+         });
+         $("#delmr").click(function(){
+            $("#mr").hide();
+         });
+         $("#deler").click(function(){
+            $("#er").hide();
+         });
       });
    </script>
 </head>
@@ -109,7 +124,7 @@
                            <button class="btn btn-danger btn-md" id="delub">Delete</button>
                         </td>
                      </tr>
-                     <tr>
+                     <tr id="mp">
                         <td data-th="Product">
                            <div class="row">
                               <div class="col-sm-2 hidden-xs"><img src="maxpotion.png" alt="maxpotion" class="size" /></div>
@@ -122,12 +137,12 @@
                         <td data-th="Quantity">
                            <input type="number" class="form-control text-center" value="<?php echo $_SESSION['maxpotion']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center">2500</td>
+                        <td data-th="Subtotal" class="text-center"><?php echo $_SESSION['maxpotion']*2500?></td>
                         <td class="actions" data-th="">
-                           <button class="btn btn-danger btn-md">Delete</button>
+                           <button class="btn btn-danger btn-md" id="delmp">Delete</button>
                         </td>
                      </tr>
-                     <tr>
+                     <tr id="fr">
                         <td data-th="Product">
                            <div class="row">
                               <div class="col-sm-2 hidden-xs"><img src="fullpotion.png" alt="fullrestore" class="size" /></div>
@@ -140,12 +155,12 @@
                         <td data-th="Quantity">
                            <input type="number" class="form-control text-center" value="<?php echo $_SESSION['fullrestore']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center">3000</td>
+                        <td data-th="Subtotal" class="text-center"><?php echo $_SESSION['fullrestore']*3000?></td>
                         <td class="actions" data-th="">
-                           <button class="btn btn-danger btn-md">Delete</button>
+                           <button class="btn btn-danger btn-md" id="delfr">Delete</button>
                         </td>
                      </tr>
-                     <tr>
+                     <tr id="sr">
                         <td data-th="Product">
                            <div class="row">
                               <div class="col-sm-2 hidden-xs"><img src="superrepel.png" alt="superrepel" class="size" /></div>
@@ -158,12 +173,12 @@
                         <td data-th="Quantity">
                            <input type="number" class="form-control text-center" value="<?php echo $_SESSION['superrepel']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center">500</td>
+                        <td data-th="Subtotal" class="text-center"><?php echo $_SESSION['superrepel']*500?></td>
                         <td class="actions" data-th="">
-                           <button class="btn btn-danger btn-md">Delete</button>
+                           <button class="btn btn-danger btn-md" id="delsr">Delete</button>
                         </td>
                      </tr>
-                     <tr>
+                     <tr id="mr">
                         <td data-th="Product">
                            <div class="row">
                               <div class="col-sm-2 hidden-xs"><img src="maxrepel.png" alt="maxrepel" class="size" /></div>
@@ -176,12 +191,12 @@
                         <td data-th="Quantity">
                            <input type="number" class="form-control text-center" value="<?php echo $_SESSION['maxrepel']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center">700</td>
+                        <td data-th="Subtotal" class="text-center"><?php echo $_SESSION['maxrepel']*700?></td>
                         <td class="actions" data-th="">
-                           <button class="btn btn-danger btn-md">Delete</button>
+                           <button class="btn btn-danger btn-md" id="delmr">Delete</button>
                         </td>
                      </tr>
-                     <tr>
+                     <tr id="er">
                         <td data-th="Product">
                            <div class="row">
                               <div class="col-sm-2 hidden-xs"><img src="escaperope.png" alt="escaperope" class="size" /></div>
@@ -194,9 +209,9 @@
                         <td data-th="Quantity">
                            <input type="number" class="form-control text-center" value="<?php echo $_SESSION['escaperope']?>">
                         </td>
-                        <td data-th="Subtotal" class="text-center">550</td>
+                        <td data-th="Subtotal" class="text-center"><?php echo $_SESSION['escaperope']*550?></td>
                         <td class="actions" data-th="">
-                           <button class="btn btn-danger btn-md">Delete</button>
+                           <button class="btn btn-danger btn-md" id="er">Delete</button>
                         </td>
                      </tr>
                   </tbody>
