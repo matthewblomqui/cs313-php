@@ -44,7 +44,7 @@
          $("#deler").click(function(){
             $("#er").hide();
          });
-         $("#datapb").on("click", function(){
+         $("#datapb").on("change", function(){
             $("#subpb").innerHTML = $("#datapb").value * 200;
          });
       });
