@@ -44,7 +44,7 @@
          $("#deler").click(function(){
             $("#er").hide();
          });
-         $("#datapb").change(function(){
+         $("#datapb").click(function(){
             alert("The thing has been changed.");
          });
       });
