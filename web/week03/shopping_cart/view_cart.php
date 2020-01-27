@@ -122,7 +122,7 @@
          <hr>
          <div class="row text-white">
             <div class="container">
-               <form action="" method="post">
+               <form action="" method="post" oninput="javascript: tally();">
                <table id="cart" class="table table-condensed text-white">
                   <thead>
                      <tr>
@@ -318,7 +318,7 @@
                            <input type="submit" name="Browse" value="Continue Shopping" onclick="javascript: form.action='browse_shop.php';" class="btn btn-primary">
                         </td>
                         <td colspan="2" class="hidden-xs"></td>
-                        <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <input name="total" id="total" for=""><?php echo $total;?></input></strong></td>
+                        <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <output name="total" id="total" for=""><?php echo $total;?>"</output></strong></td>
                         <td><input type="submit" name="Check" value="Checkout" onclick="javascript: form.action='checkout.php';" class="btn btn-success btn-block"></td>
                      </tr>
                   </tfoot>
