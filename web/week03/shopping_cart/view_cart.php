@@ -21,7 +21,7 @@
    <script>
       function tally() {
          var total = document.getElementById("total");
-         alert(document.getElementByTag("table"));
+         alert(document.getElementByTagName("table"));
          //var ball1 = document.getElementById("datapb").value;
          /*
          var ball2 = (document.getElementById("datagb").value == null ? 0 : document.getElementById("datagb").value);
@@ -67,7 +67,6 @@
          });
          $("#datagb").on("change", function(){
             $("#subgb").text($("#datagb").val() * 600);
-            alert("greatball changed");
             tally();
          });
          $("#dataub").on("change", function(){
