@@ -1,6 +1,5 @@
 <?php
    session_start();
-   unset($_SESSION);
    $total = 0;
 
 ?>
@@ -325,6 +324,7 @@
                   </tfoot>
                </table>
                <?php
+                  unset($_SESSION);
                   if(isset($_POST['Submit'])) {
                      unset($_SESSION);
                      $_SESSION['pokeball'] = $_POST['qtyPB'];
