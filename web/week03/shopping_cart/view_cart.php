@@ -92,12 +92,6 @@
             tally();
          });
       });
-   
-   document.getElementById("pb").onload = function() {test()};
-
-   function test() {
-      alert("test");
-   }
    </script>
 </head>
 
@@ -124,7 +118,10 @@
                      </tr>
                   </thead>
                   <tbody>
-                     <tr id="pb">
+                     <?php if ($_SESSION['pokeball'] != 0) {
+                        $num = $_SESSION['pokeball'];
+                        $price = $num * 200;
+                        echo '<tr id="pb">
                         <td data-th="Product">
                            <div class="row">
                               <div class="col-sm-2 hidden-xs"><img src="pokeball.png" alt="pokeball" class="size" /></div>
@@ -135,13 +132,13 @@
                         </td>
                         <td data-th="Price">200</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center"  id="datapb" value="<?php echo $_SESSION['pokeball']?>">
+                           <input type="number" class="form-control text-center"  id="datapb" value="$num">
                         </td>
-                        <td data-th="Subtotal" class="text-center" id="subpb"><?php echo ($_SESSION['pokeball'] * 200) ?></td>
+                        <td data-th="Subtotal" class="text-center" id="subpb">$price</td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delpb">Delete</button>
                         </td>
-                     </tr>
+                     </tr>'; }?>
                      <tr id="gb">
                         <td data-th="Product">
                            <div class="row">
