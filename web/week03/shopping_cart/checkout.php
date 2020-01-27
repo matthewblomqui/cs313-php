@@ -1,4 +1,32 @@
-<?php session_start();?>
+<?php 
+   session_start();
+
+   if (!isset($_POST['pokeball'])) {
+      $_SESSION['pokeball'] = $_POST['qtyPB'];
+   }
+   if (!isset($_POST['greatball'])) {
+      $_SESSION['greatball'] = 0;
+   }
+   if (!isset($_POST['ultraball'])) {
+      $_SESSION['ultraball'] = 0;
+   }
+   if (!isset($_POST['maxpotion'])) {
+      $_SESSION['maxpotion'] = 0;
+   }
+   if (!isset($_POST['fullrestore'])) {
+      $_SESSION['fullrestore'] = 0;
+   }
+   if (!isset($_POST['superrepel'])) {
+      $_SESSION['superrepel'] = 0;
+   }
+   if (!isset($_POST['maxrepel'])) {
+      $_SESSION['maxrepel'] = 0;
+   }
+   if (!isset($_POST['escaperope'])) {
+      $_SESSION['escaperope'] = 0;
+   }
+
+?>
 <!DOCTYPE html>
    <head>
       <meta charset="utf-8">
