@@ -25,6 +25,9 @@
    if (!isset($_POST['escaperope'])) {
       $_SESSION['escaperope'] = $_POST['qtyER'];
    }
+   if (!isset($_POST['total'])) {
+      $_SESSION['total'] = $_POST['total'];
+   }
 
 ?>
 <!DOCTYPE html>
