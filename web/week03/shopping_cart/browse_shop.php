@@ -75,7 +75,7 @@
                   </div>
                   <div class="col align-middle bg-light">A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.</div>
                   <div class="algin-middle bg-light">Qty: 
-                     <input type="number" name="qtyPB" min="0" max="99" value="<?php echo $_SESSION['pokedollar'];?>">
+                     <input type="number" name="qtyPB" min="0" max="99" value="<?php echo $_SESSION['pokeball'];?>">
                   </div>
                   <div class="triangle-right col-2"></div>
                </div>
