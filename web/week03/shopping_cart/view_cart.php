@@ -60,7 +60,7 @@
          });
 
          $("#delpb").load(function(){
-            if ($("$datapb").val() == 0) { $("#pb").hide(); }
+            if ($("$datapb").val() == 0) { alert("nothing"); }
          });
 
          $("#datapb").on("change", function(){
