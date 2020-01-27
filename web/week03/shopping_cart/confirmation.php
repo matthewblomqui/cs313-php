@@ -54,7 +54,6 @@
                <hr>
                <strong>Items in Order:</strong>
                <hr>
-               <?php echo "Pokeball x6<br>Greatball x9<br>"?>
                <?php 
                   foreach($items as $key => $val) {
                      if ($val != 0) {
