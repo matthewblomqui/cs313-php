@@ -66,7 +66,7 @@
                <input type="submit" name="Confirm" value="Confirm" onclick="javascript: form.action='confirmation.php';" class="btn btn-success">
             </form>
 
-
+            <br><br><br><br>
          </div>
          <div class="col-2"></div>
       </div>
