@@ -93,7 +93,7 @@
          });
       });
    
-   document.getElementById("load").onload = function() {test()};
+   document.getElementById("pb").onload = function() {test()};
 
    function test() {
       alert("test");
@@ -101,7 +101,7 @@
    </script>
 </head>
 
-<body id="load">
+<body>
    <?php include 'nav.php';?>
 
    <div class="row">
