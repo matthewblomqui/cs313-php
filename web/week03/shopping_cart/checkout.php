@@ -52,17 +52,17 @@
             <hr>
 
             <form method="post" action="" class="text-center">  
-               Name: <br><input type="text" name="name" value="<?php echo $_COOKIE[$c_name];?>">
+               Name: <br><input type="text" name="name">
                <br><br>
-               Address: <br><input type="text" name="address" value="<?php echo $_COOKIE[$c_address];?>">
+               Address: <br><input type="text" name="address">
                <br><br>
-               City: <br><input type="text" name="city" value="<?php echo $_COOKIE[$c_city];?>">
+               City: <br><input type="text" name="city">
                <br><br>
-               State: <br><input type="text" name="state" value="<?php echo $_COOKIE[$c_state];?>">
+               State: <br><input type="text" name="state">
                <br><br>
-               Zip Code: <br><input type="text" name="zip" value="<?php echo $_COOKIE[$c_zip];?>">
+               Zip Code: <br><input type="text" name="zip">
                <br><br>
-               Comment: <br><textarea name="comment" rows="5" cols="40" value="<?php echo $_COOKIE[$c_comment];?>"></textarea>
+               Comment: <br><textarea name="comment" rows="5" cols="40"></textarea>
                <br><br>
                <input type="submit" name="View" value="View Cart" onclick="javascript: form.action='view_cart.php';" class="btn btn-primary">
                <input type="submit" name="Confirm" value="Confirm" onclick="javascript: form.action='confirmation.php';" class="btn btn-success">
