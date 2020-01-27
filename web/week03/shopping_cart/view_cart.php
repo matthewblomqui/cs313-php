@@ -45,7 +45,7 @@
             $("#er").hide();
          });
          $("#datapb").on("change", function(){
-            alert("change");
+            alert($("#datapb").value);
             //$("#subpb").innerHTML = $("#datapb").value * 200;
          });
       });
