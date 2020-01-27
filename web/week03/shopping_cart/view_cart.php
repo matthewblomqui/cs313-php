@@ -45,7 +45,7 @@
             $("#er").hide();
          });
          $("#datapb").change(function(){
-            $("#subpb").innerText = $("#datapb").value * 200;
+            $("#subpb").innerHTML = $("#datapb").value * 200;
          });
       });
    </script>
