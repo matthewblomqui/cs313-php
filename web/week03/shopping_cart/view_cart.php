@@ -77,35 +77,35 @@
          });
          $("#datapb").on("change", function(){
             $("#subpb").text($("#datapb").val() * 200);
-            tally();
+            //tally();
          });
          $("#datagb").on("change", function(){
             $("#subgb").text($("#datagb").val() * 600);
-            tally();
+            //tally();
          });
          $("#dataub").on("change", function(){
             $("#subub").text($("#dataub").val() * 1200);
-            tally();
+            //tally();
          });
          $("#datamp").on("change", function(){
             $("#submp").text($("#datamp").val() * 2500);
-            tally();
+            //tally();
          });
          $("#datafr").on("change", function(){
             $("#subfr").text($("#datafr").val() * 3000);
-            tally();
+            //tally();
          });
          $("#datasr").on("change", function(){
             $("#subsr").text($("#datasr").val() * 500);
-            tally();
+            //tally();
          });
          $("#datamr").on("change", function(){
             $("#submr").text($("#datamr").val() * 700);
-            tally();
+            //tally();
          });
          $("#dataer").on("change", function(){
             $("#suber").text($("#dataer").val() * 550);
-            tally();
+            //tally();
          });
       });
    </script>
