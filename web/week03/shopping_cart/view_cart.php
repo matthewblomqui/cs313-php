@@ -21,8 +21,8 @@
    <script>
       function tally() {
          var total = document.getElementById("total");
-         alert(($("#datapb").val() == null ? "null" : $("#datapb").val()));
-         var ball1 = document.getElementById("datapb").value;
+         //alert(($("#datapb").val() == null ? "null" : $("#datapb").val()));
+         var ball1 = ($("#datapb").val() == null ? 0 : $("#datapb").val());
          var ball2 = document.getElementById("datagb").value;
          var ball3 = document.getElementById("dataub").value;
          var pot1 = document.getElementById("datamp").value;
