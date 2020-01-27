@@ -325,15 +325,15 @@
                </table>
                <?php
                   if(isset($_POST['Check'])) {
-                     $_SESSION['pokeball'] = $_POST['qtyPB'];
-                     $_SESSION['greatball'] = $_POST['qtyGB'];
-                     $_SESSION['ultraball'] = $_POST['qtyUB'];
-                     $_SESSION['maxpotion'] = $_POST['qtyMP'];
-                     $_SESSION['fullrestore'] = $_POST['qtyFR'];
-                     $_SESSION['superrepel'] = $_POST['qtySR'];
-                     $_SESSION['maxrepel'] = $_POST['qtyMR'];
-                     $_SESSION['escaperope'] = $_POST['qtyER'];
-                     $_SESSION['test'] = 100;
+                     $_COOKIE['pokeball'] = $_POST['qtyPB'];
+                     $_COOKIE['greatball'] = $_POST['qtyGB'];
+                     $_COOKIE['ultraball'] = $_POST['qtyUB'];
+                     $_COOKIE['maxpotion'] = $_POST['qtyMP'];
+                     $_COOKIE['fullrestore'] = $_POST['qtyFR'];
+                     $_COOKIE['superrepel'] = $_POST['qtySR'];
+                     $_COOKIE['maxrepel'] = $_POST['qtyMR'];
+                     $_COOKIE['escaperope'] = $_POST['qtyER'];
+                     $_COOKIE['test'] = 100;
                   }                  
                ?>
                </form>
