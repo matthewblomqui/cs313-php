@@ -56,9 +56,7 @@
                <hr>
                <?php 
                   foreach($items as $key => $val) {
-                     if ($val != 0) {
-                        echo $key." x".$val."<br>";
-                     }
+                     echo $key." x".$val."<br>";
                   }
                ?>
                <hr>
@@ -66,7 +64,7 @@
                <hr>
                <?php echo $_SESSION['total']; ?>
             </div>
-            <br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br>
          </div>
          <div class="col-2"></div> <!-- placeholder for spacing -->
       </div>
