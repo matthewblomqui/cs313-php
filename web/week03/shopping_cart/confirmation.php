@@ -50,6 +50,7 @@
                <?php echo "Pokeball x6<br>Greatball x9<br>"?>
                <hr>
                <strong>Total Price:</strong>
+               <hr>
                <?php echo "$7000"; ?>
             </div>
             <br><br><br><br><br><br><br><br>
