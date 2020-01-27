@@ -52,7 +52,7 @@
             <hr>
             <h2 class="text-primary text-center">Checkout Details</h2>
             <hr>
-
+            <?php print_r($_POST); ?>
             <form method="post" action="" class="text-center">  
                Name: <br><input type="text" name="name">
                <br><br>
