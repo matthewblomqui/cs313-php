@@ -15,7 +15,9 @@
    <body>
       <?php include 'nav.php';?>
 
+      <div class="col-2"></div>
       <div class="col pt-3 pokeDark text-white"><?php print_r($_SESSION); ?></div>
+      <div class="col-2"></div>
       
       <?php include '../../footer.php';?>
    </body>
