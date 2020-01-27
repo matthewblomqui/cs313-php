@@ -2,7 +2,9 @@
    session_start();
    $name = test_input($_POST["name"]);
    $address = test_input($_POST["address"]);
+   $city = test_input($_POST["city"]);
    $state = test_input($_POST["state"]);
+   $zip = test_input($_POST["zip"]);
    $comment = test_input($_POST["comment"]);
 
    function test_input($data) {
@@ -11,6 +13,8 @@
       $data = htmlspecialchars($data);
       return $data;
     }
+    session_unset();
+    unset($_POST);
 ?>
 
 <!DOCTYPE html>
@@ -36,6 +40,11 @@
             <hr>
             <h2 class="text-primary text-center">Order Successful</h2>
             <hr>
+            
+            <div class="text-center">
+               Shipping Address:
+               <p><?php echo $name.'\n'.$address.'\n'.$city.' '.$state.', '.$zip?></p>
+            </div>
          </div>
          <div class="col-2"></div> <!-- placeholder for spacing -->
       </div>
