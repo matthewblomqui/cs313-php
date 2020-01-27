@@ -52,15 +52,15 @@
             <hr>
 
             <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" class="text-center">  
-               Name: <input type="text" name="name">
+               Name: <br><input type="text" name="name">
                <br><br>
-               Address: <input type="text" name="email">
+               Address: <br><input type="text" name="email">
                <br><br>
-               State: <input type="text" name="state">
+               State: <br><input type="text" name="state">
                <br><br>
-               Zip Code: <input type="text" name="zip">
+               Zip Code: <br><input type="text" name="zip">
                <br><br>
-               Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+               Comment: <br><textarea name="comment" rows="5" cols="40"></textarea>
                <br><br>
                <input type="submit" name="submit" value="Submit">  
             </form>
