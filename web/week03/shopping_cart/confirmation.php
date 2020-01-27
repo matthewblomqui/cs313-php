@@ -42,7 +42,7 @@
             
             <div class="text-center">
                Shipping Address:
-               <span><?php echo $name.'\n'.$address.'\n'.$city.' '.$state.', '.$zip?></span>
+               <p><?php echo $name.'<br>'.$address.'<br>'.$city.' '.$state.', '.$zip?></p>
             </div>
          </div>
          <div class="col-2"></div> <!-- placeholder for spacing -->
