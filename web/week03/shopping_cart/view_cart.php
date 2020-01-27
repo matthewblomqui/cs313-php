@@ -132,9 +132,9 @@
                         </td>
                         <td data-th="Price">200</td>
                         <td data-th="Quantity">
-                           <input type="number" class="form-control text-center"  id="datapb" value="$num">
+                           <input type="number" class="form-control text-center"  id="datapb" value="'; echo $num.'">
                         </td>
-                        <td data-th="Subtotal" class="text-center" id="subpb">$price</td>
+                        <td data-th="Subtotal" class="text-center" id="subpb">'; echo $price.'</td>
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delpb">Delete</button>
                         </td>
