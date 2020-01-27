@@ -13,7 +13,6 @@
       $data = htmlspecialchars($data);
       return $data;
     }
-    session_unset();
     unset($_POST);
 ?>
 
@@ -51,4 +50,5 @@
       
       <?php include '../../footer.php';?>
    </body>
+   <?php session_unset(); ?>
 </html>

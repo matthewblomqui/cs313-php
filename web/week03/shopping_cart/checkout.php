@@ -56,6 +56,8 @@
                <br><br>
                Address: <br><input type="text" name="address">
                <br><br>
+               City: <br><input type="text" name="city">
+               <br><br>
                State: <br><input type="text" name="state">
                <br><br>
                Zip Code: <br><input type="text" name="zip">
