@@ -123,7 +123,7 @@
 
          <div class="row text-white">
             <div class="container">
-               <form action="" method="post">
+               <form action="checkout.php" method="post">
                <table id="cart" class="table table-condensed text-white">
                   <thead>
                      <tr>
@@ -319,7 +319,7 @@
                         </td>
                         <td colspan="2" class="hidden-xs"></td>
                         <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <div id="total"><?php echo $total;?></div></strong></td>
-                        <td><a href="checkout.php" class="btn btn-success btn-block" name="Submit">Checkout</a></td>
+                        <td><input type="submit" name="Submit" value="Checkout" class="btn btn-success btn-block"></td>
                      </tr>
                   </tfoot>
                </table>
