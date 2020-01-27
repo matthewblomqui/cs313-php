@@ -44,6 +44,10 @@
                <strong>Shipping Address:</strong>
                <hr>
                <p><?php echo $name.'<br>'.$address.'<br>'.$city.' '.$state.', '.$zip?></p>
+               <hr>
+               <strong>Items in Order:</strong>
+               <hr>
+               <!-- add items here -->
             </div>
          </div>
          <div class="col-2"></div> <!-- placeholder for spacing -->
