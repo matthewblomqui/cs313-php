@@ -19,6 +19,20 @@
    <link rel="stylesheet" href="shop.css">
 
    <script>
+      function tally() {
+         var total = document.getElementById("total");
+         var ball1 = document.getElementById("datapb").value;
+         var ball2 = document.getElementById("datagb").value;
+         var ball3 = document.getElementById("dataub").value;
+         var pot1 = document.getElementById("datamp").value;
+         var pot2 = document.getElementById("datafr").value;
+         var rep1 = document.getElementById("datasr").value;
+         var rep2 = document.getElementById("datamr").value;
+         var escr = document.getElementById("dataer").value;
+         total.innerText = ball1*200 + ball2*600 + ball3*1200 +
+                           pot1*2500 + pot2*3000 + rep1*500 +
+                           rep2*700 + escr*550;
+      }
       $(document).ready(function(){
          $("#delpb").click(function(){
             $("#pb").hide();
@@ -46,27 +60,35 @@
          });
          $("#datapb").on("change", function(){
             $("#subpb").text($("#datapb").val() * 200);
+            tally();
          });
          $("#datagb").on("change", function(){
             $("#subgb").text($("#datagb").val() * 600);
+            tally();
          });
          $("#dataub").on("change", function(){
             $("#subub").text($("#dataub").val() * 1200);
+            tally();
          });
          $("#datamp").on("change", function(){
             $("#submp").text($("#datamp").val() * 2500);
+            tally();
          });
          $("#datafr").on("change", function(){
             $("#subfr").text($("#datafr").val() * 3000);
+            tally();
          });
          $("#datasr").on("change", function(){
             $("#subsr").text($("#datasr").val() * 500);
+            tally();
          });
          $("#datamr").on("change", function(){
             $("#submr").text($("#datamr").val() * 700);
+            tally();
          });
          $("#dataer").on("change", function(){
             $("#suber").text($("#dataer").val() * 550);
+            tally();
          });
       });
    </script>
@@ -247,7 +269,7 @@
                            <a href="#" class="btn btn-warning">Update Cart</a>
                         </td>
                         <td colspan="2" class="hidden-xs"></td>
-                        <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <?php $t = 0; $i = 0; foreach($_SESSION as $x => $val) { $t += $val * $price[$i]; $i += 1;} echo $t; ?></strong></td>
+                        <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <div id="total"><?php $t = 0; $i = 0; foreach($_SESSION as $x => $val) { $t += $val * $price[$i]; $i += 1;} echo $t; ?></div></strong></td>
                         <td><a href="checkout.php" class="btn btn-success btn-block">Checkout</a></td>
                      </tr>
                   </tfoot>
