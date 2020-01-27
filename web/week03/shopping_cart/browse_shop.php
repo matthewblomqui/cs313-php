@@ -52,7 +52,7 @@
                New items are in stock every week!
             </p>
          </div>
-         <div class="col pt-3">
+         <div class="col-9 pt-3">
             <form action="browse_shop.php" method="post">
                <h3 class="text-center">Items</h3>
 

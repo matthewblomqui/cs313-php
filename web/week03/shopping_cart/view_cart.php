@@ -116,7 +116,7 @@
 
    <div class="row">
       <div class="col-2"></div> <!-- placeholder for spacing -->
-     <div class="col pt-3 pokeDark">
+     <div class="col-8 pt-3 pokeDark">
          <hr>
          <h2 class="text-primary text-center">Cart Details</h2>
          <hr>
