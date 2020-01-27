@@ -47,7 +47,10 @@
                <hr>
                <strong>Items in Order:</strong>
                <hr>
-               <!-- add items here -->
+               <?php echo "Pokeball x6<br>Greatball x9<br>"?>
+               <hr>
+               <strong>Total Price:</strong>
+               <?php echo "$7000"; ?>
             </div>
          </div>
          <div class="col-2"></div> <!-- placeholder for spacing -->
