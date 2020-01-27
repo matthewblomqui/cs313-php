@@ -36,7 +36,7 @@
 
       $(document).ready(function(){
          $("#delpb").click(function(){
-            $("#datapb").val() = 0;
+            $("#datapb").val(0);
             $("#pb").hide();
             tally();
          });
