@@ -22,6 +22,7 @@
       function tally() {
          var total = document.getElementById("total");
          var ball1 = document.getElementById("datapb").value;
+         alert(ball1);
          var ball2 = document.getElementById("datagb").value;
          var ball3 = document.getElementById("dataub").value;
          var pot1 = document.getElementById("datamp").value;
