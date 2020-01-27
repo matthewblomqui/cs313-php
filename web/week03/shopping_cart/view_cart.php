@@ -320,7 +320,7 @@
                            <input type="submit" name="Browse" value="Continue Shopping" onclick="javascript: form.action='browse_shop.php';" class="btn btn-primary">
                         </td>
                         <td colspan="2" class="hidden-xs"></td>
-                        <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <div id="total"><?php echo $total;?>"</div><input style="visibility: hidden;" name="total" id="tInput"></strong></td>
+                        <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <div id="total"><?php echo $total;?></div><input style="visibility: hidden;" name="total" id="tInput" value="<?php echo $total;?>"></strong></td>
                         <td><input type="submit" name="Check" value="Checkout" onclick="javascript: form.action='checkout.php';" class="btn btn-success btn-block"></td>
                      </tr>
                   </tfoot>
