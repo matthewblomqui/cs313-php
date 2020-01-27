@@ -176,7 +176,7 @@
                         </td>
                         <td data-th="Subtotal" class="text-center" id="subgb">'; echo $price.'</td>
                         <td class="actions" data-th="">
-                           <button class="btn btn-danger btn-md" id="delgb">Delete</button>
+                           <div class="btn btn-danger btn-md" id="delgb">Delete</div>
                         </td>
                      </tr>'; }?>
                      <?php if ($_SESSION['ultraball'] != 0) {
@@ -198,7 +198,7 @@
                         </td>
                         <td data-th="Subtotal" class="text-center" id="subub">'; echo $price.'</td>
                         <td class="actions" data-th="">
-                           <button class="btn btn-danger btn-md" id="delub">Delete</button>
+                           <div class="btn btn-danger btn-md" id="delub">Delete</div>
                         </td>
                      </tr>'; }?>
                      <?php if ($_SESSION['maxpotion'] != 0) {
@@ -220,7 +220,7 @@
                         </td>
                         <td data-th="Subtotal" class="text-center" id="submp">'; echo $price.'</td>
                         <td class="actions" data-th="">
-                           <button class="btn btn-danger btn-md" id="delmp">Delete</button>
+                           <div class="btn btn-danger btn-md" id="delmp">Delete</div>
                         </td>
                      </tr>'; }?>
                      <?php if ($_SESSION['fullrestore'] != 0) {
@@ -242,7 +242,7 @@
                         </td>
                         <td data-th="Subtotal" class="text-center" id="subfr">'; echo $price.'</td>
                         <td class="actions" data-th="">
-                           <button class="btn btn-danger btn-md" id="delfr">Delete</button>
+                           <div class="btn btn-danger btn-md" id="delfr">Delete</div>
                         </td>
                      </tr>'; }?>
                      <?php if ($_SESSION['superrepel'] != 0) {
@@ -264,7 +264,7 @@
                         </td>
                         <td data-th="Subtotal" class="text-center" id="subsr">'; echo $price.'</td>
                         <td class="actions" data-th="">
-                           <button class="btn btn-danger btn-md" id="delsr">Delete</button>
+                           <div class="btn btn-danger btn-md" id="delsr">Delete</div>
                         </td>
                      </tr>'; }?>
                      <?php if ($_SESSION['maxrepel'] != 0) {
@@ -286,7 +286,7 @@
                         </td>
                         <td data-th="Subtotal" class="text-center" id="submr">'; echo $price.'</td>
                         <td class="actions" data-th="">
-                           <button class="btn btn-danger btn-md" id="delmr">Delete</button>
+                           <div class="btn btn-danger btn-md" id="delmr">Delete</div>
                         </td>
                      </tr>'; }?>
                      <?php if ($_SESSION['escaperope'] != 0) {
