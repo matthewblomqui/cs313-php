@@ -1,5 +1,6 @@
 <?php
    session_start();
+   $price = array(200, 600, 1200, 2500, 3000, 500, 700, 550);
 
 ?>
 <!DOCTYPE html>
@@ -222,7 +223,7 @@
                            <a href="#" class="btn btn-warning">Update Cart</a>
                         </td>
                         <td colspan="2" class="hidden-xs"></td>
-                        <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> 200</strong></td>
+                        <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <?php $t = 0; $i = 0; foreach($item as $x => $val) { $t += $val * $price[$i]; $i += 1;} echo $t; ?></strong></td>
                         <td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
                      </tr>
                   </tfoot>
