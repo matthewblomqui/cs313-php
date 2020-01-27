@@ -45,7 +45,8 @@
             $("#er").hide();
          });
          $("#datapb").on("change", function(){
-            $("#subpb").innerHTML = $("#datapb").value * 200;
+            alert("change");
+            //$("#subpb").innerHTML = $("#datapb").value * 200;
          });
       });
    </script>
