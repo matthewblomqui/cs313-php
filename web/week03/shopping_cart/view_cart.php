@@ -325,6 +325,7 @@
                </table>
                <?php
                   if(isset($_POST['Submit'])) {
+                     unset($_SESSION);
                      $_SESSION['pokeball'] = $_POST['qtyPB'];
                      $_SESSION['greatball'] = $_POST['qtyGB'];
                      $_SESSION['ultraball'] = $_POST['qtyUB'];
