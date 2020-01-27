@@ -211,7 +211,7 @@
                         </td>
                         <td data-th="Subtotal" class="text-center"><?php echo $_SESSION['escaperope']*550?></td>
                         <td class="actions" data-th="">
-                           <button class="btn btn-danger btn-md" id="er">Delete</button>
+                           <button class="btn btn-danger btn-md" id="deler">Delete</button>
                         </td>
                      </tr>
                   </tbody>
