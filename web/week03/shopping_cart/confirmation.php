@@ -14,6 +14,15 @@
       return $data;
     }
     unset($_POST);
+
+    $items = array(["Pokeball"=>$_SESSION['pokeball'], 
+                   "Greatball"=>$_SESSION['greatball'], 
+                   "Ultraball"=>$_SESSION['ultraball'], 
+                   "Max Potion"=>$_SESSION['maxpotion'], 
+                   "Full Restore"=>$_SESSION['fullrestore'], 
+                   "Super Repel"=>$_SESSION['superrepel'], 
+                   "Max Repel"=>$_SESSION['maxrepel'], 
+                   "Escape Rope"=>$_SESSION['escaperope']])
 ?>
 
 <!DOCTYPE html>
@@ -47,6 +56,13 @@
                <strong>Items in Order:</strong>
                <hr>
                <?php echo "Pokeball x6<br>Greatball x9<br>"?>
+               <?php 
+                  foreach($items as $key => $val) {
+                     if ($val != 0) {
+                        echo $key." x".$val."<br>";
+                     }
+                  }
+               ?>
                <hr>
                <strong>Total Price:</strong>
                <hr>
