@@ -37,34 +37,42 @@
       $(document).ready(function(){
          $("#delpb").click(function(){
             $("#pb").hide();
+            $("#datapb").val() = 0;
             tally();
          });
          $("#delgb").click(function(){
             $("#gb").hide();
+            $("#datagb").val() = 0;
             tally();
          });
          $("#delub").click(function(){
             $("#ub").hide();
+            $("#dataub").val() = 0;
             tally();
          });
          $("#delmp").click(function(){
             $("#mp").hide();
+            $("#datamp").val() = 0;
             tally();
          });
          $("#delfr").click(function(){
             $("#fr").hide();
+            $("#datafr").val() = 0;
             tally();
          });
          $("#delsr").click(function(){
             $("#sr").hide();
+            $("#datasr").val() = 0;
             tally();
          });
          $("#delmr").click(function(){
             $("#mr").hide();
+            $("#datamr").val() = 0;
             tally();
          });
          $("#deler").click(function(){
             $("#er").hide();
+            $("#dataer").val() = 0;
             tally();
          });
          $("#datapb").on("change", function(){
