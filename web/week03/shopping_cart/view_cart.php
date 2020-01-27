@@ -24,13 +24,13 @@
          //alert(document.getElementsByTagName("table").innerHTML);
          var ball1 = document.getElementById("datapb").value;
          
-         var ball2 = (document.getElementById("datagb").value == undefined ? 0 : document.getElementById("datagb").value);
-         var ball3 = (document.getElementById("dataub").value == undefined ? 0 : document.getElementById("dataub").value);
-         var pot1 = (document.getElementById("datamp").value == undefined ? 0 : document.getElementById("datamp").value);
-         var pot2 = (document.getElementById("datafr").value == undefined ? 0 : document.getElementById("datafr").value);
-         var rep1 = (document.getElementById("datasr").value == undefined ? 0 : document.getElementById("datasr").value);
-         var rep2 = (document.getElementById("datamr").value == undefined ? 0 : document.getElementById("datamr").value);
-         var escr = (document.getElementById("dataer").value == undefined ? 0 : document.getElementById("dataer").value);
+         var ball2 = (document.getElementById("datagb").value === undefined ? 0 : document.getElementById("datagb").value);
+         var ball3 = (document.getElementById("dataub").value === undefined ? 0 : document.getElementById("dataub").value);
+         var pot1 = (document.getElementById("datamp").value === undefined ? 0 : document.getElementById("datamp").value);
+         var pot2 = (document.getElementById("datafr").value === undefined ? 0 : document.getElementById("datafr").value);
+         var rep1 = (document.getElementById("datasr").value === undefined ? 0 : document.getElementById("datasr").value);
+         var rep2 = (document.getElementById("datamr").value === undefined ? 0 : document.getElementById("datamr").value);
+         var escr = (document.getElementById("dataer").value === undefined ? 0 : document.getElementById("dataer").value);
          total.innerText = ball1*200 + ball2*600 + ball3*1200 +
                            pot1*2500 + pot2*3000 + rep1*500 +
                            rep2*700 + escr*550;
