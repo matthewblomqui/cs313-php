@@ -319,13 +319,12 @@
                         </td>
                         <td colspan="2" class="hidden-xs"></td>
                         <td class="hidden-xs text-center"><strong>Total  <img src="pokedollar.png" alt="pokedollar" class="dollar-white"> <div id="total"><?php echo $total;?></div></strong></td>
-                        <td><input type="submit" name="Submit" value="Checkout" class="btn btn-success btn-block"></td>
+                        <td><input type="submit" name="Check" value="Checkout" class="btn btn-success btn-block"></td>
                      </tr>
                   </tfoot>
                </table>
                <?php
-                  unset($_SESSION);
-                  if(isset($_POST['Submit'])) {
+                  if(isset($_POST['Check'])) {
                      $_SESSION['pokeball'] = $_POST['qtyPB'];
                      $_SESSION['greatball'] = $_POST['qtyGB'];
                      $_SESSION['ultraball'] = $_POST['qtyUB'];
@@ -345,7 +344,7 @@
       <div class="col-2"></div> <!-- placeholder for spacing -->
    </div>
 
-   <?php include '../../footer.php';?>
+   <?php include '../../footer.php'; unset($_SESSION);?>
 </body>
 
 </html>
