@@ -34,9 +34,6 @@
                            rep2*700 + escr*550;
       }
 
-      function remove_zeros() {
-            alert($("#delpb").val()); }
-      }
       $(document).ready(function(){
          $("#delpb").click(function(){
             $("#pb").hide();
@@ -98,7 +95,7 @@
    </script>
 </head>
 
-<body onload="remove_zeros()">
+<body>
    <?php include 'nav.php';?>
 
    <div class="row">
@@ -121,7 +118,8 @@
                      </tr>
                   </thead>
                   <tbody>
-                     <tr id="pb">
+                     <?php if ($_SESSION['pokeball'] != 0) { 
+                        echo '<tr id="pb">
                         <td data-th="Product">
                            <div class="row">
                               <div class="col-sm-2 hidden-xs"><img src="pokeball.png" alt="pokeball" class="size" /></div>
@@ -138,7 +136,7 @@
                         <td class="actions" data-th="">
                            <button class="btn btn-danger btn-md" id="delpb">Delete</button>
                         </td>
-                     </tr>
+                     </tr>';?>
                      <tr id="gb">
                         <td data-th="Product">
                            <div class="row">
