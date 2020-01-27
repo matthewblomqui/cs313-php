@@ -1,31 +1,31 @@
 <?php 
    session_start();
 
-   if (!isset($_POST['pokeball'])) {
+   if (isset($_POST['pokeball'])) {
       $_SESSION['pokeball'] = $_POST['qtyPB'];
    }
-   if (!isset($_POST['greatball'])) {
+   if (isset($_POST['greatball'])) {
       $_SESSION['greatball'] = $_POST['qtyGB'];
    }
-   if (!isset($_POST['ultraball'])) {
+   if (isset($_POST['ultraball'])) {
       $_SESSION['ultraball'] = $_POST['qtyUB'];
    }
-   if (!isset($_POST['maxpotion'])) {
+   if (isset($_POST['maxpotion'])) {
       $_SESSION['maxpotion'] = $_POST['qtyMP'];
    }
-   if (!isset($_POST['fullrestore'])) {
+   if (isset($_POST['fullrestore'])) {
       $_SESSION['fullrestore'] = $_POST['qtyFR'];
    }
-   if (!isset($_POST['superrepel'])) {
+   if (isset($_POST['superrepel'])) {
       $_SESSION['superrepel'] = $_POST['qtySR'];
    }
-   if (!isset($_POST['maxrepel'])) {
+   if (isset($_POST['maxrepel'])) {
       $_SESSION['maxrepel'] = $_POST['qtyMR'];
    }
-   if (!isset($_POST['escaperope'])) {
+   if (isset($_POST['escaperope'])) {
       $_SESSION['escaperope'] = $_POST['qtyER'];
    }
-   if (!isset($_POST['tInput'])) {
+   if (isset($_POST['tInput'])) {
       $_SESSION['total'] = $_POST['tInput'];
    }
 
