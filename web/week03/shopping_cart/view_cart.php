@@ -35,7 +35,7 @@
       }
 
       function remove_zeros() {
-            if ($("$datapb").val() == 0) { alert("zero"); }
+            alert($("#delpb").val()); }
       }
       $(document).ready(function(){
          $("#delpb").click(function(){
