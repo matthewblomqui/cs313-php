@@ -25,8 +25,9 @@
         <div class="jumbotron text-center text-danger">
             <h2>More Coming Soon</h2>
             <hr>
-            <a href="https://matthewblomqui.herokuapp.com/week03/shopping_cart/browse_shop.php">Shopping Cart</a>
             <a href="https://matthewblomqui.herokuapp.com/week01/hello.html">Hello World</a>
+            <a href="https://matthewblomqui.herokuapp.com/week03/shopping_cart/browse_shop.php">Shopping Cart</a>
+            
         </div>
     </div>
 
