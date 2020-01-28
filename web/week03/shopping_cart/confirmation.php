@@ -56,12 +56,15 @@
                <hr>
                <?php 
                   foreach($items as $key => $val) {
-                     echo $key." x".$val."<br>";
+                     if ($val != 0) {
+                        echo $key." x".$val."<br>";
+                     }
                   }
                ?>
                <hr>
                <strong>Total Price:</strong>
                <hr>
+               <img src="pokedollar.png" alt="pokedollar" class="dollar-white">
                <?php echo $_SESSION['total']; ?>
             </div>
             <br><br><br><br><br><br><br><br><br><br><br>
