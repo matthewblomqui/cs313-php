@@ -14,7 +14,7 @@ try
   $db = new PDO("pgsql:host=$dbHost;port=$dbPort;dbname=$dbName", $dbUser, $dbPassword);
 
   $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  echo 'Connection successful!';
+  echo 'Connection successful!\n';
 }
 catch (PDOException $ex)
 {
