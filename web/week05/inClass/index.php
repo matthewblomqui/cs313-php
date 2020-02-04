@@ -1,13 +1,17 @@
 <?php
    require "dbConnect.php";
    //$db = get_db();
-   get_db(); // calling this saves the database info in variable $db
+   $db = get_db(); // calling this saves the database info in variable $db
 
    $family_members = $db->prepare("SELECT * FROM w5_family_members");
    $family_members->execute();
 
    while ($fRow = $family_members->fetch(PDO::FETCH_ASSOC))
    {
-      echo 'First Name: ' . $fRow['first_name'] . ' Last Name: ' . $fRow['last_name'] . '<br/>';
+      $first_name = $fRow["first_name"];
+      $last_name = $fRow["last_name"];
+      $relationship_id = $fRow["relationship_id"];
+
+      echo "<p>$first_name $last_name is my $relationship_id</p>";
    }
 ?>
