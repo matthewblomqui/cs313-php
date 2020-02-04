@@ -17,6 +17,6 @@
          $relation_name = $rRow["description"];
       }
 
-      echo "<p>$first_name $last_name is my $relationship_name ($relationship_id)</p>";
+      echo "<p>$first_name $last_name is my $relation_name ($relationship_id)</p>";
    }
 ?>
