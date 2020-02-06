@@ -13,11 +13,9 @@
    </head>
    <body>
 
-      <div class="text-center pt-3 bg-light">
+      <div class="text-center pt-3 pb-3 bg-light">
          <h2>Pokemon Battle Simulator</h2>
       </div>
-
-      <hr>
 
       <div class="row">
          <div class="col back">
@@ -59,87 +57,6 @@
             <p>This will be the main content</p>
             <p>This will be the main content</p>
             <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-
-
          </div>
          <div class="col back">
             <p>This will be a side</p>
