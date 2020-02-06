@@ -21,7 +21,7 @@
          <div class="col back">
          </div>
          <div class="col-8">
-            <p class="pokeWhite">This will be the main content</p>
+            <p>This will be the main content</p>
             <p>This will be the main content</p>
             <p>This will be the main content</p>
             <p>This will be the main content</p>
