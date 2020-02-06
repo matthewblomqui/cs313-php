@@ -20,7 +20,7 @@
       <hr>
 
       <div class="row">
-         <div class="col-2 back">
+         <div class="col back">
             <p>This will be a side</p>
          </div>
          <div class="col-8">
@@ -139,9 +139,9 @@
             <p>This will be the main content</p>
             <p>This will be the main content</p>
 
-            
+
          </div>
-         <div class="col-2 back">
+         <div class="col back">
             <p>This will be a side</p>
          </div>
       </div>
