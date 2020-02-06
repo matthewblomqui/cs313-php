@@ -13,12 +13,14 @@
    </head>
    <body>
 
-      <div class="text-center pt-3 back">
+      <div class="text-center pt-3 bg-light">
          <h2>Pokemon Battle Simulator</h2>
       </div>
 
+      <hr>
+
       <div class="row">
-         <div class="col-2 bg-primary">
+         <div class="col-2 back">
             <p>This will be a side</p>
          </div>
          <div class="col-8">
