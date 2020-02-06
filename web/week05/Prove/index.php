@@ -11,7 +11,7 @@
       <title>Pokemon Battle Simulator</title>
       <link rel="stylesheet" href="">
    </head>
-   <body class="bp-light">
+   <body>
 
       <div class="text-center pt-3 bg-secondary">
          <h2>Pokemon Battle Simulator</h2>
