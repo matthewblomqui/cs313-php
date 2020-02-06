@@ -20,7 +20,7 @@
       <div class="row pokeLight">
          <div class="col back">
          </div>
-         <div class="col-8">
+         <div class="col-8 pokeWhite">
             <p>This will be the main content</p>
             <p>This will be the main content</p>
             <p>This will be the main content</p>
