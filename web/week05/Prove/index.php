@@ -13,9 +13,8 @@
    </head>
    <body>
 
-      <div class="text-center pt-3 bg-secondary">
+      <div class="text-center pt-3 back">
          <h2>Pokemon Battle Simulator</h2>
-         <hr>
       </div>
 
       <div class="row">
@@ -25,7 +24,7 @@
          <div class="col-8">
             <p>This will be the main content</p>
          </div>
-         <div class="col-2 bg-primary">
+         <div class="col-2 back">
             <p>This will be a side</p>
          </div>
       </div>
