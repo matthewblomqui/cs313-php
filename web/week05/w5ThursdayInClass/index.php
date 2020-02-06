@@ -9,6 +9,6 @@
    {
       $image = $row["image"];
       $name = $row["name"];
-      echo "<h3>$name</h3><img src=\"$image\" alt=\"$name\"><br>";
+      echo "<h1>$name</h1><img src=\"$image\" alt=\"$name\" height=\"100%\" width=\"200px\"><br>";
    }
 ?>
