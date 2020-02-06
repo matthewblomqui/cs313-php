@@ -17,7 +17,7 @@
       <title>Pokemon Battle Simulator</title>
       <link rel="stylesheet" href="">
    </head>
-   <body class="bp-light">
+   <body class="bp-light text-white-50">
 
       <div class="text-center pt-3 bg-secondary">
          <h2>Pokemon Battle Simulator</h2>
@@ -27,10 +27,13 @@
       <div class="container p-3">
          <div class="row">
             <div class="col-2 bg-primary">
+               <p>This will be a side</p>
             </div>
             <div class="col-8">
+               <p>This will be the main content</p>
             </div>
             <div class="col-2 bg-primary">
+               <p>This will be a side</p>
             </div>
          </div>
       </div>
