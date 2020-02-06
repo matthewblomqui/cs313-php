@@ -36,6 +36,6 @@
          </div>
       </div>
       
-      <?php include 'footer.php';?>
+      <?php include 'https://matthewblomqui.herokuapp.com/footer.php';?>
    </body>
 </html>
