@@ -21,9 +21,8 @@
 
       <div class="text-center pt-3 bg-secondary">
          <h2>Pokemon Battle Simulator</h2>
+         <hr>
       </div>
-
-      <hr>
 
       <div class="container p-3">
          <div class="row">
