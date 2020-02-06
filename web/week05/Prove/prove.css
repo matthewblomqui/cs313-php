@@ -1,4 +1,4 @@
- .back {
+.back {
    /* The image used */
    background-image: url("pokeball-back.png");
  
@@ -9,14 +9,28 @@
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
- }
+}
 
- .pokeLight {
+.pokeballGrey {
+   background-image: url("https://assets.pokemon.com/static2/_ui/img/chrome/loaders/pokeball_gray.png")
+}
+
+.pokeballWhite {
+   background-image: ("https://assets.pokemon.com/static2/_ui/img/chrome/loaders/pokeball_white.png")
+}
+
+.pokeWhite {
+   background-image: url("https://assets.pokemon.com/static2/_ui/img/chrome/content_bg.png");
+}
+
+.pokeLight {
    background-image: url("https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png");
-   /*background-color: #cccccc;*/
 }
 
 .pokeDark {
    background-image: url("https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png");
+}
 
+.pokePromo {
+   background-image: url("https://assets.pokemon.com/static2/_ui/img/gus/promo-bg.png")
 }
