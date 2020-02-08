@@ -37,7 +37,7 @@
                $ability = $row["ability"];
                $nature = $row["nature"];
 
-               echo "<p>Name: $name Type:$type $sub_type</p>";
+               echo "<h3><b>Name:</b> $name <b>Type:</b> $type $sub_type</h3>";
             }
          ?>
 
