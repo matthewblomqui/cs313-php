@@ -21,31 +21,25 @@
          <div class="col back">
          </div>
          <div class="col-8">
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
-            <p>This will be the main content</p>
+            
+         <?php
+            require "dbConnect.php";
+            $db = get_db();
+
+            $pokemon = $db->prepare("SELECT * FROM pokemon");
+            $pokemon->execute();
+
+            while ($row = $pokemon->fetch(PDO::FETCH_ASSOC))
+            {
+               $name = $row["name"];
+               $type = $row["type"];
+               $sub_type = $row["sub_type"];
+               $ability = $row["ability"];
+               $nature = $row["nature"];
+
+               echo "<p>Name: $name Type:$type $sub_type</p>";
+            }
+         ?>
 
          </div>
          <div class="col back">
