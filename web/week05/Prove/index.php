@@ -41,7 +41,7 @@
                   echo "<h3><b>Name:</b> $name <b>Type:</b> $type $sub_type <b>Ability:</b> $ability <b>Nature:</b> $nature</h3>";
                }
             ?>
-            <a href="teamBuilder.php"><button type="button" class="btn btn-default">Team Builder</button></a>
+            <a href="teamBuilder.php" class="btn btn-primary">Team Builder</a>
 
          </div>
          <div class="col back">
