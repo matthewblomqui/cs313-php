@@ -14,7 +14,7 @@
    <body>
 
       <div class="row pt-3 pb-3 pokeDark text-warning">
-         <h2 class="text-center col">Pokemon Battle Simulator</h2>
+         <h2 class="text-center col">Team Builder</h2>
       </div>
 
       <div class="row pokeLight">
@@ -37,10 +37,9 @@
                $ability = $row["ability"];
                $nature = $row["nature"];
 
-               echo "<h3><b>Name:</b> $name <b>Type:</b> $type $sub_type <b>Ability:</b> $ability <b>Nature:</b> $nature</h3>";
+               echo "<h3><b>Name:</b> $name <b>Type:</b> $type $sub_type</h3>";
             }
          ?>
-            <a href="teamBuilder.php" class="btn btn-default" role="button">Team Builder</a>
 
          </div>
          <div class="col back">
