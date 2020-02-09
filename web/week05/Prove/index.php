@@ -22,25 +22,26 @@
          </div>
          <div class="col-8 text-center">
             
-         <?php
-            require "dbConnect.php";
-            $db = get_db();
+            <br>
+            <?php
+               require "dbConnect.php";
+               $db = get_db();
 
-            $pokemon = $db->prepare("SELECT * FROM pokemon");
-            $pokemon->execute();
+               $pokemon = $db->prepare("SELECT * FROM pokemon");
+               $pokemon->execute();
 
-            while ($row = $pokemon->fetch(PDO::FETCH_ASSOC))
-            {
-               $name = $row["name"];
-               $type = $row["type"];
-               $sub_type = $row["sub_type"];
-               $ability = $row["ability"];
-               $nature = $row["nature"];
+               while ($row = $pokemon->fetch(PDO::FETCH_ASSOC))
+               {
+                  $name = $row["name"];
+                  $type = $row["type"];
+                  $sub_type = $row["sub_type"];
+                  $ability = $row["ability"];
+                  $nature = $row["nature"];
 
-               echo "<h3><b>Name:</b> $name <b>Type:</b> $type $sub_type <b>Ability:</b> $ability <b>Nature:</b> $nature</h3>";
-            }
-         ?>
-            <a href="teamBuilder.php" class="btn btn-default" role="button">Team Builder</a>
+                  echo "<h3><b>Name:</b> $name <b>Type:</b> $type $sub_type <b>Ability:</b> $ability <b>Nature:</b> $nature</h3>";
+               }
+            ?>
+            <a href="teamBuilder.php"><button type="button" class="btn btn-default">Team Builder</button></a>
 
          </div>
          <div class="col back">
