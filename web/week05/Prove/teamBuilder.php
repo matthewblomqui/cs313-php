@@ -26,18 +26,15 @@
             require "dbConnect.php";
             $db = get_db();
 
-            $pokemon = $db->prepare("SELECT * FROM pokemon");
+            $pokemon = $db->prepare("SELECT t.name, p.name FROM pokemon p JOIN teamset s ON s.pokemon_id = p.id JOIN team t ON t.id = s.team_id;");
             $pokemon->execute();
 
             while ($row = $pokemon->fetch(PDO::FETCH_ASSOC))
             {
-               $name = $row["name"];
-               $type = $row["type"];
-               $sub_type = $row["sub_type"];
-               $ability = $row["ability"];
-               $nature = $row["nature"];
+               $team = $row["t.name"];
+               $name = $row["p.name"];
 
-               echo "<h3><b>Name:</b> $name <b>Type:</b> $type $sub_type</h3>";
+               echo "<h3><b>Team:</b> $team <b>Name:</b> $$name</h3>";
             }
          ?>
 

@@ -20,8 +20,12 @@ CREATE TABLE moveset
 );
 
 CREATE TABLE team
+(  id       SERIAL NOT NULL PRIMARY KEY
+,  name     VARCHAR(50)
+);
+
+CREATE TABLE teamset
 (  id          SERIAL NOT NULL PRIMARY KEY
-,  team_id     INT
+,  team_id     INT REFERENCES team(id)
 ,  pokemon_id  INT REFERENCES pokemon(id)
-,  team_name   VARCHAR(20)
 );

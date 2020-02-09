@@ -39,3 +39,22 @@ INSERT INTO pokemon (   name
                      ,  'Fire'
                      ,  'Blaze'
                      ,  'Jolly'); 
+
+INSERT INTO team (name) VALUES ('TEAM BOSS');
+
+INSERT INTO teamset (       team_id
+                     ,      pokemon_id)
+              VALUES (      1
+                     ,      1);
+INSERT INTO teamset (       team_id
+                     ,      pokemon_id)
+              VALUES (      1
+                     ,      2);
+INSERT INTO teamset (       team_id
+                     ,      pokemon_id)
+              VALUES (      1
+                     ,      3);
+INSERT INTO teamset (       team_id
+                     ,      pokemon_id)
+              VALUES (      1
+                     ,      4);
