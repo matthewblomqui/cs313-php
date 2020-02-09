@@ -22,33 +22,7 @@
          </div>
          <div class="col-8 text-center">
             
-         <?php
-            require "dbConnect.php";
-            $db = get_db();
-
-            $pokemon = $db->prepare("SELECT * FROM pokemon");
-            $pokemon->execute();
-
-            while ($row = $pokemon->fetch(PDO::FETCH_ASSOC))
-            {
-               $pokemon = $row["name"];
-               $id = $row["id"];
-               $teamset = $db->prepare("SELECT * FROM teamset WHERE id = $id");
-               $teamset->execute();
-               while($tRow = $teamset->fetch(PDO::FETCH_ASSOC))
-               {
-                  $team_id = $tRow["team_id"];
-                  $team = $db->prepare("SELECT name FROM team WHERE id = $team_id");
-                  while($sRow = $team->fetch(PDO::FETCH_ASSOC))
-                  {
-                     $team_name = $sRow["name"];
-                  }
-               }
-               
-
-               echo "<h3><b>Team:</b> $team_name <b>Name:</b> $pokemon</h3>";
-            }
-         ?>
+            <h1>Here will be where the user creates a team and sends it to the database</h1>
 
          </div>
          <div class="col back">
