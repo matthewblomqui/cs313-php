@@ -18,16 +18,16 @@
                $last = $row['last'];
                $food_id = $row['food_id'];
 
-               $statement = $db->prepare('SELECT food FROM w6_food WHERE id = $food_id');
-               $statement->execute();
-               while($fRow = $statement->fetch(PDO::FETCH_ASSOC))
+               // execute another query to get food data
+               $foods = $db->prepare('SELECT food FROM w6_food WHERE id = $food_id');
+               $foods->execute();
+               while($fRow = $foods->fetch(PDO::FETCH_ASSOC))
                {
                   $food = $fRow['food'];
                }
+               // display name and favorite food
                echo "<h1>$first $last's favorite food is $food</h1>";
             }
-            // execute another query to get food data
-            // display name and favorite food
          ?>
 
 		</div>
