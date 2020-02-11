@@ -17,11 +17,11 @@
                   <select id="inputFood" class="form-control" name="food">
                      <?php
                         // query db
-                        $statement = $db->prepare("SELECT * FROM w6_food");
+                        $statement = $db->prepare("SELECT * FROM w6_food;");
                         $statement->excute();
 
                         // loop through results
-                        while($row = $statement->fetch(PDO::FETCH_ASSOC))
+                        while ($row = $statement->fetch(PDO::FETCH_ASSOC))
                         {
                            $id = $row['id'];
                            $food = $row['food'];
