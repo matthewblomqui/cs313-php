@@ -16,12 +16,12 @@
                $id = $row['id'];
                $first = $row['first'];
                $last = $row['last'];
-               $food_id = $row['food_id'];
+               $food_id = $row['food_type'];
 
                // execute another query to get food data
-               $foods = $db->prepare("SELECT food FROM w6_food WHERE id = $food_id");
-               $foods->execute();
-               while($fRow = $foods->fetch(PDO::FETCH_ASSOC))
+               $food_statement = $db->prepare("SELECT food FROM w6_food WHERE id = $food_id");
+               $food_statement->execute();
+               while($fRow = $food_statement->fetch(PDO::FETCH_ASSOC))
                {
                   $food = $fRow['food'];
                }
