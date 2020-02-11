@@ -17,7 +17,7 @@
                   <select id="inputFood" class="form-control" name="food">
                      <?php
                         // query db
-                        $statement = $db->prepare("SELECT * FROM w6_food;");
+                        $statement = $db->prepare("SELECT * FROM w6_food");
                         $statement->excute();
 
                         // loop through results
@@ -25,7 +25,7 @@
                         {
                            $id = $row['id'];
                            $food = $row['food'];
-                           echo "<option value='$id'>$food</option>";
+                           echo "<option value=\"$id\">$food</option>";
                         }
 
                         // output html option for each row
