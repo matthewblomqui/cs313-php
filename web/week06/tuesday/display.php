@@ -8,7 +8,7 @@
             // retrieve url parameter
             $personId = $_GET['personId'];
             // execute query to pull up data from that id
-            $statement = $db->prepare('SELECT * FROM w6_user WHERE id = :pseronId');
+            $statement = $db->prepare('SELECT * FROM w6_user WHERE id = :personId');
             $statement->bindValue(':personId', $personId);
             $statement->execute();
             while ($row = $statement->fetch(PDO::FETCH_ASSOC))
@@ -19,7 +19,7 @@
                $food_id = $row['food_id'];
 
                // execute another query to get food data
-               $foods = $db->prepare('SELECT food FROM w6_food WHERE id = $food_id');
+               $foods = $db->prepare("SELECT food FROM w6_food WHERE id = $food_id");
                $foods->execute();
                while($fRow = $foods->fetch(PDO::FETCH_ASSOC))
                {
