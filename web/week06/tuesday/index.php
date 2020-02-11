@@ -18,7 +18,7 @@
                      <?php
                         // query db
                         $statement = $db->prepare("SELECT * FROM w6_food");
-                        $statement->excute();
+                        $statement->execute();
 
                         // loop through results
                         while ($row = $statement->fetch(PDO::FETCH_ASSOC))
