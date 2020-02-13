@@ -24,7 +24,7 @@
             
             <?php
                $ch = curl_init();
-               curl_setopt($ch, CURLOPT_URL, "http://www.myapi.com/api.php?format=json&action=subscribe&email=" . $email_to_subscribe);
+               curl_setopt($ch, CURLOPT_URL, 'https://api-v3.igdb.com/games/?' . $email_to_subscribe);
                curl_setopt($ch, CURLOPT_POST, 1);// set post data to true
                curl_setopt($ch, CURLOPT_POSTFIELDS,"user-key=56b3ac350a8ebcdd30e790eeced588bd");   // post data
                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
