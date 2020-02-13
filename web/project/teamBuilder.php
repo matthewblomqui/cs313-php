@@ -23,10 +23,25 @@
          <div class="col-8 text-center">
             
             <?php
+               $curl = curl_init();
+               $auth_data = array(
+                  'user-key' 	=> '56b3ac350a8ebcdd30e790eeced588bd'
+               );
+               curl_setopt($curl, CURLOPT_POST, 1);
+               curl_setopt($curl, CURLOPT_POSTFIELDS, $auth_data);
+               curl_setopt($curl, CURLOPT_URL, 'https://api-v3.igdb.com/games');
+               curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+               curl_setopt($curl, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
+               $result = curl_exec($curl);
+               if(!$result){die("Connection Failure");}
+               curl_close($curl);
+               echo $result;
+
+
                //$response = file_get_contents("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1000");
-               $response = file_get_contents("https://api-v3.igdb.com/games/");
-               $response = json_decode($response);
-               print_r($response);
+               //$response = file_get_contents("https://api-v3.igdb.com/games/");
+               //$response = json_decode($response);
+               //print_r($response);
             ?>
 
          </div>
