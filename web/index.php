@@ -46,7 +46,7 @@
                 <div class="card-body">
                     <h4 class="card-title">Future Projects</h4>
                     <p class="card-text">These will send you to the projects. They are not here yet...</p>
-                    <a href="#" class="btn btn-secondary stretched-link">Coming Soon</a>
+                    <a href="https://matthewblomqui.herokuapp.com/project/index.php" class="btn btn-secondary stretched-link">Go To</a>
                 </div>
             </div>
 
