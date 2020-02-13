@@ -22,7 +22,11 @@
          </div>
          <div class="col-8 text-center">
             
-            <h1>Here will be where the user creates a team and sends it to the database</h1>
+            <?php
+               $response = file_get_contents("https://pokeapi.co/api/v2/pokemon/");
+               $response = json_decode($response);
+               print_r($response);
+            ?>
 
          </div>
          <div class="col back">
