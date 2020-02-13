@@ -17,7 +17,7 @@ echo '<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         </ul>
         <ul class="navbar-nav">
             <li class="nav-item dropdown">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="https://matthewblomqui.herokuapp.com/project/index.php">Projects</a>
             </li>
         </ul>
     </nav>'

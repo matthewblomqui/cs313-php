@@ -45,7 +45,7 @@
                 <img class="card-img-top" src="machineLearning.png" alt="Card image" style="width:100%">
                 <div class="card-body">
                     <h4 class="card-title">Future Projects</h4>
-                    <p class="card-text">These will send you to the projects. They are not here yet...</p>
+                    <p class="card-text">These will send you to the projects.</p>
                     <a href="https://matthewblomqui.herokuapp.com/project/index.php" class="btn btn-secondary stretched-link">Go To</a>
                 </div>
             </div>
