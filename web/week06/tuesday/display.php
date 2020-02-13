@@ -8,6 +8,7 @@
             // retrieve url parameter
             $personId = $_GET['personId'];
             // execute query to pull up data from that id
+            // SINGLE QUOTES HERE WORKS BECAUSE OF BINDVALUE
             $statement = $db->prepare('SELECT * FROM w6_user WHERE id = :personId');
             $statement->bindValue(':personId', $personId);
             $statement->execute();
@@ -19,6 +20,7 @@
                $food_id = $row['food_type'];
 
                // execute another query to get food data
+               // SINGLE QUOTES HERE DOESN'T WORK BECAUSE OF NO BINDVALUE
                $food_statement = $db->prepare("SELECT food FROM w6_food WHERE id = $food_id");
                $food_statement->execute();
                while($fRow = $food_statement->fetch(PDO::FETCH_ASSOC))
