@@ -23,7 +23,8 @@
          <div class="col-8 text-center">
             
             <?php
-               $response = file_get_contents("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1000");
+               //$response = file_get_contents("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1000");
+               $response = file_get_contents("https://api-v3.igdb.com/games/");
                $response = json_decode($response);
                print_r($response);
             ?>
