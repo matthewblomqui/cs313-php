@@ -54,7 +54,8 @@
                      //var_dump($obj[0]);
                      for ($i=0; $i < 964; $i++) {
                         $str = $obj['results'][$i]['name'];
-                        echo "<li class=\"list-group-item\">$str</li>";
+                        $sprite = $obj['results'][$i]['sprites']['front_default'];
+                        echo "<li class=\"list-group-item\"><img src=\"$sprite\">$str</li>";
                      }
                      //print_r($response);
                   ?>
