@@ -46,7 +46,7 @@
                <br>
                <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
                <br>
-               <ul class="btn-group btn-group-toggle" data-toggle="buttons" id="list">
+               <ul class="btn-group-vertical btn-group-toggle" data-toggle="buttons" id="list">
                   <?php
                      $response = file_get_contents("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1000");
                      //var_dump($response);
