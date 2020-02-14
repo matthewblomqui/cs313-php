@@ -46,7 +46,7 @@
                <br>
                <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
                <br>
-               <ul class="list-group" id="list">
+               <ul class="btn-group btn-group-toggle" data-toggle="buttons" id="list">
                   <?php
                      $response = file_get_contents("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1000");
                      //var_dump($response);
@@ -54,7 +54,7 @@
                      //var_dump($obj[0]);
                      for ($i=0; $i < 964; $i++) {
                         $str = $obj['results'][$i]['name'];
-                        echo "<label class=\"btn btn-primary\"><input type=\"checkbox\" autocomplete=\"off\" class=\"list-group-item\">$str</label>";
+                        echo "<label class=\"btn btn-light\"><input type=\"checkbox\" autocomplete=\"off\" class=\"list-group-item\">$str</label>";
                      }
                      //print_r($response);
                   ?>
