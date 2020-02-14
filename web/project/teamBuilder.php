@@ -24,10 +24,10 @@
             
             <?php
                $response = file_get_contents("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1000");
-               var_dump($response);
-               //$obj = json_decode($response, true);
+               //var_dump($response);
+               $obj = json_decode($response, true);
                //var_dump($obj[0]);
-               //var_dump($obj);
+               var_dump($obj);
                //print_r($response);
             ?>
 
