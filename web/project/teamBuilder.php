@@ -23,22 +23,10 @@
          <div class="col-8 text-center">
             
             <?php
-               $ch = curl_init("https://api-v3.igdb.com/games/");
-               curl_setopt($ch, CURLOPT_HTTPHEADER, array('user-key: 56b3ac350a8ebcdd30e790eeced588bd'));
-               curl_setopt($ch, CURLOPT_HEADER, 1);
-               //curl_setopt($ch, CURLOPT_USERPWD, $username . ":" . $password);
-               curl_setopt($ch, CURLOPT_TIMEOUT, 30);
-               curl_setopt($ch, CURLOPT_POST, 1);
-               //curl_setopt($ch, CURLOPT_POSTFIELDS, $payloadName);
-               curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
-               $return = curl_exec($ch);
-               curl_close($ch);
-               $return = json_decode($return);
-               print_r($return);
-
-               //$response = file_get_contents("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1000");
-               //$response = file_get_contents("https://api-v3.igdb.com/games/");
-               //$response = json_decode($response);
+               $response = file_get_contents("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1000");
+               $response = file_get_contents("https://api-v3.igdb.com/games/");
+               $response = json_decode($response);
+               echo $response[0];
                //print_r($response);
             ?>
 
