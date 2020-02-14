@@ -34,7 +34,14 @@
          </div>
          <div class="col-8 text-center">
             <div class="container">
+               <br>
                <div class="row">
+               <button type="button" class="btn btn-outline-danger btn-rounded waves-effect">+</button>
+               <button type="button" class="btn btn-outline-danger btn-rounded waves-effect">+</button>
+               <button type="button" class="btn btn-outline-danger btn-rounded waves-effect">+</button>
+               <button type="button" class="btn btn-outline-danger btn-rounded waves-effect">+</button>
+               <button type="button" class="btn btn-outline-danger btn-rounded waves-effect">+</button>
+               <button type="button" class="btn btn-outline-danger btn-rounded waves-effect">+</button>
                <button type="button" class="btn btn-outline-danger btn-rounded waves-effect">+</button>
                </div>
                <br>
