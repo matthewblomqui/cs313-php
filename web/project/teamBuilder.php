@@ -27,8 +27,9 @@
                //var_dump($response);
                $obj = json_decode($response, true);
                //var_dump($obj[0]);
-               for ($i=0; $i < 964; $i++) { 
-                  echo "$value[$i]['name'] <br>";
+               for ($i=0; $i < 964; $i++) {
+                  $str = $value[$i]['name'];
+                  echo "$str <br>";
                }
                //print_r($response);
             ?>
