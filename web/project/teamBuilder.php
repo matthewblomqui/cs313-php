@@ -36,7 +36,7 @@
             <div class="container">
                <br>
                <div class="row">
-               <button type="button" class="btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
+               <button type="button" class="btn-lg pr-3 btn-outline-danger btn-rounded waves-effect">+</button>
                <button type="button" class="btn btn-outline-danger btn-rounded waves-effect">+</button>
                <button type="button" class="btn btn-outline-danger btn-rounded waves-effect">+</button>
                <button type="button" class="btn btn-outline-danger btn-rounded waves-effect">+</button>
