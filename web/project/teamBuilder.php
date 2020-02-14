@@ -35,7 +35,7 @@
          <div class="col-8 text-center">
             <div class="container">
                <div class="row">
-               <a class="btn-floating btn-dark"><i class="fas fa-leaf"></i></a>
+               <a class="btn-floating btn-dark">+</a>
                </div>
                <br>
                <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
