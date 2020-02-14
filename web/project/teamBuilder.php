@@ -10,6 +10,16 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
       <title>Pokemon Battle Simulator</title>
       <link rel="stylesheet" href="prove.css">
+      <script>
+         $(document).ready(function(){
+            $("#search").on("keyup", function() {
+               var value = $(this).val().toLowerCase();
+               $("#list li").filter(function() {
+                  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+               });
+            });
+         });
+      </script>
    </head>
    <body>
 
@@ -21,19 +31,23 @@
          <div class="col back">
          </div>
          <div class="col-8 text-center">
-            
-            <?php
-               $response = file_get_contents("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1000");
-               //var_dump($response);
-               $obj = json_decode($response, true);
-               //var_dump($obj[0]);
-               for ($i=0; $i < 964; $i++) {
-                  $str = $obj['results'][$i]['name'];
-                  echo "$str <br>";
-               }
-               //print_r($response);
-            ?>
-
+            <div class="container">
+               <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
+               <br>
+               <ul class="list-group" id="list">
+                  <?php
+                     $response = file_get_contents("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1000");
+                     //var_dump($response);
+                     $obj = json_decode($response, true);
+                     //var_dump($obj[0]);
+                     for ($i=0; $i < 964; $i++) {
+                        $str = $obj['results'][$i]['name'];
+                        echo "<li class=\"list-group-item\">$str</li>";
+                     }
+                     //print_r($response);
+                  ?>
+               </ul>
+            </div>
          </div>
          <div class="col back">
          </div>
