@@ -32,6 +32,7 @@
          </div>
          <div class="col-8 text-center">
             <div class="container">
+               <br>
                <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
                <br>
                <ul class="list-group" id="list">
