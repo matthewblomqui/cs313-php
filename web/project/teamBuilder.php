@@ -55,7 +55,7 @@
                      for ($i=0; $i < 964; $i++) {
                         $str = $obj['results'][$i]['name'];
                         $sprite = $obj['results'][$i]['sprites']['front_default'];
-                        echo "<li class=\"list-group-item\"><img src=\"$sprite\">$str</li>";
+                        echo "<li class=\"list-group-item\">$sprite</li>";
                      }
                      //print_r($response);
                   ?>
