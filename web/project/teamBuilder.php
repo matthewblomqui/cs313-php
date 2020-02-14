@@ -16,7 +16,7 @@
          $(document).ready(function(){
             $("#search").on("keyup", function() {
                var value = $(this).val().toLowerCase();
-               $("#list li").filter(function() {
+               $("#list label").filter(function() {
                   $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
                });
             });
@@ -36,13 +36,12 @@
             <div class="container">
                <br>
                <div class="row">
-               <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
-               <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
-               <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
-               <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
-               <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
-               <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
-               <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
+                  <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
+                  <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
+                  <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
+                  <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
+                  <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
+                  <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
                </div>
                <br>
                <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
@@ -55,7 +54,7 @@
                      //var_dump($obj[0]);
                      for ($i=0; $i < 964; $i++) {
                         $str = $obj['results'][$i]['name'];
-                        echo "<li class=\"list-group-item\">$str</li>";
+                        echo "<label class=\"btn btn-primary\"><input type=\"checkbox\" class=\"list-group-item\">$str</label>";
                      }
                      //print_r($response);
                   ?>
