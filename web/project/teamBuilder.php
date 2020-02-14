@@ -27,7 +27,6 @@
                $response = json_decode($response);
                //echo "$response <br>"
                echo $response->{'name'};
-               }
                //print_r($response);
             ?>
 
