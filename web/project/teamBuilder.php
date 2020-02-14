@@ -25,7 +25,7 @@
             <?php
                $response = file_get_contents("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1000");
                $response = json_decode($response, true);
-               echo "$response <br>"
+               echo "$response[0] <br>"
                //print_r($response);
             ?>
 
