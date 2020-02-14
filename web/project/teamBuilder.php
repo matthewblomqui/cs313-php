@@ -54,7 +54,7 @@
                      //var_dump($obj[0]);
                      for ($i=0; $i < 964; $i++) {
                         $str = $obj['results'][$i]['name'];
-                        echo "<label class=\"btn btn-primary\"><input type=\"checkbox\" class=\"list-group-item\">$str</label>";
+                        echo "<label class=\"btn btn-primary\"><input type=\"checkbox\" autocomplete=\"off\" class=\"list-group-item\">$str</label>";
                      }
                      //print_r($response);
                   ?>
