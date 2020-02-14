@@ -16,7 +16,7 @@
          $(document).ready(function(){
             $("#search").on("keyup", function() {
                var value = $(this).val().toLowerCase();
-               $("#list label").filter(function() {
+               $("#list li").filter(function() {
                   $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
                });
             });
@@ -46,7 +46,7 @@
                <br>
                <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
                <br>
-               <ul class="btn-group-vertical btn-group-toggle" data-toggle="buttons" id="list">
+               <ul class="list-group" id="list">
                   <?php
                      $response = file_get_contents("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1000");
                      //var_dump($response);
@@ -54,7 +54,7 @@
                      //var_dump($obj[0]);
                      for ($i=0; $i < 964; $i++) {
                         $str = $obj['results'][$i]['name'];
-                        echo "<label class=\"btn btn-light\"><input type=\"checkbox\" autocomplete=\"off\" class=\"list-group-item\">$str</label>";
+                        echo "<li class=\"list-group-item\">$str</li>";
                      }
                      //print_r($response);
                   ?>
