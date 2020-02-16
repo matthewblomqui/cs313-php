@@ -61,7 +61,7 @@
                         // $url = $url['sprites']['front_default'];
 
 
-                        echo "<li class=\"list-group-item\"><img src=\"$url\">$str</li>";
+                        //echo "<li class=\"list-group-item\"><img src=\"$url\">$str</li>";
                      }
                      //print_r($response);
                   ?>
