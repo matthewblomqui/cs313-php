@@ -17,7 +17,7 @@
          <h2 class="text-center col">Pokemon Battle Simulator</h2>
       </div>
 
-      <div class="pokeLight">
+      <div class="pokeLight h-100">
          <div class="col back">
          </div>
          <div class="col-8 text-center">
