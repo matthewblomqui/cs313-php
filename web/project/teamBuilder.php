@@ -23,13 +23,13 @@
          });
       </script>
    </head>
-   <body>
+   <body class="w-100">
 
       <div class="row pt-3 pb-3 pokeDark text-warning">
          <h2 class="text-center col">Team Builder</h2>
       </div>
 
-      <div class="row pokeLight w-100">
+      <div class="row pokeLight">
          <div class="col back">
          </div>
          <div class="col-8 text-center">
