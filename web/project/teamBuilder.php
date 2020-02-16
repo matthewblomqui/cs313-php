@@ -32,7 +32,7 @@
       <div class="row pokeLight">
          <div class="col back">
          </div>
-         <div class="col-8 text-center h-100">
+         <div class="col-8 text-center mh-100">
             <div class="container">
                <br>
                <div class="row">
