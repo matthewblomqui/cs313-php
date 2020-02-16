@@ -29,10 +29,10 @@
          <h2 class="text-center col">Team Builder</h2>
       </div>
 
-      <div class="row pokeLight full">
+      <div class="row pokeLight">
          <div class="col back">
          </div>
-         <div class="col-8 text-center">
+         <div class="col-8 text-center full">
             <div class="container">
                <br>
                <div class="row">
