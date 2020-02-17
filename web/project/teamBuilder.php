@@ -60,6 +60,7 @@
                      }
                   ?>
                </ul>
+               <br><br><br>
             </div>
          </div>
          <div class="col back">
