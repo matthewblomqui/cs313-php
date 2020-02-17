@@ -56,7 +56,7 @@
                         $str = $obj['results'][$i]['name'];
                         $url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/".($i+1).".png";
 
-                        echo "<div class=\"btn-group-vertical btn-group-toggle\" data-toggle=\"buttons\"><li class=\"btn btn-primary\"><img src=\"$url\">$str</li></div>";
+                        echo "<div class=\"btn-group-vertical btn-group-toggle\" data-toggle=\"buttons\"><li class=\"btn btn-default\"><img src=\"$url\">$str</li></div>";
                      }
                   ?>
                </ul>
