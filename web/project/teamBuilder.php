@@ -55,15 +55,9 @@
                      for ($i=0; $i < 964; $i++) {
                         $str = $obj['results'][$i]['name'];
                         $url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/".($i+1).".png";
-                        // $url = $obj['results'][$i]['url'];
-                        // $url = file_get_contents($url);
-                        // $url = json_decode($url, true);
-                        // $url = $url['sprites']['front_default'];
 
-
-                        echo "<li class=\"list-group-item\"><img src=\"$url\">$str</li>";
+                        echo "<li class=\"list-group-item\"><button type=\"button\" class=\"btn btn-default\" data-toggle=\"button\" aria-pressed=\"false\"><img src=\"$url\">$str</button></li>";
                      }
-                     //print_r($response);
                   ?>
                </ul>
             </div>
