@@ -20,8 +20,8 @@
                   $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
                });
             });
-            $("#test0").on('click', function(){
-               $("#test0").addClass('d-none');
+            $("#test0").on("click", function(){
+               $("#test0").addClass("d-none");
             });
          });
       </script>
