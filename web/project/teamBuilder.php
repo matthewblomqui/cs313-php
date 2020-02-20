@@ -20,8 +20,8 @@
                   $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
                });
             });
-            $("btn-light").click(function(){
-               $("btn-light").addClass('d-none');
+            $("#test").click(function(){
+               $("#test").addClass('d-none');
             });
          });
       </script>
@@ -59,7 +59,7 @@
                         $str = $obj['results'][$i]['name'];
                         $url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/".($i+1).".png";
 
-                        echo "<div class=\"btn-group-vertical btn-group-toggle\" data-toggle=\"buttons\"><li class=\"btn btn-light\"><img style=\"width:48px; height=100%;\" src=\"$url\">$str</li></div>";
+                        echo "<div id\"test\" class=\"btn-group-vertical btn-group-toggle\" data-toggle=\"buttons\"><li class=\"btn btn-light\"><img style=\"width:48px; height=100%;\" src=\"$url\">$str</li></div>";
                      }
                   ?>
                </ul>
