@@ -14,12 +14,12 @@
       <link rel="stylesheet" href="prove.css">
       <script>
          $(document).ready(function(){
-            $("#search").on("keyup", function() {
-               var value = $(this).val().toLowerCase();
-               $("#list li").filter(function() {
-                  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-               });
-            });
+            // $("#search").on("keyup", function() {
+            //    var value = $(this).val().toLowerCase();
+            //    $("#list li").filter(function() {
+            //       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            //    });
+            // });
             $("#test0").on("click", function(){
                $("#test0").addClass("d-none");
             });
