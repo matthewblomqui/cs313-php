@@ -52,7 +52,7 @@
                      //var_dump($response);
                      $obj = json_decode($response, true);
                      //var_dump($obj[results][0]);
-                     for ($i=0; $i < 807; $i++) {
+                     for ($i=0; $i < 10; $i++) {
                         $str = $obj['results'][$i]['name'];
                         $url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/".($i+1).".png";
 
