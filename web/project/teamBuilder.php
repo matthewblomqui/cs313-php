@@ -20,7 +20,7 @@
                   $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
                });
             });
-            $("#test0").click(function(){
+            $("#test0").on('click', function(){
                $("#test0").addClass('d-none');
             });
          });
