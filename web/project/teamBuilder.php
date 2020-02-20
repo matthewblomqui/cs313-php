@@ -20,6 +20,9 @@
                   $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
                });
             });
+            $("#myBtn").click(function(){
+               $("btn-light").addClass('d-none');
+            });
          });
       </script>
    </head>
