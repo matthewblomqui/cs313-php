@@ -20,7 +20,7 @@
                   $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
                });
             });
-            $("#myBtn").click(function(){
+            $("btn-light").click(function(){
                $("btn-light").addClass('d-none');
             });
          });
