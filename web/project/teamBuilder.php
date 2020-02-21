@@ -12,16 +12,6 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
       <title>Pokemon Battle Simulator</title>
       <link rel="stylesheet" href="prove.css">
-      <script>
-         $(document).ready(function(){
-            $("#search").on("keyup", function() {
-               var value = $(this).val().toLowerCase();
-               $("#list li").filter(function() {
-                  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-               });
-            });
-         });
-      </script>
    </head>
    <body>
 
@@ -68,5 +58,6 @@
       </div>
       
       <?php include '../footer.php';?>
+      <script src="script.js"></script>
    </body>
 </html>
