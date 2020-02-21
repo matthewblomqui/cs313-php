@@ -37,7 +37,12 @@
                <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
                <br>
                <ul class="list-group" id="list">
-                  <?php include 'pokiApi.php';?>
+                  <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                     <li class="btn btn-light">
+                        <?php include 'pokiApi.php';?>
+                        <span class="type poison">
+                     </li>
+                  </div>
                </ul>
                <br><br><br><br><br><br>
             </div>
