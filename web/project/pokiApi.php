@@ -10,6 +10,7 @@
       echo "<div class=\"btn-group-vertical btn-group-toggle\" data-toggle=\"buttons\">".
                "<li class=\"btn btn-light\">".
                   "<img style=\"width:48px; height=100%;\" src=\"$url\">$str".
+                  "<span class=\"type poison\">".
                "</li>".
             "</div>";
    }
