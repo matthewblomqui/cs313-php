@@ -9,9 +9,8 @@
 
       echo "<div class=\"btn-group-vertical btn-group-toggle\" data-toggle=\"buttons\">".
                "<li class=\"btn btn-light\">".
-                  "<img style=\"width:52px; height=100%;\" src=\"$url\">".
-                  "<span>$str</span>".
-                  "<span class=\"type poison\"></span>".
+                  "<img style=\"width:52px; height=100%;\" src=\"$url\">$str".
+                  "<span class=\"type poison pl-3\">".
                "</li>".
             "</div>";
    }
