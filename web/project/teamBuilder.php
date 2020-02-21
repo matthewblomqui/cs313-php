@@ -14,14 +14,11 @@
       <link rel="stylesheet" href="prove.css">
       <script>
          $(document).ready(function(){
-            // $("#search").on("keyup", function() {
-            //    var value = $(this).val().toLowerCase();
-            //    $("#list li").filter(function() {
-            //       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-            //    });
-            // });
-            $("#test0").on("click", function(){
-               $("#test0").addClass("d-none");
+            $("#search").on("keyup", function() {
+               var value = $(this).val().toLowerCase();
+               $("#list li").filter(function() {
+                  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+               });
             });
          });
       </script>
@@ -59,7 +56,7 @@
                         $str = $obj['results'][$i]['name'];
                         $url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/".($i+1).".png";
 
-                        echo "<div class=\"btn-group-vertical btn-group-toggle\" data-toggle=\"buttons\"><li id\"test$i\" class=\"btn btn-light\"><img style=\"width:48px; height=100%;\" src=\"$url\">$str</li></div>";
+                        echo "<div class=\"btn-group-vertical btn-group-toggle\" data-toggle=\"buttons\"><li id\"test$i\" function=\"gone(\"t$i\")\" class=\"btn btn-light\"><img style=\"width:48px; height=100%;\" src=\"$url\">$str</li></div>";
                      }
                   ?>
                </ul>
