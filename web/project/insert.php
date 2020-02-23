@@ -19,7 +19,7 @@ for ($i=1; $i < 808; $i++) {
    
    echo $name;
    //echo $id.' '.$name;
-   // $num = $types[$index][0];
+   $num = $types[$index][0];
    // for ($j=0; $j < 2; $j++) { 
    //    $t = $types[$index][1];
    //    echo ','.$t;
