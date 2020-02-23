@@ -20,11 +20,7 @@ for ($i=1; $i < 808; $i++) {
    echo $name;
    //echo $id.' '.$name;
    $num = $types[$index][0];
-   // for ($j=0; $j < 2; $j++) { 
-   //    $t = $types[$index][1];
-   //    echo ','.$t;
-   //    $index++;
-   // }
+   $slot = $types[$index][2];
    while($num == $i)
    {
       $t = $types[$index][1];
@@ -33,6 +29,11 @@ for ($i=1; $i < 808; $i++) {
       //echo ' '.$t.' '.$tt;
       $index++;
       $num = $types[$index][0];
+      if ($slot == $types[$index][2])
+      {
+         echo ',';
+      }
+      $slot = $types[$index][2];
    }
    echo ','.$id.'<br>';
    
