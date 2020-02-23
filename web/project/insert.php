@@ -22,7 +22,14 @@ for ($i=1; $i < 808; $i++) {
    $num = $types[$index][0];
    for ($j=0; $j < 2; $j++) { 
       $t = $types[$index][1];
-      echo ','.$t;
+      if ($types[$index][1] == $types[$index - 1][1] && $types[$index][0] == $types[$index - 1][0])
+      {
+         echo ',';
+      }
+      else
+      {
+         echo ','.$t;
+      }
       $index++;
    }
    // while($num == $i)
