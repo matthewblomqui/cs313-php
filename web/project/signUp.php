@@ -32,13 +32,13 @@
          <div class="col back">
          </div>
          <div class="col-8 text-center">
-            <form action="verify.php" method="post">
+            <form action="post_user.php" method="post">
                Username:<br>
-               <input type="text" name="firstname" id="firstname"><br>
+               <input type="text" name="username" id="username"><br>
                Password:<br>
                <input type="password" name="pass" id="pass"><br><br>
 
-               <input type="submit" name="login" value="Log In"><br><br>
+               <input type="submit" name="create" value="Create"><br><br>
             </form>
             <input type="button" name="new_user" value="Create New User" onclick="new_user()"><br><br>
          </div>
