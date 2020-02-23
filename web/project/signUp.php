@@ -38,9 +38,10 @@
             <?php
                if ($_SESSION['error'])
                {
+                  $str = $_SESSION['errorStr'];
                   echo "<div class=\"alert alert-danger alert-dismissible\">".
                         "<button type=\"button\" class=\"close\" data-dismiss=\"alert\">&times;</button>".
-                        "<strong>Warning!</strong> That Username has already been taken!".
+                        "<strong>Warning!</strong> $str".
                      "</div>";
                }
             ?>

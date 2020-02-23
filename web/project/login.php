@@ -33,9 +33,19 @@
          <div class="col back">
          </div>
          <div class="col-8 text-center">
+            <?php
+               if ($_SESSION['error'])
+               {
+                  $str = $_SESSION['errorStr'];
+                  echo "<div class=\"alert alert-danger alert-dismissible\">".
+                        "<button type=\"button\" class=\"close\" data-dismiss=\"alert\">&times;</button>".
+                        "<strong>Warning!</strong> $str".
+                     "</div>";
+               }
+            ?>
             <form action="index.php" method="post">
                Username:<br>
-               <input type="text" name="firstname" id="firstname"><br>
+               <input type="text" name="username" id="username"><br>
                Password:<br>
                <input type="password" name="pass" id="pass"><br><br>
 
