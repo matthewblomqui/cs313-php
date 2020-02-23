@@ -32,7 +32,7 @@
          <div class="col back">
          </div>
          <div class="col-8 text-center">
-            <form action="verify.php" method="post">
+            <form action="index.php" method="post">
                Username:<br>
                <input type="text" name="firstname" id="firstname"><br>
                Password:<br>
