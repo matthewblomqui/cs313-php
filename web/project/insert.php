@@ -22,7 +22,7 @@ for ($i=0; $i < 808; $i++) {
    {
       $t = $types[$index][1];
       $tt = $map[$t];
-      echo $num.' '.$t.' '.$tt'<br>';
+      echo $num.' '.$t.' '.$tt.'<br>';
       $index++;
       $num = $types[$index][0];
    }
