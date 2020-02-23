@@ -8,25 +8,29 @@ $map = array(1=>"normal",2=>"fighting",3=>"flying",4=>"poison",
              13=>"electric",14=>"psychic",15=>"ice",16=>"dragon",
              17=>"dark",18=>"fairy");
 
+$list = array();
 
+echo "name,type_1,type_2,pokedex<br>";
 $index = 1;
-for ($i=0; $i < 808; $i++) { 
+for ($i=1; $i < 808; $i++) { 
    # code...
 
    $id = $pokemon[$i][0];
    $name = $pokemon[$i][1];
    
-   echo $id.' '.$name;
+   echo $name;
+   //echo $id.' '.$name;
    $num = $types[$index][0];
    while($num == $i)
    {
       $t = $types[$index][1];
       $tt = $map[$t];
-      echo ' '.$t.' '.$tt;
+      echo ','.$t;
+      //echo ' '.$t.' '.$tt;
       $index++;
       $num = $types[$index][0];
    }
-   echo '<br>';
+   echo ','.$id.'<br>';
    
 }
 
