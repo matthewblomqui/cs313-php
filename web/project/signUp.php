@@ -21,8 +21,8 @@
       <link rel="stylesheet" href="prove.css">
    </head>
    <script>
-      function new_user() {
-         window.location.replace('signUp.php');
+      function login() {
+         window.location.replace('login.php');
       }
    </script>
    <body>
@@ -52,6 +52,7 @@
 
                <input type="submit" name="create" value="Create"><br><br>
             </form>
+            <input type="button" name="login" value="Login" onclick="login()"><br><br>
          </div>
          <div class="col back">
          </div>
