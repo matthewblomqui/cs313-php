@@ -10,7 +10,7 @@ for ($i=0; $i < 807; $i++) {
    $id = $csv[$i][0];
    $name = $csv[$i][1];
    
-   echo $id.' '.$name.'\n';
+   echo $id.' '.$name.'<br>';
 }
 
 ?>
