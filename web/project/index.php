@@ -42,7 +42,7 @@
                }
             ?>
             <a href="teamBuilder.php" class="btn btn-primary">Team Builder</a>
-
+            <br><br><br><br>
          </div>
          <div class="col back">
          </div>
