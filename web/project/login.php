@@ -24,7 +24,6 @@
       }
    </script>
    <body>
-      <h3><?php echo $_SESSION['errorStr']; ?></h3>
       <div class="row pt-3 pb-3 pokeDark text-warning">
          <h2 class="text-center col">Pokemon Battle Simulator</h2>
       </div>
@@ -39,7 +38,7 @@
                Password:<br>
                <input type="password" name="pass" id="pass"><br><br>
 
-               <input type="submit" name="log_in" value="Log In"><br><br>
+               <input type="submit" name="login" value="Log In"><br><br>
             </form>
             <input type="button" name="new_user" value="Create New User" onclick="new_user()"><br><br>
          </div>
