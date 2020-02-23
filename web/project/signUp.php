@@ -52,7 +52,7 @@
 
                <input type="submit" name="create" value="Create"><br><br>
             </form>
-            <input type="button" name="login" value="Login" onclick="login()"><br><br>
+            <input type="button" name="login" value="Log In" onclick="login()"><br><br>
          </div>
          <div class="col back">
          </div>
