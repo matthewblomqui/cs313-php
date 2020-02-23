@@ -36,7 +36,7 @@
          </div>
          <div class="col-8 text-center">
             <?php
-               if ($_SESSION['errorStr'] == 'taken')
+               if ($_SESSION['errorStr'] === "taken")
                {
                   echo "<div class=\"alert alert-danger alert-dismissible\">".
                         "<button type=\"button\" class=\"close\" data-dismiss=\"alert\">&times;</button>".
