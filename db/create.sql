@@ -29,3 +29,9 @@ CREATE TABLE teamset
 ,  team_id     INT REFERENCES team(id)
 ,  pokemon_id  INT REFERENCES pokemon(id)
 );
+
+CREATE TABLE pokeUser
+( id              SERIAL        NOT NULL PRIMARY KEY
+, username        VARCHAR (50)  NOT NULL UNIQUE
+, userpassword    VARCHAR (1000)  NOT NULL
+);
