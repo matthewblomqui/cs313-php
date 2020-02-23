@@ -16,16 +16,17 @@ for ($i=0; $i < 808; $i++) {
    $id = $pokemon[$i][0];
    $name = $pokemon[$i][1];
    
-   echo $id.' '.$name.'<br>';
+   echo $id.' '.$name;
    $num = $types[$index][0];
    while($num == $i)
    {
       $t = $types[$index][1];
       $tt = $map[$t];
-      echo $num.' '.$t.' '.$tt.'<br>';
+      echo ' '.$t.' '.$tt;
       $index++;
       $num = $types[$index][0];
    }
+   echo '<br>';
    
 }
 
