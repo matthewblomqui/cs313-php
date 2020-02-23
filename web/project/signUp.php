@@ -35,10 +35,15 @@
          <div class="col back">
          </div>
          <div class="col-8 text-center">
-            <div class="alert alert-danger alert-dismissible">
-               <button type="button" class="close" data-dismiss="alert">&times;</button>
-               <strong>Warning!</strong> That Username has already been taken!
-            </div>
+            <?php
+               if ($_SESSION['errorStr'] == 'taken')
+               {
+                  echo "<div class=\"alert alert-danger alert-dismissible\">".
+                        "<button type=\"button\" class=\"close\" data-dismiss=\"alert\">&times;</button>".
+                        "<strong>Warning!</strong> That Username has already been taken!".
+                     "</div>";
+               }
+            ?>
             <form action="post_user.php" method="post">
                Username:<br>
                <input type="text" name="username" id="username"><br>
