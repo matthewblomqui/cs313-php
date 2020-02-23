@@ -2,8 +2,8 @@
 
 $csv = array_map('str_getcsv', file('pokemon.csv'));
 
-//var_dump($csv);
 
-echo $cvs[0][1];
+echo $cvs[0][0];
+var_dump($csv);
 
 ?>
