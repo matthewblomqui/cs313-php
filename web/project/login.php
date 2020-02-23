@@ -43,7 +43,7 @@
                      "</div>";
                }
             ?>
-            <form action="index.php" method="post">
+            <form action="verify.php" method="post">
                Username:<br>
                <input type="text" name="username" id="username"><br>
                Password:<br>
