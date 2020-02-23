@@ -19,6 +19,8 @@ $statement->execute();
 $row = $statement->fetch(PDO::FETCH_ASSOC);
 
 if (!isset($row['id'])) {
+   $_SESSION['errorStr'] = "Wrong username or password. Try again!";
+   $_SESSION['error'] = TRUE;
    header('Location: ' . $url);
    die();
 }
