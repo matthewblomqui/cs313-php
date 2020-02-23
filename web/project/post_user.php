@@ -24,7 +24,7 @@
       die();
    }
 
-   $inserStatement = $db->prepare("INSERT INTO ta07_user (username, userpassword) VALUES(:name, :hash)");
+   $inserStatement = $db->prepare("INSERT INTO pokeUser (username, userpassword) VALUES(:name, :hash)");
    $inserStatement->bindValue(':name', $name);
    $inserStatement->bindValue(':hash', $hash);
    $inserStatement->execute();
