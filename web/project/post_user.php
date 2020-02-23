@@ -30,6 +30,8 @@
    $inserStatement->bindValue(':hash', $hash);
    $inserStatement->execute();
 
+   $_SESSION['errorStr'] = "";
+   $_SESSION['error'] = FALSE;
    header('Location: ' . $url);
    die();
 ?>
