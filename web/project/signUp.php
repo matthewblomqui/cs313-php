@@ -32,6 +32,10 @@
          <div class="col back">
          </div>
          <div class="col-8 text-center">
+            <div class="alert alert-warning alert-dismissible">
+               <button type="button" class="close" data-dismiss="alert">&times;</button>
+               <strong>Warning!</strong> That Username has already been taken!
+            </div>
             <form action="post_user.php" method="post">
                Username:<br>
                <input type="text" name="username" id="username"><br>
