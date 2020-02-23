@@ -21,7 +21,8 @@ for ($i=0; $i < 808; $i++) {
    while($num == $i)
    {
       $t = $types[$index][1];
-      echo $num.' '.$t.'<br>';
+      $tt = $map[$t];
+      echo $num.' '.$t.' '.$tt'<br>';
       $index++;
       $num = $types[$index][0];
    }
