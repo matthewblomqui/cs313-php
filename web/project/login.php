@@ -2,8 +2,6 @@
        session_start();
        require 'dbConnect.php';
        $db = get_db();
-       $_SESSION['errorStr'] = "";
-       $_SESSION['error'] = FALSE;
 ?>
 
 <!DOCTYPE html>
