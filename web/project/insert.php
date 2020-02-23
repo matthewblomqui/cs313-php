@@ -3,9 +3,14 @@
 $csv = array_map('str_getcsv', file('pokemon.csv'));
 
 
-$id = $csv[1][0];
-$name = $csv[1][1];
 
-echo $id.' '.$name;
+for ($i=0; $i < 807; $i++) { 
+   # code...
+
+   $id = $csv[$i][0];
+   $name = $csv[$i][1];
+   
+   echo $id.' '.$name.'\n';
+}
 
 ?>
