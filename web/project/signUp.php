@@ -40,7 +40,6 @@
 
                <input type="submit" name="create" value="Create"><br><br>
             </form>
-            <input type="button" name="new_user" value="Create New User" onclick="new_user()"><br><br>
          </div>
          <div class="col back">
          </div>
