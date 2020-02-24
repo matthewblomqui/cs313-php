@@ -1,6 +1,5 @@
 <?php
    session_start();
-   session_unset();
    require 'dbConnect.php';
    $db = get_db();
 ?>
@@ -30,7 +29,8 @@
          <div class="col-8 text-center">
             
             <br>
-            <?php
+            <h4>User Id:<?php echo $_SESSION['userId'];?></h4>
+            <!-- <?php
                $pokemon = $db->prepare("SELECT * FROM pokemon");
                $pokemon->execute();
 
@@ -59,7 +59,7 @@
                   }
                   echo "<h3><b>Name:</b> $name <b>Type:</b> $type_1 $type_2</h3>";
                }
-            ?>
+            ?> -->
             <a href="teamBuilder.php" class="btn btn-primary">Team Builder</a>
             <br><br><br><br><br><br>
          </div>
