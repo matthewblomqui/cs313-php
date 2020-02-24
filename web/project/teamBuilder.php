@@ -32,7 +32,11 @@
                <br>
 
                <h2>Make Team</h2>
-               <input type="text" name="team_name" placeholder="Team Name"><br>
+               <input type="text" name="team_name" placeholder="Team Name">
+               <ul id="team_list">
+
+               </ul>
+               <br>
 
                <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
                <br>
