@@ -7,5 +7,6 @@
 //    });
 // });
 
-$('.mdb-select').materialSelect({
+$(document).ready(function() {
+   $('.mdb-select').materialSelect();
 });
