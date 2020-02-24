@@ -26,12 +26,7 @@
             <div class="container">
                <br>
                <div class="row">
-                  <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
-                  <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
-                  <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
-                  <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
-                  <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
-                  <button type="button" class="col btn-lg btn-outline-danger btn-rounded waves-effect">+</button>
+                  <button type="button" class="btn btn-danger">Return to Teams</button>
                </div>
                <br>
                <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
