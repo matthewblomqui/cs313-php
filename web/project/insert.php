@@ -13,12 +13,12 @@ $list = array();
 //echo "name,type_1,type_2,pokedex<br>";
 $index = 1;
 for ($i=1; $i < 808; $i++) { 
-   echo "INSERT INTO pokemon (name,type_1,type_2,pokedex) VALUES (";
+   echo "INSERT INTO pokemon (name,type_1,type_2,pokedex) VALUES ('";
    $arr = array();
    $id = $pokemon[$i][0];
    $name = $pokemon[$i][1];
    
-   echo $name;
+   echo $name."'";
    array_push($arr,$name);
    //echo $id.' '.$name;
    $num = $types[$index][0];
