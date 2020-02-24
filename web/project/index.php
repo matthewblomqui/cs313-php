@@ -47,7 +47,7 @@
                      if ($pRow = $pokemon->fetch(PDO::FETCH_ASSOC))
                      {
                         $name = $pRow['name'];
-                        echo "<h6>$name";
+                        echo "<h6>$name</h6>";
                      }
                   }
                }
