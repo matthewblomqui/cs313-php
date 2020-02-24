@@ -40,9 +40,18 @@ for ($i=1; $i < 808; $i++) {
    }
    echo ','.$id.'<br>';
    array_push($arr,$id);
-   var_dump($arr);
+   //var_dump($arr);
    echo '<br>';
+   array_push($list,$arr);
    
 }
+
+// $file = open("pokdex.csv","w");
+
+// foreach ($list as $line) {
+//    fputcsv($file, $line);
+// }
+
+// fclose($file);
 
 ?>
