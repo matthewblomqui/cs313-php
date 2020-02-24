@@ -4,11 +4,9 @@ CREATE TABLE types
 ,  type_id     INT         NOT NULL UNIQUE
 );
 
-\i types.sql;
-
 CREATE TABLE pokemon
 (  id       SERIAL         NOT NULL PRIMARY KEY
-,  name     VARCHAR(15)    NOT NULL
+,  name     VARCHAR(50)    NOT NULL
 ,  type_1   INT            NOT NULL REFERENCES types (type_id)
 ,  type_2   INT                     REFERENCES types (type_id)
 ,  pokedex  INT            NOT NULL

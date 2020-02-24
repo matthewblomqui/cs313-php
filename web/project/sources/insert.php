@@ -1,5 +1,9 @@
 <?php
 
+// https://github.com/PokeAPI/pokeapi/blob/master/data/v2/csv/pokemon_types.csv
+// https://github.com/PokeAPI/pokeapi/blob/master/data/v2/csv/pokemon.csv
+// Help with making my sql insert statements was from these two csv's
+
 $pokemon = array_map('str_getcsv', file('pokemon.csv'));
 $types = array_map('str_getcsv', file('types.csv'));
 $map = array(1=>"normal",2=>"fighting",3=>"flying",4=>"poison",
