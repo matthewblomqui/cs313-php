@@ -13,11 +13,12 @@ $list = array();
 echo "name,type_1,type_2,pokedex<br>";
 $index = 1;
 for ($i=1; $i < 808; $i++) { 
-
+   $arr = array();
    $id = $pokemon[$i][0];
    $name = $pokemon[$i][1];
    
    echo $name;
+   array_push($arr,$name);
    //echo $id.' '.$name;
    $num = $types[$index][0];
    $slot = $types[$index][2];
@@ -26,16 +27,21 @@ for ($i=1; $i < 808; $i++) {
       $t = $types[$index][1];
       $tt = $map[$t];
       echo ','.$t;
+      array_push($arr,$t);
       //echo ' '.$t.' '.$tt;
       $index++;
       $num = $types[$index][0];
       if ($slot == $types[$index][2])
       {
          echo ',';
+         array_push($arr,"");
       }
       $slot = $types[$index][2];
    }
    echo ','.$id.'<br>';
+   array_push($arr,$id);
+   var_dump($arr);
+   echo '<br>';
    
 }
 
