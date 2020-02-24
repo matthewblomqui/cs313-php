@@ -31,6 +31,24 @@
             
             <br>
             <h4>User Id:<?php echo $_SESSION['userId'];?></h4>
+            <?php
+               $team = $db->prepare("SELECT * FROM team WHERE user_id = $_SESSION['userId']");
+               $team->execute();
+
+               while ($row = $team->fetch(PDO::FETCH_ASSOC))
+               {
+                  echo "<h4>Team:$row['name']</h4>";
+                  for ($i=1; $i < 7; $i++) { 
+                     $pokemon = $db->prepare("SELECT * FROM pokemon WHERE pokedex = pokemon_$i");
+                     $pokemon->execute();
+                     if ($pRow = $pokemon->fetch(PDO::FETCH_ASSOC))
+                     {
+                        echo "<h6>$pRow['name']</h6>";
+                     }
+                     
+                  }
+               }
+            ?>
             <!-- <?php
                $pokemon = $db->prepare("SELECT * FROM pokemon");
                $pokemon->execute();
