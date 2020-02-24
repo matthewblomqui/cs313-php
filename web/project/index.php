@@ -39,6 +39,8 @@
                   $name = $row["name"];
                   $type = $row["type_1"];
                   $sub_type = $row["type_2"];
+                  $type_1 = NULL;
+                  $type_2 = NULL;
 
                   $types = $db->prepare("SELECT type_name FROM types WHERE type_id = $type");
                   $types->execute();
@@ -46,11 +48,14 @@
                   {
                      $type_1 = $a_type['type_name'];
                   }
-                  $types = $db->prepare("SELECT type_name FROM types WHERE type_id = $sub_type");
-                  $types->execute();
-                  if ($a_type = $types->fetch(PDO::FETCH_ASSOC))
+                  if ($sub_type != NULL)
                   {
-                     $type_2 = $a_type['type_name'];
+                     $types = $db->prepare("SELECT type_name FROM types WHERE type_id = $sub_type");
+                     $types->execute();
+                     if ($a_type = $types->fetch(PDO::FETCH_ASSOC))
+                     {
+                        $type_2 = $a_type['type_name'];
+                     }
                   }
                   echo "<h3><b>Name:</b> $name <b>Type:</b> $type_1 $type_2</h3>";
                }
