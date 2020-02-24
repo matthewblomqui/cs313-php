@@ -2,6 +2,7 @@
    session_start();
    require 'dbConnect.php';
    $db = get_db();
+   $id = $_SESSION['userId'];
 ?>
 
 <!DOCTYPE html>
@@ -30,9 +31,9 @@
          <div class="col-8 text-center">
             
             <br>
-            <h4>User Id:<?php echo $_SESSION['userId'];?></h4>
+            <h4>User Id:<?php echo $id;?></h4>
             <?php
-               $team = $db->prepare("SELECT * FROM team WHERE user_id = $_SESSION['userId']");
+               $team = $db->prepare("SELECT * FROM team WHERE user_id = $id");
                $team->execute();
 
                while ($row = $team->fetch(PDO::FETCH_ASSOC))
