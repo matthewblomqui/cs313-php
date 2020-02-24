@@ -31,14 +31,12 @@
                </div>
                <br>
 
-               <select class="mdb-select md-form colorful-select dropdown-primary">
+               <select class="mdb-select md-form">
+                  <option value="" disabled selected>Choose your option</option>
                   <option value="1">Option 1</option>
                   <option value="2">Option 2</option>
                   <option value="3">Option 3</option>
-                  <option value="4">Option 4</option>
-                  <option value="5">Option 5</option>
                </select>
-               <label class="mdb-main-label">Blue select</label>
 
                <!-- <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
                <br>
@@ -51,7 +49,7 @@
          <div class="col back">
          </div>
       </div>
-      
+
       <?php include '../footer.php';?>
    </body>
 </html>
