@@ -37,12 +37,10 @@
                while ($row = $pokemon->fetch(PDO::FETCH_ASSOC))
                {
                   $name = $row["name"];
-                  $type = $row["type"];
-                  $sub_type = $row["sub_type"];
-                  $ability = $row["ability"];
-                  $nature = $row["nature"];
+                  $type = $row["type_1"];
+                  $sub_type = $row["type_2"];
 
-                  echo "<h3><b>Name:</b> $name <b>Type:</b> $type $sub_type <b>Ability:</b> $ability <b>Nature:</b> $nature</h3>";
+                  echo "<h3><b>Name:</b> $name <b>Type:</b> $type $sub_type</h3>";
                }
             ?>
             <a href="teamBuilder.php" class="btn btn-primary">Team Builder</a>
