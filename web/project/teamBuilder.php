@@ -29,11 +29,36 @@
                   <button type="button" class="btn btn-success waves-effect ml-auto mr-3">Add to Teams</button>
                </div>
                <br>
-               <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
+
+               <select class="mdb-select md-form colorful-select dropdown-primary" searchable="Search here..">
+                  <option value="1">Option 1</option>
+                  <option value="2">Option 2</option>
+                  <option value="3">Option 3</option>
+                  <option value="4">Option 4</option>
+                  <option value="5">Option 5</option>
+               </select>
+
+               <label class="mdb-main-label">Example label</label>
+
+               <select class="mdb-select" searchable="Search here..">
+                  <option value="1" disabled selected>Choose your option</option>
+                  <option value="2" data-icon="https://mdbootstrap.com/img/Photos/Avatars/avatar-1.jpg" class="rounded-circle">
+                     example
+                     1</option>
+                  <option value="3" data-icon="https://mdbootstrap.com/img/Photos/Avatars/avatar-2.jpg" class="rounded-circle">
+                     example
+                     2</option>
+                  <option value="4" data-icon="https://mdbootstrap.com/img/Photos/Avatars/avatar-3.jpg" class="rounded-circle">
+                     example
+                     1</option>
+               </select>
+
+
+               <!-- <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
                <br>
                <ul class="list-group" id="list">
                   <?php include 'pokiApi.php';?>
-               </ul>
+               </ul> -->
                <br><br><br><br><br><br>
             </div>
          </div>
