@@ -37,13 +37,15 @@
 
                while ($row = $team->fetch(PDO::FETCH_ASSOC))
                {
-                  echo "<h4>Team:$row['name']</h4>";
+                  $tm = $row['name'];
+                  echo "<h4>Team:$tm</h4>";
                   for ($i=1; $i < 7; $i++) { 
                      $pokemon = $db->prepare("SELECT * FROM pokemon WHERE pokedex = pokemon_$i");
                      $pokemon->execute();
                      if ($pRow = $pokemon->fetch(PDO::FETCH_ASSOC))
                      {
-                        echo "<h6>$pRow['name']</h6>";
+                        $name = $pRow['name'];
+                        echo "<h6>$name";
                      }
                      
                   }
