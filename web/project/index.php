@@ -1,3 +1,10 @@
+<?php
+   session_start();
+   session_unset();
+   require 'dbConnect.php';
+   $db = get_db();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -24,9 +31,6 @@
             
             <br>
             <?php
-               require "dbConnect.php";
-               $db = get_db();
-
                $pokemon = $db->prepare("SELECT * FROM pokemon");
                $pokemon->execute();
 
