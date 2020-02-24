@@ -40,7 +40,19 @@
                   $type = $row["type_1"];
                   $sub_type = $row["type_2"];
 
-                  echo "<h3><b>Name:</b> $name <b>Type:</b> $type $sub_type</h3>";
+                  $types = $db->prepare("SELECT type_name FROM types WHERE type_id = $type");
+                  $types->execute();
+                  if ($a_type = $types->fetch(PDO::FETCH_ASSOC))
+                  {
+                     $type_1 = $a_type['type_name'];
+                  }
+                  $types = $db->prepare("SELECT type_name FROM types WHERE type_id = $sub_type");
+                  $types->execute();
+                  if ($a_type = $types->fetch(PDO::FETCH_ASSOC))
+                  {
+                     $type_2 = $a_type['type_name'];
+                  }
+                  echo "<h3><b>Name:</b> $name <b>Type:</b> $type_1 $type_2</h3>";
                }
             ?>
             <a href="teamBuilder.php" class="btn btn-primary">Team Builder</a>
