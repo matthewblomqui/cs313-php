@@ -26,7 +26,7 @@
             <div class="container">
                <br>
                <div class="row">
-                  <button type="button" class="btn btn-danger waves-effect ml-3">Return to Teams</button>
+                  <button type="button" class="btn btn-danger waves-effect ml-3" onclick="teams()">Return to Teams</button>
                   <button type="button" class="btn btn-success waves-effect ml-auto mr-3">Add to Teams</button>
                </div>
                <br>

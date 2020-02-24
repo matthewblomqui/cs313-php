@@ -11,6 +11,10 @@ $(document).ready(function(){
    })
 });
 
+function teams() {
+   window.location.replace('index.php');
+}
+
 
 // $(document).ready(function(){
 //    $("button").click(function(){
