@@ -10,7 +10,8 @@ $map = array(1=>"normal",2=>"fighting",3=>"flying",4=>"poison",
 
 $list = array();
 
-echo "name,type_1,type_2,pokedex<br>";
+//echo "name,type_1,type_2,pokedex<br>";
+echo "INSERT INTO pokemon (name,type_1,type_2,pokedex) VALUES (";
 $index = 1;
 for ($i=1; $i < 808; $i++) { 
    $arr = array();
@@ -38,7 +39,8 @@ for ($i=1; $i < 808; $i++) {
       }
       $slot = $types[$index][2];
    }
-   echo ','.$id.'<br>';
+   echo ','.$id;
+   echo ");".'<br>';
    array_push($arr,$id);
    //var_dump($arr);
    array_push($list,$arr);

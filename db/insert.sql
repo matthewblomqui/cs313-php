@@ -19,41 +19,43 @@ INSERT INTO types (type_name, type_id) VALUES ('fairy',18);
 
 INSERT INTO pokeUser (username, userpassword) VALUES ('admin','admin');
 
-INSERT INTO pokemon (   name
-                     ,  type_1
-                     ,  type_2
-                     ,  pokedex) 
-              VALUES (  'Lucario'
-                     ,  2
-                     ,  9
-                     ,  448);
+COPY pokemon FROM 'pokedex.csv' DELIMITERS ',' CSV;
 
-INSERT INTO pokemon (   name
-                     ,  type_1
-                     ,  type_2
-                     ,  pokedex) 
-              VALUES ( 'Gengar'
-                     ,  8
-                     ,  4
-                     ,  94); 
+-- INSERT INTO pokemon (   name
+--                      ,  type_1
+--                      ,  type_2
+--                      ,  pokedex) 
+--               VALUES (  'Lucario'
+--                      ,  2
+--                      ,  9
+--                      ,  448);
 
-INSERT INTO pokemon (   name
-                     ,  type_1
-                     ,  type_2
-                     ,  pokedex) 
-              VALUES ( 'Gardevoir'
-                     ,  14
-                     ,  18
-                     ,  282); 
+-- INSERT INTO pokemon (   name
+--                      ,  type_1
+--                      ,  type_2
+--                      ,  pokedex) 
+--               VALUES ( 'Gengar'
+--                      ,  8
+--                      ,  4
+--                      ,  94); 
+
+-- INSERT INTO pokemon (   name
+--                      ,  type_1
+--                      ,  type_2
+--                      ,  pokedex) 
+--               VALUES ( 'Gardevoir'
+--                      ,  14
+--                      ,  18
+--                      ,  282); 
    
-INSERT INTO pokemon (   name
-                     ,  type_1
-                     ,  type_2
-                     ,  pokedex) 
-              VALUES (  'Charizard'
-                     ,  10
-                     ,  3
-                     ,  6); 
+-- INSERT INTO pokemon (   name
+--                      ,  type_1
+--                      ,  type_2
+--                      ,  pokedex) 
+--               VALUES (  'Charizard'
+--                      ,  10
+--                      ,  3
+--                      ,  6); 
 
 INSERT INTO team (name, user_id) VALUES ('TEAM BOSS',1);
 
