@@ -6,7 +6,8 @@
 //       });
 //    });
 // });
-
-$(document).ready(function() {
-   $('.mdb-select').materialSelect();
+$(document).ready(function(){
+   $("button").click(function(){
+       $("#menu").append('<li><a href="#">New list item</a></li>');
+   });
 });

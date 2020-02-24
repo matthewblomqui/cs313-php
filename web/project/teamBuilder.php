@@ -31,12 +31,12 @@
                </div>
                <br>
 
-               <select class="mdb-select md-form">
-                  <option value="" disabled selected>Choose your option</option>
-                  <option value="1">Option 1</option>
-                  <option value="2">Option 2</option>
-                  <option value="3">Option 3</option>
-               </select>
+               <ul id="menu">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+               </ul>
+               <button type="button">Add New LI Element</button>
 
                <!-- <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
                <br>
