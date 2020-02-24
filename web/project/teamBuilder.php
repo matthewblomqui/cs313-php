@@ -8,7 +8,6 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-      <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
       <title>Pokemon Battle Simulator</title>
       <link rel="stylesheet" href="prove.css">
@@ -26,8 +25,8 @@
             <div class="container">
                <br>
                <div class="row">
-                  <button type="button" class="btn btn-danger ml-3">Return to Teams</button>
-                  <button type="button" class="btn btn-success ml-auto mr-3">Add to Teams</button>
+                  <button type="button" class="btn btn-danger waves-effect ml-3">Return to Teams</button>
+                  <button type="button" class="btn btn-success waves-effect ml-auto mr-3">Add to Teams</button>
                </div>
                <br>
                <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
