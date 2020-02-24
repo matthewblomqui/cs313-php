@@ -31,18 +31,14 @@
                </div>
                <br>
 
-               <ul id="menu">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Services</a></li>
-               </ul>
-               <button type="button">Add New LI Element</button>
+               <h2>Make Team</h2>
+               <input type="text" name="team_name" placeholder="Team Name"><br>
 
-               <!-- <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
+               <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
                <br>
                <ul class="list-group" id="list">
                   <?php include 'pokiApi.php';?>
-               </ul> -->
+               </ul>
                <br><br><br><br><br><br>
             </div>
          </div>
