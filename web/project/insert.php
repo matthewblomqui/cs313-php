@@ -34,7 +34,7 @@ for ($i=1; $i < 808; $i++) {
       $num = $types[$index][0];
       if ($slot == $types[$index][2])
       {
-         echo ',';
+         echo ',NULL';
          array_push($arr,"");
       }
       $slot = $types[$index][2];
