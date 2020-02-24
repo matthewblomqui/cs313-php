@@ -1,27 +1,25 @@
-INSERT INTO pokeUser (username, userpassword) VALUES ('admin','admin');
-
 \i types.sql;
 
 \i pokedex.sql;
 
-INSERT INTO team (name, user_id) VALUES ('TEAM BOSS',1);
+-- INSERT INTO team (name, user_id) VALUES ('TEAM BOSS',1);
 
-INSERT INTO teamset (       team_id
-                     ,      pokemon_id)
-              VALUES (      1
-                     ,      1);
-INSERT INTO teamset (       team_id
-                     ,      pokemon_id)
-              VALUES (      1
-                     ,      2);
-INSERT INTO teamset (       team_id
-                     ,      pokemon_id)
-              VALUES (      1
-                     ,      3);
-INSERT INTO teamset (       team_id
-                     ,      pokemon_id)
-              VALUES (      1
-                     ,      4);
+-- INSERT INTO teamset (       team_id
+--                      ,      pokemon_id)
+--               VALUES (      1
+--                      ,      1);
+-- INSERT INTO teamset (       team_id
+--                      ,      pokemon_id)
+--               VALUES (      1
+--                      ,      2);
+-- INSERT INTO teamset (       team_id
+--                      ,      pokemon_id)
+--               VALUES (      1
+--                      ,      3);
+-- INSERT INTO teamset (       team_id
+--                      ,      pokemon_id)
+--               VALUES (      1
+--                      ,      4);
 
 -- INSERT INTO pokemon (   name
 --                      ,  type_1
