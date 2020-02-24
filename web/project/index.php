@@ -42,6 +42,7 @@
                   echo "<h4>Team: $tm</h4>";
                   for ($i=1; $i < 7; $i++) {
                      $str = "pokemon_".$i;
+                     $str = $row[$str];
                      $pokemon = $db->prepare("SELECT * FROM pokemon WHERE pokedex = $str");
                      $pokemon->execute();
                      if ($pRow = $pokemon->fetch(PDO::FETCH_ASSOC))
