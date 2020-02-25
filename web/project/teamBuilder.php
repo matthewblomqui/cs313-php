@@ -26,8 +26,7 @@
             <div class="container">
                <br>
                <div class="row">
-                  <button type="button" class="btn btn-danger waves-effect ml-3" onclick="teams()">Return to Teams</button>
-                  <button type="button" class="btn btn-success waves-effect ml-auto mr-3">Add to Teams</button>
+                  <button type="button" class="btn btn-danger btn-block" onclick="teams()">Return to Teams</button>
                </div>
                <br>
 
@@ -38,7 +37,7 @@
                      <span class="input-group-text">Team Name</span>
                   </div>
                   <input type="text" class="form-control">
-                  <button class="btn btn-primary" type="button">OK</button>
+                  <button class="btn btn-success" type="button">Add Team</button>
                   </div>
                   <div class="container mt-3">
                      <select name="cars" class="custom-select input-group mb-3">
