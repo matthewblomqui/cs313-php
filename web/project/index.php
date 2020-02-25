@@ -63,7 +63,7 @@
                         </div>
                      </td>
                      <td>Team Boss</td>
-                     <td><img style="width:48px; height:auto;" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png">Lucario</td>
+                     <td><span style="background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?g8) no-repeat scroll -160px -1110px"></span>Lucario</td>
                      <td>Gengar</td>
                      <td>Blaziken</td>
                      <td>Marshadow</td>
