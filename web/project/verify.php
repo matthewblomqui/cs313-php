@@ -13,7 +13,7 @@ $_SESSION['error'] = FALSE;
 $name = $_POST['username'];
 $pass = $_POST['pass'];
 
-$statement = $db->prepare("SELECT id, userpassword FROM pokeuser WHERE username = :name");
+$statement = $db->prepare("SELECT * FROM pokeuser WHERE username = :name");
 $statement->bindValue(':name', $name);
 $statement->execute();
 $row = $statement->fetch(PDO::FETCH_ASSOC);
@@ -33,6 +33,7 @@ if (password_verify($pass, $passwordHash)) {
    // Correct Password
 
    $_SESSION['userId'] = $row['id'];
+   $_SESSION['username'] = $row['username'];
    $url = 'index.php';
 }
 
