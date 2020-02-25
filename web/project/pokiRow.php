@@ -24,7 +24,7 @@
                "</div>".
             "</td>";
       
-      for ($i=0; $i < 6; $i++) { 
+      for ($i=1; $i < 7; $i++) { 
          $str = 'pokemon_'+$i;
          $poke = $row[$str];
          $pokemon = $db->prepare("SELECT * FROM pokemon WHERE pokedex = $poke");
