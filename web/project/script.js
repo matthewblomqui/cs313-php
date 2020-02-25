@@ -14,6 +14,7 @@ function teams() {
 
 
 $(document).ready(function(){
+   var dex = [];
 
    function get_csv() {
       csv = "";
@@ -32,7 +33,6 @@ $(document).ready(function(){
    }
    
    function processData(allText) {
-      console.log(allText);
        var allTextLines = allText.split(/\r\n|\n/);
        var headers = allTextLines[0].split(',');
        var lines = [];
@@ -49,7 +49,8 @@ $(document).ready(function(){
            }
        }
    //console.log(lines);
-   return lines;
+   dex = lines;
+   console.log(dex);
    }
 
 
@@ -64,7 +65,6 @@ $(document).ready(function(){
    $("#p_1").change(function() {
       //alert($("#p_1").text());
       var data = get_csv();
-      console.log(data);
       var pokedex = $("#p_1").val();
       var str = "";
       str = str.concat("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/",pokedex,".png");
