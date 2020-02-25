@@ -44,6 +44,7 @@
                <table class="table table-hover">
                   <thead>
                      <tr>
+                     <th></th>
                      <th>Team Name</th>
                      <th>Pokemon 1</th>
                      <th>Pokemon 2</th>
@@ -55,6 +56,12 @@
                   </thead>
                   <tbody>
                      <tr>
+                     <td>  
+                        <div class="custom-control custom-checkbox">
+                           <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                           <label class="custom-control-label" for="customCheck">Check this custom checkbox</label>
+                        </div>
+                     </td>
                      <td>John</td>
                      <td>Doe</td>
                      <td>john@example.com</td>
