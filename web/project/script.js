@@ -28,10 +28,11 @@ $(document).ready(function(){
             processData(data);
          }
       });
-      console.log(csv);
+      
    }
    
    function processData(allText) {
+      console.log(allText);
        var allTextLines = allText.split(/\r\n|\n/);
        var headers = allTextLines[0].split(',');
        var lines = [];
