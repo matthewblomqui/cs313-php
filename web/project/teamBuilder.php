@@ -85,7 +85,7 @@
                         <span class="input-group-text">Team Name</span>
                      </div>
                      <input type="text" class="form-control">
-                     <button class="btn btn-success" type="button">Add Team</button>
+                     <button class="btn btn-success" type="submit">Add Team</button>
                   </div>
                   <div class="container mt-3">
                      <select name="pokemon_1" id="p_1" class="custom-select input-group mb-3">
