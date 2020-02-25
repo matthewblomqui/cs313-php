@@ -56,7 +56,7 @@ $(document).ready(function(){
 
    $("#p_1").change(function() {
       var pokedex = $("#p_1").val();
-      alert(dex[pokedex + 1][0]);
+      alert(dex[pokedex - 1][0]);
       var str = "";
       str = str.concat("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/",pokedex,".png");
       $("#preview_1").attr("src",str);
