@@ -11,6 +11,14 @@
    $p4 = $_POST['pokemon_4'];
    $p5 = $_POST['pokemon_5'];
    $p6 = $_POST['pokemon_6'];
+   echo $id.'<br>';
+   echo $team.'<br>';
+   echo $p1.'<br>';
+   echo $p2.'<br>';
+   echo $p3.'<br>';
+   echo $p4.'<br>';
+   echo $p5.'<br>';
+   echo $p6.'<br>';
 
    try
    {
