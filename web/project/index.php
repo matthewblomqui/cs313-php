@@ -70,7 +70,7 @@
                   </tbody>
                </table>
             </div>
-            <?php
+            <!-- <?php
                
                $team = $db->prepare("SELECT * FROM team WHERE user_id = $id");
                $team->execute();
@@ -87,7 +87,7 @@
                   $p6 = $row['pokemon_6'];
                   echo $p1.'<br>';
                }
-            ?>
+            ?> -->
             </form>
             <!-- <?php
                $pokemon = $db->prepare("SELECT * FROM pokemon");
