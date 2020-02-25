@@ -47,7 +47,7 @@
                      $pokemon->execute();
                      if ($pRow = $pokemon->fetch(PDO::FETCH_ASSOC))
                      {
-                        $name = $pRow['name'];
+                        $name = $pRow['team_name'];
                         echo "<h6>$name</h6>";
                      }
                   }
@@ -84,6 +84,7 @@
                }
             ?> -->
             <a href="teamBuilder.php" class="btn btn-primary">Team Builder</a>
+            <a href="" class="btn btn-primary">Remove Teams</a>
             <br><br><br><br><br><br>
          </div>
          <div class="col back">
