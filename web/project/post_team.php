@@ -22,7 +22,7 @@
    $insertStatement->bindValue(':p4',$p4);
    $insertStatement->bindValue(':p5',$p5);
    $insertStatement->bindValue(':p6',$p6);
-   $insertStatement->execute();
+   //$insertStatement->execute();
    echo "Success?";
 
    // header('Location: ' . $url);
