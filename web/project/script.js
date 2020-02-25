@@ -20,7 +20,7 @@ $(document).ready(function(){
    
    $.ajax({
       type: "POST",
-      url: "web/project/sources/pokedex.csv",
+      url: "sources/pokedex.csv",
       dataType: "text",
       data: {
          html: csv
