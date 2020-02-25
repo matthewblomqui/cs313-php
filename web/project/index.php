@@ -38,19 +38,15 @@
 
                while ($row = $team->fetch(PDO::FETCH_ASSOC))
                {
-                  $tm = $row['name'];
-                  echo "<h4>Team: $tm</h4>";
-                  for ($i=1; $i < 7; $i++) {
-                     $str = "pokemon_".$i;
-                     $str = $row[$str];
-                     $pokemon = $db->prepare("SELECT * FROM pokemon WHERE pokedex = $str");
-                     $pokemon->execute();
-                     if ($pRow = $pokemon->fetch(PDO::FETCH_ASSOC))
-                     {
-                        $name = $pRow['team_name'];
-                        echo "<h6>$name</h6>";
-                     }
-                  }
+                  $tm = $row['team_name'];
+                  echo "<h4>Team Name: $tm</h4>";
+                  $p1 = $row['pokemon_1'];
+                  $p2 = $row['pokemon_2'];
+                  $p3 = $row['pokemon_3'];
+                  $p4 = $row['pokemon_4'];
+                  $p5 = $row['pokemon_5'];
+                  $p6 = $row['pokemon_6'];
+                  echo $p1.'<br>';
                }
             ?>
             <!-- <?php
