@@ -8,6 +8,10 @@
    background-size: cover;
 }
 
+.img {
+   max-width: 100px;
+}
+
 /* body { 
    animation: fadeInAnimation ease 3s;
    animation-iteration-count: 1; 

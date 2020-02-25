@@ -33,7 +33,7 @@
                <h2 class="mt-3">Team Preview</h2>
                <div class="card-deck">
                   <div class="card bg-light">
-                     <img class="card-img-top" src="images/0.png" alt="Default">
+                     <img class="card-img-top img" src="images/0.png" alt="Default">
                      <div class="card-body">
                         <span class="type normal"></span>
                      </div>
