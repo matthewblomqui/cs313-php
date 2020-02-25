@@ -6,6 +6,7 @@ $db = get_db();
 $url = 'login.php';
 
 $_SESSION['userID'] = "";
+$_SESSION['username'] = "";
 $_SESSION['errorStr'] = "";
 $_SESSION['error'] = FALSE;
 
