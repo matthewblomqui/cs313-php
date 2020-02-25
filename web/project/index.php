@@ -3,7 +3,6 @@
    require 'dbConnect.php';
    $db = get_db();
    $id = $_SESSION['userId'];
-   $username = $_SESSION['username'];
 ?>
 
 <!DOCTYPE html>
@@ -32,7 +31,7 @@
          <div class="col-8 text-center">
             
             <br>
-            <h4>Welcome <?php echo $username;?></h4>
+            <h4>Welcome <?php echo $id;?></h4>
             <?php
                $team = $db->prepare("SELECT * FROM team WHERE user_id = $id");
                $team->execute();
