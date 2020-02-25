@@ -28,7 +28,7 @@ $(document).ready(function(){
             processData(data);
          }
       });
-      return csv;
+      return data;
    }
    
    function processData(allText) {
