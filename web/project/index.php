@@ -32,49 +32,61 @@
       </div>
 
       <div class="row pokeLight">
-         <div class="col back">
-         </div>
+         <div class="col back"></div>
+
          <div class="col-8 text-center">
-            
             <br>
             <h4>Welcome <?php echo $username.', Here are your teams';?></h4>
             <form action="" method="POST">
+               <div class="container">          
+                  <table class="table table-hover">
+                     <thead>
+                        <tr>
+                        <th></th>
+                        <th>Team Name</th>
+                        <th>Pokemon 1</th>
+                        <th>Pokemon 2</th>
+                        <th>Pokemon 3</th>
+                        <th>Pokemon 4</th>
+                        <th>Pokemon 5</th>
+                        <th>Pokemon 6</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                        <td>  
+                           <div class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                              <label class="custom-control-label" for="customCheck"></label>
+                           </div>
+                        </td>
+                        <td>Team Boss</td>
+                        <td><img style="width:48px; height:auto;" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png">Lucario</td>
+                        <td><img style="width:48px; height:auto;" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png">Gengar</td>
+                        <td><img style="width:48px; height:auto;" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png">Blaziken</td>
+                        <td><img style="width:48px; height:auto;" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/802.png">Marshadow</td>
+                        <td><img style="width:48px; height:auto;" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png">Gardevoir</td>
+                        <td><img style="width:48px; height:auto;" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png">Venusaur</td>
+                        </tr>
+                        <?php include 'pokiRow.php'; ?>
 
-            <div class="container">          
-               <table class="table table-hover">
-                  <thead>
-                     <tr>
-                     <th></th>
-                     <th>Team Name</th>
-                     <th>Pokemon 1</th>
-                     <th>Pokemon 2</th>
-                     <th>Pokemon 3</th>
-                     <th>Pokemon 4</th>
-                     <th>Pokemon 5</th>
-                     <th>Pokemon 6</th>
-                     </tr>
-                  </thead>
-                  <tbody>
-                     <tr>
-                     <td>  
-                        <div class="custom-control custom-checkbox">
-                           <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                           <label class="custom-control-label" for="customCheck"></label>
-                        </div>
-                     </td>
-                     <td>Team Boss</td>
-                     <td><img style="width:48px; height:auto;" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png">Lucario</td>
-                     <td><img style="width:48px; height:auto;" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png">Gengar</td>
-                     <td><img style="width:48px; height:auto;" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png">Blaziken</td>
-                     <td><img style="width:48px; height:auto;" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/802.png">Marshadow</td>
-                     <td><img style="width:48px; height:auto;" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png">Gardevoir</td>
-                     <td><img style="width:48px; height:auto;" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png">Venusaur</td>
-                     </tr>
-                     <!-- <?php include 'pokiRow.php'; ?> -->
+                     </tbody>
+                  </table>
+               </div>
+            </form>
+            <a href="teamBuilder.php" class="btn btn-primary">Go to Team Builder</a>
+            <a href="" class="btn btn-danger">Remove Selected Teams</a>
+            <br><br><br><br><br><br>
+         </div>
 
-                  </tbody>
-               </table>
-            </div>
+         <div class="col back"></div>
+      </div>
+      
+      <?php include '../footer.php';?>
+   </body>
+</html>
+
+
             <!-- <?php
                
                $team = $db->prepare("SELECT * FROM team WHERE user_id = $id");
@@ -93,7 +105,6 @@
                   echo $p1.'<br>';
                }
             ?> -->
-            </form>
             <!-- <?php
                $pokemon = $db->prepare("SELECT * FROM pokemon");
                $pokemon->execute();
@@ -124,14 +135,3 @@
                   echo "<h3><b>Name:</b> $name <b>Type:</b> $type_1 $type_2</h3>";
                }
             ?> -->
-            <a href="teamBuilder.php" class="btn btn-primary">Go to Team Builder</a>
-            <a href="" class="btn btn-danger">Remove Selected Teams</a>
-            <br><br><br><br><br><br>
-         </div>
-         <div class="col back">
-         </div>
-      </div>
-      
-      <?php include '../footer.php';?>
-   </body>
-</html>
