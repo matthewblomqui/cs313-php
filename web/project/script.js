@@ -25,10 +25,9 @@ $(document).ready(function(){
             html: csv
          },
          success: function(data) {
-            processData(data);
+            return processData(data);
          }
       });
-      return data;
    }
    
    function processData(allText) {
