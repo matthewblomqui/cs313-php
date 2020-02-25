@@ -11,9 +11,10 @@ function teams() {
    window.location.replace('index.php');
 }
 
-
-$("#p_1").change(function() {
-   alert("P1 was changed!");
+$(document).ready(function(){
+   $("#p_1").change(function() {
+      alert("P1 was changed!");
+   });
 });
 
 // $(document).ready(function(){

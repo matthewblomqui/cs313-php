@@ -90,24 +90,24 @@
                         <option selected disabled>Select Pokemon 1</option>
                         <?php include 'pokeSelect.php';?>
                      </select>
-                     <select name="pokemon_2" class="custom-select input-group mb-3">
-                        <option selected disabled id="p_2">Select Pokemon 2</option>
+                     <select name="pokemon_2" id="p_2" class="custom-select input-group mb-3">
+                        <option selected disabled>Select Pokemon 2</option>
                         <?php include 'pokeSelect.php';?>
                      </select>                     
-                     <select name="pokemon_3" class="custom-select input-group mb-3">
-                        <option selected disabled id="p_3">Select Pokemon 3</option>
+                     <select name="pokemon_3" id="p_3" class="custom-select input-group mb-3">
+                        <option selected disabled>Select Pokemon 3</option>
                         <?php include 'pokeSelect.php';?>
                      </select>                     
-                     <select name="pokemon_4" class="custom-select input-group mb-3">
-                        <option selected disabled id="p_4">Select Pokemon 4</option>
+                     <select name="pokemon_4" id="p_4" class="custom-select input-group mb-3">
+                        <option selected disabled>Select Pokemon 4</option>
                         <?php include 'pokeSelect.php';?>
                      </select>                     
-                     <select name="pokemon_5" class="custom-select input-group mb-3">
-                        <option selected disabled id="p_5">Select Pokemon 5</option>
+                     <select name="pokemon_5" id="p_5" class="custom-select input-group mb-3">
+                        <option selected disabled>Select Pokemon 5</option>
                         <?php include 'pokeSelect.php';?>
                      </select>                     
-                     <select name="pokemon_6" class="custom-select input-group mb-3">
-                        <option selected disabled id="p_6">Select Pokemon 6</option>
+                     <select name="pokemon_6" id="p_6" class="custom-select input-group mb-3">
+                        <option selected disabled>Select Pokemon 6</option>
                         <?php include 'pokeSelect.php';?>
                      </select>
                   </div>
