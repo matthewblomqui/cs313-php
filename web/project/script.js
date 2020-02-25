@@ -65,7 +65,7 @@ $(document).ready(function(){
       clss = clss.concat("type-",dex[pokedex - 1][1]);
       alert(clss);
       $("#type_1_1").addClass("type");
-      $("#type_1_1").addClass(clss);
+      //$("#type_1_1").addClass(clss);
    });
    $("#p_2").change(function() {
       var pokedex = $("#p_2").val();
