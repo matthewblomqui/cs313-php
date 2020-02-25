@@ -8,7 +8,7 @@
       $str = $obj['results'][$i]['name'];
       $url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/$j.png";
 
-      echo "<option value\"$str\"><img style=\"width:52px; height=100%;\" src=\"$url\">".
+      echo "<option value=\"$str\"><img style=\"width:52px; height=100%;\" src=\"$url\">".
             "<span class=\"pr-3\">$str</span>".
             "<span class=\"type normal\"></option>";
    }
