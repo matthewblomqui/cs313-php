@@ -36,7 +36,8 @@
                      <img class="card-img-top" src="images/0.png" alt="Default">
                      <div class="card-body">
                         <p>pokemon name</p>
-                        <span class="type grass poison"></span>
+                        <span class="type grass"></span>
+                        <span class="type poison"></span>
                      </div>
                   </div>
                   <div class="card bg-light">
