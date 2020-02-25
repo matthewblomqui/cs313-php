@@ -37,8 +37,8 @@ if (password_verify($pass, $passwordHash)) {
    $url = 'index.php';
 }
 
-// $_SESSION['errorStr'] = "Wrong username or password. Try again!";
-// $_SESSION['error'] = TRUE;
+$_SESSION['errorStr'] = "Wrong username or password. Try again!";
+$_SESSION['error'] = TRUE;
 header('Location: ' . $url);
 die();
 
