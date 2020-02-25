@@ -2,6 +2,8 @@
    session_start();
    require 'dbConnect.php';
    $db = get_db();
+   $id = $_SESSION['userId'];
+   echo $id.'<br>';
 ?>
 
 <!DOCTYPE html>
