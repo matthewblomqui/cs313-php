@@ -25,12 +25,13 @@
             "</td>";
       
       for ($i=0; $i < 6; $i++) { 
-         $poke = $row["pokemon_"+$i];
+         $str = 'pokemon_'+$i;
+         $poke = $row[$str];
          $pokemon = $db->prepare("SELECT * FROM pokemon WHERE pokedex = $poke");
          $pokemon->execute();
          if ($pRow = $pokemon->fetch(PDO::FETCH_ASSOC))
          {
-            echo $pRow['name'];
+            echo $pRow['name'].' ';
          }
       }
 
