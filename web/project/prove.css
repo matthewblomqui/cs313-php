@@ -8,7 +8,7 @@
    background-size: cover;
 }
 
-body { 
+/* body { 
    animation: fadeInAnimation ease 3s;
    animation-iteration-count: 1; 
    animation-fill-mode: forwards; 
@@ -21,7 +21,7 @@ body {
    100% { 
        opacity: 1; 
     } 
-} 
+}  */
 
 .pokeballGrey {
    background-image: url("https://assets.pokemon.com/static2/_ui/img/chrome/loaders/pokeball_gray.png")
