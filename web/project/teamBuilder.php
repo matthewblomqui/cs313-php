@@ -41,7 +41,7 @@
                   </div>
                   <div class="container mt-3">
                      <select name="cars" class="custom-select input-group mb-3">
-                        <option selected>Select a Pokemon 1</option>
+                        <option selected disabled>Select a Pokemon 1</option>
                         <option value="Lucario">Lucario</option>
                      </select>
                      <select name="cars" class="custom-select input-group mb-3">
