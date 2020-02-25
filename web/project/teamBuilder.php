@@ -84,7 +84,7 @@
                      <div class="input-group-prepend">
                         <span class="input-group-text">Team Name</span>
                      </div>
-                     <input type="text" class="form-control">
+                     <input type="text" name="team" class="form-control" required>
                      <button class="btn btn-success" type="submit">Add Team</button>
                   </div>
                   <div class="container mt-3">
