@@ -31,7 +31,7 @@
          <div class="col-8 text-center">
             <div class="container">
                <h2 class="mt-3">Team Preview</h2>
-               <div class="card-deck mb-3">
+               <div class="card-group mb-3">
                   <div class="card bg-light">
                      <img class="card-img-top" src="images/0.png" alt="Default">
                      <div class="card-body">
