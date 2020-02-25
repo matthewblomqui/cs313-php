@@ -62,13 +62,9 @@ $(document).ready(function(){
       str = str.concat("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/",pokedex,".png");
       $("#preview_1").attr("src",str);
       $("#name_1").text(dex[pokedex - 1][0]);
-      // alert(dex[pokedex - 1][1]);
-      clss = "";
-      clss = clss.concat("type-",dex[pokedex - 1][1]);
-      alert(clss);
       $("#type_1_1").removeClass();
       $("#type_1_1").addClass("type");
-      $("#type_1_1").addClass(clss);
+      $("#type_1_1").addClass(types[dex[pokedex - 1][1]]);
    });
    $("#p_2").change(function() {
       var pokedex = $("#p_2").val();
