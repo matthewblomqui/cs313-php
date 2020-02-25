@@ -28,6 +28,7 @@ $(document).ready(function(){
             processData(data);
          }
       });
+      console.log(csv);
    }
    
    function processData(allText) {
