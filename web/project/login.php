@@ -75,7 +75,7 @@
             </form>
             <div class="row">
                <div class="col-3"></div>
-               <input type="button" name="new_user" class="col btn btn-info btn-block" value="Create New User" onclick="new_user()">
+               <input type="button" name="new_user" class="col btn btn-secondary btn-block" value="Create New User" onclick="new_user()">
                <div class="col-3"></div>
             </div>
             <br><br><br><br><br><br><br><br><br><br><br><br>

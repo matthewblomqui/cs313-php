@@ -75,7 +75,7 @@
             </form>
             <div class="row">
                <div class="col-3"></div>
-               <input type="button" name="login" class="col btn btn-info" value="Back to Log In Page" onclick="login()">
+               <input type="button" name="login" class="col btn btn-secondary" value="Back to Log In Page" onclick="login()">
                <div class="col-3"></div>
             </div>
             <br><br><br><br><br><br><br><br><br><br><br><br>
