@@ -34,44 +34,49 @@
                   <div class="card bg-success">
                      <img id="preview_1" class="card-img-top" src="images/0.png" alt="Default">
                      <div class="card-body">
-                        <p class="bg-light rounded">pokemon name</p>
-                        <span class="type grass"></span>
-                        <span class="type poison"></span>
+                        <p id="name_1" class="bg-light rounded">pokemon name</p>
+                        <span id="type_1_1"></span>
+                        <span id="type_1_2"></span>
                      </div>
                   </div>
                   <div class="card bg-light">
                      <img id="preview_2" class="card-img-top" src="images/0.png" alt="Default">
                      <div class="card-body">
-                        <p>pokemon name</p>
-                        <span class="type normal"></span>
+                        <p id="name_2" class="bg-light rounded">pokemon name</p>
+                        <span id="type_2_1"></span>
+                        <span id="type_2_2"></span>
                      </div>
                   </div>
                   <div class="card bg-light">
                      <img id="preview_3" class="card-img-top" src="images/0.png" alt="Default">
                      <div class="card-body">
-                        <p>pokemon name</p>
-                        <span class="type normal"></span>
+                        <p id="name_3" class="bg-light rounded">pokemon name</p>
+                        <span id="type_3_1"></span>
+                        <span id="type_3_2"></span>
                      </div>
                   </div>
                   <div class="card bg-light">
                      <img id="preview_4" class="card-img-top" src="images/0.png" alt="Default">
                      <div class="card-body">
-                        <p>pokemon name</p>
-                        <span class="type normal"></span>
+                        <p id="name_4" class="bg-light rounded">pokemon name</p>
+                        <span id="type_4_1"></span>
+                        <span id="type_4_2"></span>
                      </div>
                   </div>
                   <div class="card bg-light">
                      <img id="preview_5" class="card-img-top" src="images/0.png" alt="Default">
                      <div class="card-body">
-                        <p>pokemon name</p>
-                        <span class="type normal"></span>
+                        <p id="name_5" class="bg-light rounded">pokemon name</p>
+                        <span id="type_5_1"></span>
+                        <span id="type_5_2"></span>
                      </div>
                   </div>
                   <div class="card bg-light">
                      <img id="preview_6" class="card-img-top" src="images/0.png" alt="Default">
                      <div class="card-body">
-                        <p>pokemon name</p>
-                        <span class="type normal"></span>
+                        <p id="name_6" class="bg-light rounded">pokemon name</p>
+                        <span id="type_6_1"></span>
+                        <span id="type_6_2"></span>
                      </div>
                   </div>
                </div>
