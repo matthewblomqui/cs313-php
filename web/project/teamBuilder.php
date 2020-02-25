@@ -35,41 +35,41 @@
                   <div class="card bg-success">
                      <img id="preview_1" class="card-img-top" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png" alt="Default">
                      <div class="card-body">
-                        <p class="bg-light rounded">Venusaur</p>
+                        <p class="bg-light rounded">pokemon name</p>
                         <span class="type grass"></span>
                         <span class="type poison"></span>
                      </div>
                   </div>
                   <div class="card bg-light">
-                     <img class="card-img-top" src="images/0.png" alt="Default">
+                     <img id="preview_2" class="card-img-top" src="images/0.png" alt="Default">
                      <div class="card-body">
                         <p>pokemon name</p>
                         <span class="type normal"></span>
                      </div>
                   </div>
                   <div class="card bg-light">
-                     <img class="card-img-top" src="images/0.png" alt="Default">
+                     <img id="preview_3" class="card-img-top" src="images/0.png" alt="Default">
                      <div class="card-body">
                         <p>pokemon name</p>
                         <span class="type normal"></span>
                      </div>
                   </div>
                   <div class="card bg-light">
-                     <img class="card-img-top" src="images/0.png" alt="Default">
+                     <img id="preview_4" class="card-img-top" src="images/0.png" alt="Default">
                      <div class="card-body">
                         <p>pokemon name</p>
                         <span class="type normal"></span>
                      </div>
                   </div>
                   <div class="card bg-light">
-                     <img class="card-img-top" src="images/0.png" alt="Default">
+                     <img id="preview_5" class="card-img-top" src="images/0.png" alt="Default">
                      <div class="card-body">
                         <p>pokemon name</p>
                         <span class="type normal"></span>
                      </div>
                   </div>
                   <div class="card bg-light">
-                     <img class="card-img-top" src="images/0.png" alt="Default">
+                     <img id="preview_6" class="card-img-top" src="images/0.png" alt="Default">
                      <div class="card-body">
                         <p>pokemon name</p>
                         <span class="type normal"></span>
