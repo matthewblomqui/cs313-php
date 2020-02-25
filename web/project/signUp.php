@@ -42,6 +42,7 @@
                         "<button type=\"button\" class=\"close\" data-dismiss=\"alert\">&times;</button>".
                         "<strong>Warning!</strong> $str".
                      "</div>";
+                  $_SESSION['error'] = FALSE;
                }
             ?>
             <form action="post_user.php" method="post">
