@@ -79,7 +79,7 @@
                      </div>
                   </div>
                </div>
-               <form action="">
+               <form action="index.php" method="GET">
                   <div class="input-group">
                      <div class="input-group-prepend">
                         <span class="input-group-text">Team Name</span>
