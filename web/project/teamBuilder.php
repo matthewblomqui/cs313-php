@@ -31,9 +31,39 @@
          <div class="col-8 text-center">
             <div class="container">
                <h2 class="mt-3">Team Preview</h2>
-               <div class="card-deck">
-                  <div class="card bg-light">
-                     <img class="card-img-top img" src="images/0.png" alt="Default">
+               <div class="card-deck mb-3">
+                  <div class="card bg-light max-w">
+                     <img class="card-img-top" src="images/0.png" alt="Default">
+                     <div class="card-body">
+                        <span class="type normal"></span>
+                     </div>
+                  </div>
+                  <div class="card bg-light max-w">
+                     <img class="card-img-top" src="images/0.png" alt="Default">
+                     <div class="card-body">
+                        <span class="type normal"></span>
+                     </div>
+                  </div>
+                  <div class="card bg-light max-w">
+                     <img class="card-img-top" src="images/0.png" alt="Default">
+                     <div class="card-body">
+                        <span class="type normal"></span>
+                     </div>
+                  </div>
+                  <div class="card bg-light max-w">
+                     <img class="card-img-top" src="images/0.png" alt="Default">
+                     <div class="card-body">
+                        <span class="type normal"></span>
+                     </div>
+                  </div>
+                  <div class="card bg-light max-w">
+                     <img class="card-img-top" src="images/0.png" alt="Default">
+                     <div class="card-body">
+                        <span class="type normal"></span>
+                     </div>
+                  </div>
+                  <div class="card bg-light max-w">
+                     <img class="card-img-top" src="images/0.png" alt="Default">
                      <div class="card-body">
                         <span class="type normal"></span>
                      </div>
