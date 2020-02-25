@@ -36,7 +36,13 @@
                      <img class="card-img-top" src="images/0.png" alt="Default">
                      <div class="card-body">
                         <p>pokemon name</p>
-                        <span class="type normal"></span>
+                        <span class="type grass poison"></span>
+                     </div>
+                  </div>
+                  <div class="card bg-light">
+                     <img class="card-img-top" src="images/0.png" alt="Default">
+                     <div class="card-body">
+                        <p>pokemon name</p>
                         <span class="type normal"></span>
                      </div>
                   </div>
@@ -45,6 +51,12 @@
                      <div class="card-body">
                         <p>pokemon name</p>
                         <span class="type normal"></span>
+                     </div>
+                  </div>
+                  <div class="card bg-light">
+                     <img class="card-img-top" src="images/0.png" alt="Default">
+                     <div class="card-body">
+                        <p>pokemon name</p>
                         <span class="type normal"></span>
                      </div>
                   </div>
@@ -53,30 +65,12 @@
                      <div class="card-body">
                         <p>pokemon name</p>
                         <span class="type normal"></span>
-                        <span class="type normal"></span>
                      </div>
                   </div>
                   <div class="card bg-light">
                      <img class="card-img-top" src="images/0.png" alt="Default">
                      <div class="card-body">
                         <p>pokemon name</p>
-                        <span class="type normal"></span>
-                        <span class="type normal"></span>
-                     </div>
-                  </div>
-                  <div class="card bg-light">
-                     <img class="card-img-top" src="images/0.png" alt="Default">
-                     <div class="card-body">
-                        <p>pokemon name</p>
-                        <span class="type normal"></span>
-                        <span class="type normal"></span>
-                     </div>
-                  </div>
-                  <div class="card bg-light">
-                     <img class="card-img-top" src="images/0.png" alt="Default">
-                     <div class="card-body">
-                        <p>pokemon name</p>
-                        <span class="type normal"></span>
                         <span class="type normal"></span>
                      </div>
                   </div>
