@@ -30,8 +30,8 @@
          </div>
          <div class="col-8 text-center">
             <div class="container">
-               <h2>Team Preview</h2>
-               
+               <h2 class="mt-3">Team Preview</h2>
+               <!-- TODO: Add Preview boxes here -->
                <form action="">
                   <div class="input-group">
                      <div class="input-group-prepend">
@@ -67,9 +67,8 @@
                      </select>
                   </div>
                </form>
-               <div class="row mt-3">
                   <button type="button" class="btn btn-danger btn-block" onclick="teams()">Return to Teams</button>
-               </div>
+               
                
                <!-- <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
                <br>
