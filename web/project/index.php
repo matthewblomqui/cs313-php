@@ -70,6 +70,7 @@
                      <td><img style="width:48px; height:auto;" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png">Gardevoir</td>
                      <td><img style="width:48px; height:auto;" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png">Venusaur</td>
                      </tr>
+                     <?php include pokiRow.php; ?>
                   </tbody>
                </table>
             </div>

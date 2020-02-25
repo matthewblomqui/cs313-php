@@ -17,12 +17,12 @@
       $p5 = $row['pokemon_5'];
       $p6 = $row['pokemon_6'];
 
-      echo "<td>".  
+      echo "<tr><td>".  
                "<div class=\"custom-control custom-checkbox\">".
                   "<input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck\" name=\"example1\">".
                   "<label class=\"custom-control-label\" for=\"customCheck\"></label>".
                "</div>".
-            "</td>";
+            "</td><td>$team_name</td>";
       
       for ($i=1; $i < 7; $i++) { 
          $str = 'pokemon_'.$i;
@@ -31,9 +31,11 @@
          $pokemon->execute();
          if ($pRow = $pokemon->fetch(PDO::FETCH_ASSOC))
          {
-            echo $pRow['name'].' ';
+            $poke_name = $pRow['name'];
+            echo "<td><img style=\"width:48px; height:auto;\" src=\"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/$poke.png\">$poke_name</td>";
          }
       }
+      echo "</tr>";
 
    }
 
