@@ -40,15 +40,17 @@
             <h4>Welcome <?php echo $username.', Here are your teams';?></h4>
             <form action="" method="POST">
 
-            <div class="container">
-               <h2>Hover Rows</h2>
-               <p>The .table-hover class enables a hover state (grey background on mouse over) on table rows:</p>            
+            <div class="container">          
                <table class="table table-hover">
                   <thead>
                      <tr>
-                     <th>Firstname</th>
-                     <th>Lastname</th>
-                     <th>Email</th>
+                     <th>Team Name</th>
+                     <th>Pokemon 1</th>
+                     <th>Pokemon 2</th>
+                     <th>Pokemon 3</th>
+                     <th>Pokemon 4</th>
+                     <th>Pokemon 5</th>
+                     <th>Pokemon 6</th>
                      </tr>
                   </thead>
                   <tbody>
