@@ -72,7 +72,7 @@
                <input type="submit" name="login" class="btn btn-success" value="Log In"><br><br>
             </form>
             <input type="button" name="new_user" class="btn btn-info" value="Create New User" onclick="new_user()">
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
          </div>
          <div class="col back">
          </div>
