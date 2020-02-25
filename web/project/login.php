@@ -47,6 +47,7 @@
             ?>
             <form action="verify.php" method="post">
 
+               <div class="row">
                <div class="col input-group mt-3">
                   <div class="input-group-prepend">
                      <span class="input-group-text">Username:</span>
@@ -58,6 +59,7 @@
                      <span class="input-group-text">Password: </span>
                   </div>
                   <input type="password" name="pass" id="pass" class="form-control" required>
+               </div>
                </div>
 
                <input type="submit" name="login" class="btn btn-success" value="Log In"><br><br>
