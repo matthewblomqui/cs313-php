@@ -12,5 +12,5 @@
    //          "<span class=\"pr-3\">$str</span>".
    //          "<span class=\"type normal\"></option>";
    // }
-   echo "<option value=\"Lucario\">Lucario</option>"
+   echo "<option value=\"Lucario\">Lucario</option>";
 ?>
