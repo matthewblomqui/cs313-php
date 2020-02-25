@@ -37,7 +37,7 @@
          <div class="col-8 text-center">
             
             <br>
-            <h4>Welcome <?php echo $username.' Here are your teams';?></h4>
+            <h4>Welcome <?php echo $username.', Here are your teams';?></h4>
             <?php
                $team = $db->prepare("SELECT * FROM team WHERE user_id = $id");
                $team->execute();
@@ -86,7 +86,7 @@
                }
             ?> -->
             <a href="teamBuilder.php" class="btn btn-primary">Team Builder</a>
-            <a href="" class="btn btn-primary">Remove Teams</a>
+            <a href="" class="btn btn-danger">Remove Teams</a>
             <br><br><br><br><br><br>
          </div>
          <div class="col back">
