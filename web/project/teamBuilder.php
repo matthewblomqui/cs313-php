@@ -35,7 +35,7 @@
                   <div class="card bg-success">
                      <img class="card-img-top" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png" alt="Default">
                      <div class="card-body">
-                        <p>Venusaur</p>
+                        <p class="bg-light">Venusaur</p>
                         <span class="type grass"></span>
                         <span class="type poison"></span>
                      </div>
