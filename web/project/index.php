@@ -62,19 +62,13 @@
                            <label class="custom-control-label" for="customCheck"></label>
                         </div>
                      </td>
-                     <td>John</td>
-                     <td>Doe</td>
-                     <td>john@example.com</td>
-                     </tr>
-                     <tr>
-                     <td>Mary</td>
-                     <td>Moe</td>
-                     <td>mary@example.com</td>
-                     </tr>
-                     <tr>
-                     <td>July</td>
-                     <td>Dooley</td>
-                     <td>july@example.com</td>
+                     <td>Team Boss</td>
+                     <td>Lucario</td>
+                     <td>Gengar</td>
+                     <td>Blaziken</td>
+                     <td>Marshadow</td>
+                     <td>Gardevoir</td>
+                     <td>Venusaur</td>
                      </tr>
                   </tbody>
                </table>
@@ -128,8 +122,8 @@
                   echo "<h3><b>Name:</b> $name <b>Type:</b> $type_1 $type_2</h3>";
                }
             ?> -->
-            <a href="teamBuilder.php" class="btn btn-primary">Team Builder</a>
-            <a href="" class="btn btn-danger">Remove Teams</a>
+            <a href="teamBuilder.php" class="btn btn-primary">Go to Team Builder</a>
+            <a href="" class="btn btn-danger">Remove Selected Teams</a>
             <br><br><br><br><br><br>
          </div>
          <div class="col back">
