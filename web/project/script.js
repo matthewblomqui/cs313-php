@@ -15,6 +15,7 @@ function teams() {
 
 $(document).ready(function(){
    var dex = [];
+   get_csv();
 
    function get_csv() {
       csv = "";
@@ -50,21 +51,11 @@ $(document).ready(function(){
        }
    //console.log(lines);
    dex = lines;
-   console.log(dex);
+   //console.log(dex);
    }
 
-
-
-
-
-
-
-
-
-
    $("#p_1").change(function() {
-      //alert($("#p_1").text());
-      var data = get_csv();
+      alert(dex[0][0]);
       var pokedex = $("#p_1").val();
       var str = "";
       str = str.concat("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/",pokedex,".png");
