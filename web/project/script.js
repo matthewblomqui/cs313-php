@@ -14,9 +14,6 @@ function teams() {
 
 
 $(document).ready(function(){
-   csv = "heading1,heading2,heading3,heading4,heading5\nvalue1_1,value2_1,value3_1,value4_1,value5_1\nvalue1_2,value2_2,value3_2,value4_2,value5_2";
-
-
    
    $.ajax({
       type: "POST",
@@ -47,6 +44,7 @@ $(document).ready(function(){
            }
        }
    console.log(lines);
+   //return lines;
    }
 
 
