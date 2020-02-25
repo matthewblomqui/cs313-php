@@ -48,7 +48,7 @@
                   <div class="container mt-3">
                      <select name="pokemon_1" class="custom-select input-group mb-3">
                         <option selected disabled>Select a Pokemon 1</option>
-                        <?php echo "<option value=\"Lucario\">Lucario</option>";?>
+                        <?php include 'pokeSelect.php';?>
                      </select>
                      <select name="pokemon_2" class="custom-select input-group mb-3">
                         <option selected disabled>Select a Pokemon 2</option>
