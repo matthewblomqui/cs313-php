@@ -33,6 +33,7 @@ if (password_verify($pass, $passwordHash)) {
    // Correct Password
 
    $_SESSION['userId'] = $row['id'];
+   $_SESSION['username'] = $row['username'];
    $url = 'index.php';
 }
 
