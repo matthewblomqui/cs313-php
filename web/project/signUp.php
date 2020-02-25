@@ -78,7 +78,7 @@
                <input type="button" name="login" class="col btn btn-secondary" value="Back to Log In Page" onclick="login()">
                <div class="col-3"></div>
             </div>
-            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br>
          </div>
          <div class="col back">
          </div>
