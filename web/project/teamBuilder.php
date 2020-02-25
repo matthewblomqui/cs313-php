@@ -31,11 +31,16 @@
                </div>
                <br>
 
+               <form action="">
                <h2>Make Team</h2>
-               <input type="text" name="team_name" placeholder="Team Name">
-
+               <input type="text" name="team_name" placeholder="Enter Team Here">
+               <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                     <span class="input-group-text">Team Name</span>
+                  </div>
+                  <input type="text" class="form-control">
+               </div>
                <div class="container mt-3">
-                  <form action="">
                      <select name="cars" class="custom-select input-group mb-3">
                         <option selected>Select a Pokemon</option>
                         <option value="volvo">Lucario</option>
