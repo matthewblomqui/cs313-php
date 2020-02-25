@@ -4,7 +4,6 @@
    $db = get_db();
    $id = $_SESSION['userId'];
    $_POST['userId'] = $_SESSION['userId'];
-   echo $id.'<br>';
 ?>
 
 <!DOCTYPE html>
