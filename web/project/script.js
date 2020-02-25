@@ -13,7 +13,7 @@ function teams() {
 
 $(document).ready(function(){
    $("#p_1").change(function() {
-      alert("P1 was changed!");
+      alert($("#p_1").val());
    });
 });
 

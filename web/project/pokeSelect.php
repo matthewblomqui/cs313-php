@@ -6,6 +6,6 @@
       $j = $i + 1;
       $name = $obj['results'][$i]['name'];
 
-      echo "<option value=\"$name\">$name</option>";
+      echo "<option value=\"$j\">$name</option>";
    }
 ?>
