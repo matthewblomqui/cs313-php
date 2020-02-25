@@ -33,7 +33,7 @@
 
                <form action="">
                <h2>Make Team</h2>
-               <div class="input-group mb-3 ml-3">
+               <div class="input-group m-3">
                   <div class="input-group-prepend">
                      <span class="input-group-text">Team Name</span>
                   </div>
