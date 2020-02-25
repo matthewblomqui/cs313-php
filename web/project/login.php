@@ -47,13 +47,13 @@
             ?>
             <form action="verify.php" method="post">
 
-               <div class="input-group mt-3">
+               <div class="col input-group mt-3">
                   <div class="input-group-prepend">
                      <span class="input-group-text">Username:</span>
                   </div>
                   <input type="text" name="username" id="username" class="form-control" required>
                </div>
-               <div class="input-group mt-3 mb-3">
+               <div class="col input-group mt-3 mb-3">
                   <div class="input-group-prepend">
                      <span class="input-group-text">Password: </span>
                   </div>
@@ -62,8 +62,8 @@
 
                <input type="submit" name="login" class="btn btn-success" value="Log In"><br><br>
             </form>
-            <input type="button" name="new_user" class="btn btn-info" value="Create New User" onclick="new_user()"><br><br>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <input type="button" name="new_user" class="btn btn-info" value="Create New User" onclick="new_user()">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
          </div>
          <div class="col back">
          </div>
