@@ -11,9 +11,55 @@ function teams() {
    window.location.replace('index.php');
 }
 
+
+
 $(document).ready(function(){
+   csv = "heading1,heading2,heading3,heading4,heading5\nvalue1_1,value2_1,value3_1,value4_1,value5_1\nvalue1_2,value2_2,value3_2,value4_2,value5_2";
+
+
+   
+   $.ajax({
+      type: "POST",
+      url: "/echo/html/",
+      dataType: "text",
+      data: {
+         html: csv
+      },
+      success: function(data) {
+         processData(data);
+      }
+   });
+   
+   function processData(allText) {
+       var allTextLines = allText.split(/\r\n|\n/);
+       var headers = allTextLines[0].split(',');
+       var lines = [];
+   
+       for (var i=1; i<allTextLines.length; i++) {
+           var data = allTextLines[i].split(',');
+           if (data.length == headers.length) {
+   
+               var tarr = [];
+               for (var j=0; j<headers.length; j++) {
+                   tarr.push(headers[j]+":"+data[j]);
+               }
+               lines.push(tarr);
+           }
+       }
+   console.log(lines);
+   }
+
+
+
+
+
+
+
+
+
+
    $("#p_1").change(function() {
-      alert($("#p_1").html());
+      alert($("#p_1").text());
       var pokedex = $("#p_1").val();
       var str = "";
       str = str.concat("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/",pokedex,".png");
