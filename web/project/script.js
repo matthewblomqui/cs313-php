@@ -43,8 +43,8 @@ $(document).ready(function(){
                lines.push(tarr);
            }
        }
-   console.log(lines);
-   // $(".mydiv").text(lines);
+   //console.log(lines);
+   return lines;
    }
 
 
