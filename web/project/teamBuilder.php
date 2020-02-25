@@ -38,11 +38,24 @@
                </ul>
                <br>
 
-               <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
+               <div class="container mt-3">
+                  <form action="">
+                     <select name="cars" class="custom-select mb-3">
+                        <option selected>Select a Pokemon</option>
+                        <option value="volvo">Lucario</option>
+                        <option value="fiat">Gengar</option>
+                        <option value="audi">Blaziken</option>
+                     </select>
+                     <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+               </div>
+
+
+               <!-- <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
                <br>
                <ul class="list-group" id="list">
                   <?php include 'pokiApi.php';?>
-               </ul>
+               </ul> -->
                <br><br><br><br><br><br>
             </div>
          </div>
