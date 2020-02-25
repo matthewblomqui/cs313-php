@@ -6,7 +6,6 @@ $db = get_db();
 $url = 'login.php';
 
 $_SESSION['userID'] = "";
-$_SESSION['username'] = "";
 $_SESSION['errorStr'] = "";
 $_SESSION['error'] = FALSE;
 
@@ -34,7 +33,6 @@ if (password_verify($pass, $passwordHash)) {
    // Correct Password
 
    $_SESSION['userId'] = $row['id'];
-   $_SESSION['username'] = $row['username'];
    $url = 'index.php';
 }
 
