@@ -4,6 +4,11 @@
    $db = get_db();
    $id = $_SESSION['userId'];
    $_POST['userId'] = $_SESSION['userId'];
+   if (!isset($_SESSION['userId']))
+   {
+      header('Location: login.php');
+      die();
+   }
 ?>
 
 <!DOCTYPE html>
