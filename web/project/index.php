@@ -3,6 +3,11 @@
    require 'dbConnect.php';
    $db = get_db();
    $id = $_SESSION['userId'];
+   if (!isset($_SESSION['userId']))
+   {
+      header('Location: login.php');
+      die();
+   }
 ?>
 
 <!DOCTYPE html>
