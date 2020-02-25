@@ -70,20 +70,20 @@ span.type,.type th{
 span.type{
    display: inline-block
 }
-span.type.fighting,.type.fighting,.type.type-2 th{background-position:0 0}
-span.type.fire,.type.fire,.type.type-10 th{background-position:0 -18px}
-span.type.flying,.type.flying,.type.type-3 th{background-position:0 -36px}
-span.type.grass,.type.grass,.type.type-12 th{background-position:0 -54px}
-span.type.water,.type.water,.type.type-11 th{background-position:0 -90px}
-span.type.bug,.type.bug,.type.type-7 th{background-position:-50px 0}
-span.type.electric,.type.electric,.type.type-13 th{background-position:-50px -18px}
-span.type.ghost,.type.ghost,.type.type-8 th{background-position:-50px -36px}
-span.type.ground,.type.ground,.type.type-5 th{background-position:-50px -54px}
-span.type.poison,.type.poison,.type.type-4 th{background-position:-50px -72px}
-span.type.rock,.type.rock,.type.type-6 th{background-position:-50px -90px}
-span.type.dark,.type.dark,.type.type-17 th{background-position:-100px 0}
-span.type.dragon,.type.dragon,.type.type-16 th{background-position:-100px -18px}
-span.type.fairy,.type.fairy,.type.type-18 th{background-position:-100px -36px}
-span.type.ice,.type.ice,.type.type-15 th{background-position:-100px -54px}
-span.type.psychic,.type.psychic,.type.type-14 th{background-position:-100px -72px}
-span.type.steel,.type.steel,.type.type-9  th{background-position:-100px -90px}
+span.type.fighting,.type.fighting,span.type.type-2 th{background-position:0 0}
+span.type.fire,.type.fire,span.type.type-10 th{background-position:0 -18px}
+span.type.flying,.type.flying,span.type.type-3 th{background-position:0 -36px}
+span.type.grass,.type.grass,span.type.type-12 th{background-position:0 -54px}
+span.type.water,.type.water,span.type.type-11 th{background-position:0 -90px}
+span.type.bug,.type.bug,span.type.type-7 th{background-position:-50px 0}
+span.type.electric,.type.electric,span.type.type-13 th{background-position:-50px -18px}
+span.type.ghost,.type.ghost,span.type.type-8 th{background-position:-50px -36px}
+span.type.ground,.type.ground,span.type.type-5 th{background-position:-50px -54px}
+span.type.poison,.type.poison,span.type.type-4 th{background-position:-50px -72px}
+span.type.rock,.type.rock,span.type.type-6 th{background-position:-50px -90px}
+span.type.dark,.type.dark,span.type.type-17 th{background-position:-100px 0}
+span.type.dragon,.type.dragon,span.type.type-16 th{background-position:-100px -18px}
+span.type.fairy,.type.fairy,span.type.type-18 th{background-position:-100px -36px}
+span.type.ice,.type.ice,span.type.type-15 th{background-position:-100px -54px}
+span.type.psychic,.type.psychic,span.type.type-14 th{background-position:-100px -72px}
+span.type.steel,.type.steel,span.type.type-9  th{background-position:-100px -90px}
