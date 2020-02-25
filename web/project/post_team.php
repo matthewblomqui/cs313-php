@@ -21,8 +21,8 @@
    $insertStatement->bindValue(':p4',$pokemon_4);
    $insertStatement->bindValue(':p5',$pokemon_5);
    $insertStatement->bindValue(':p6',$pokemon_6);
+   $insertStatement->execute();
    echo "Success?";
-   // $insertStatement->execute();
 
    // header('Location: ' . $url);
    // die();
