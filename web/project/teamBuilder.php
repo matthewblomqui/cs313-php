@@ -40,24 +40,28 @@
                   <button class="btn btn-success" type="button">Add Team</button>
                   </div>
                   <div class="container mt-3">
-                     <select name="cars" class="custom-select input-group mb-3">
+                     <select name="pokemon_1" class="custom-select input-group mb-3">
                         <option selected disabled>Select a Pokemon 1</option>
-                        <option value="Lucario">Lucario</option>
+                        <?php include 'pokeSelect.php';?>
                      </select>
-                     <select name="cars" class="custom-select input-group mb-3">
-                        <option selected>Select a Pokemon 2</option>
+                     <select name="pokemon_2" class="custom-select input-group mb-3">
+                        <option selected disabled>Select a Pokemon 2</option>
                         <option value="Lucario">Lucario</option>
-                     </select>                     <select name="cars" class="custom-select input-group mb-3">
-                        <option selected>Select a Pokemon 3</option>
+                     </select>                     
+                     <select name="pokemon_3" class="custom-select input-group mb-3">
+                        <option selected disabled>Select a Pokemon 3</option>
                         <option value="Lucario">Lucario</option>
-                     </select>                     <select name="cars" class="custom-select input-group mb-3">
-                        <option selected>Select a Pokemon 4</option>
+                     </select>                     
+                     <select name="pokemon_4" class="custom-select input-group mb-3">
+                        <option selected disabled>Select a Pokemon 4</option>
                         <option value="Lucario">Lucario</option>
-                     </select>                     <select name="cars" class="custom-select input-group mb-3">
-                        <option selected>Select a Pokemon 5</option>
+                     </select>                     
+                     <select name="pokemon_5" class="custom-select input-group mb-3">
+                        <option selected disabled>Select a Pokemon 5</option>
                         <option value="Lucario">Lucario</option>
-                     </select>                     <select name="cars" class="custom-select input-group mb-3">
-                        <option selected>Select a Pokemon 6</option>
+                     </select>                     
+                     <select name="pokemon_6" class="custom-select input-group mb-3">
+                        <option selected disabled>Select a Pokemon 6</option>
                         <option value="Lucario">Lucario</option>
                      </select>
                   </div>
