@@ -70,7 +70,8 @@
 
                <input type="submit" name="create" class="btn btn-success" value="Create"><br><br>
             </form>
-            <input type="button" name="login" class="btn btn-info" value="Log In" onclick="login()"><br><br>
+            <input type="button" name="login" class="btn btn-info" value="Log In" onclick="login()">
+            <br><br><br><br><br><br><br><br><br><br><br><br>
          </div>
          <div class="col back">
          </div>
