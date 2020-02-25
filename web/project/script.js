@@ -15,37 +15,37 @@ function teams() {
 
 $(document).ready(function(){
    
-   // $.ajax({
-   //    type: "POST",
-   //    url: "sources/pokedex.csv",
-   //    dataType: "text",
-   //    data: {
-   //       html: csv
-   //    },
-   //    success: function(data) {
-   //       processData(data);
-   //    }
-   // });
+   $.ajax({
+      type: "POST",
+      url: "sources/pokedex.csv",
+      dataType: "text",
+      data: {
+         html: csv
+      },
+      success: function(data) {
+         processData(data);
+      }
+   });
    
-   // function processData(allText) {
-   //     var allTextLines = allText.split(/\r\n|\n/);
-   //     var headers = allTextLines[0].split(',');
-   //     var lines = [];
+   function processData(allText) {
+       var allTextLines = allText.split(/\r\n|\n/);
+       var headers = allTextLines[0].split(',');
+       var lines = [];
    
-   //     for (var i=1; i<allTextLines.length; i++) {
-   //         var data = allTextLines[i].split(',');
-   //         if (data.length == headers.length) {
+       for (var i=1; i<allTextLines.length; i++) {
+           var data = allTextLines[i].split(',');
+           if (data.length == headers.length) {
    
-   //             var tarr = [];
-   //             for (var j=0; j<headers.length; j++) {
-   //                 tarr.push(data[j]);
-   //             }
-   //             lines.push(tarr);
-   //         }
-   //     }
-   // //console.log(lines);
-   // return lines;
-   // }
+               var tarr = [];
+               for (var j=0; j<headers.length; j++) {
+                   tarr.push(data[j]);
+               }
+               lines.push(tarr);
+           }
+       }
+   //console.log(lines);
+   $(".mydiv").text(lines);
+   }
 
 
 
@@ -58,8 +58,6 @@ $(document).ready(function(){
 
    $("#p_1").change(function() {
       //alert($("#p_1").text());
-      var datacsv = $.csv.toObjects("pokedex.csv");
-      console.log(datacsv);
       var pokedex = $("#p_1").val();
       var str = "";
       str = str.concat("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/",pokedex,".png");

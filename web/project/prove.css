@@ -12,6 +12,13 @@
    max-width: 100px;
 }
 
+.mydiv {
+   position: absolute;
+   left: 10px; /* change as needed */
+   top: 10px; /* change as needed */
+   opacity: 0;
+ }
+
 /* body { 
    animation: fadeInAnimation ease 3s;
    animation-iteration-count: 1; 
