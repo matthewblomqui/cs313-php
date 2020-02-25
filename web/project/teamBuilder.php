@@ -35,8 +35,8 @@
                      <img id="preview_1" class="card-img-top" src="images/0.png" alt="Default">
                      <div class="card-body">
                         <p id="name_1" class="bg-light rounded">pokemon name</p>
-                        <span id="type_1_1"></span>
-                        <span id="type_1_2"></span>
+                        <span id="type_1_1" class="type"></span>
+                        <span id="type_1_2" class="type"></span>
                      </div>
                   </div>
                   <div class="card bg-light">

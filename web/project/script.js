@@ -60,11 +60,10 @@ $(document).ready(function(){
       var str = "";
       str = str.concat("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/",pokedex,".png");
       $("#preview_1").attr("src",str);
-      $("#name_1").text(dex[pokdex - 1][0]);
-      clss = "";
+      $("#name_1").text(dex[pokedex - 1][0]);
+      alert(dex[pokedex - 1][1]);
       clss = clss.concat("type-",dex[pokedex - 1][1]);
       alert(clss);
-      $("#type_1_1").addClass("type");
       //$("#type_1_1").addClass(clss);
    });
    $("#p_2").change(function() {
