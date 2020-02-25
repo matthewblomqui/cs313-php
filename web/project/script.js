@@ -46,7 +46,7 @@ $(document).ready(function(){
                lines.push(tarr);
            }
        }
-   console.log(lines[0]['pokdex']);
+   console.log(lines[0][0]);
    }
 
 
