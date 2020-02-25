@@ -14,7 +14,7 @@ function teams() {
 
 
 $(document).ready(function(){
-   
+   csv = "";
    $.ajax({
       type: "POST",
       url: "sources/pokedex.csv",
@@ -43,8 +43,8 @@ $(document).ready(function(){
                lines.push(tarr);
            }
        }
-   //console.log(lines);
-   return lines;
+   console.log(lines);
+   //return lines;
    }
 
 
