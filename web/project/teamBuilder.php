@@ -32,28 +32,37 @@
                <br>
 
                <form action="">
-               <h2>Make Team</h2>
-               <div class="input-group">
+                  <h2>Make Team</h2>
+                  <div class="input-group">
                   <div class="input-group-prepend">
                      <span class="input-group-text">Team Name</span>
                   </div>
                   <input type="text" class="form-control">
-               </div>
-               <div class="container mt-3">
+                  <button class="btn btn-primary" type="button">OK</button>
+                  </div>
+                  <div class="container mt-3">
                      <select name="cars" class="custom-select input-group mb-3">
-                        <option selected>Select a Pokemon</option>
-                        <option value="volvo">Lucario</option>
-                        <option value="fiat">Gengar</option>
-                        <option value="audi">Blaziken</option>
+                        <option selected>Select a Pokemon 1</option>
+                        <option value="Lucario">Lucario</option>
                      </select>
-                     <div class="input-group-append">
-                        <button class="btn btn-primary" type="button">OK</button>
-                        <button class="btn btn-danger" type="button">Cancel</button>
-                     </div>
-                     <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
-               </div>
-
+                     <select name="cars" class="custom-select input-group mb-3">
+                        <option selected>Select a Pokemon 2</option>
+                        <option value="Lucario">Lucario</option>
+                     </select>                     <select name="cars" class="custom-select input-group mb-3">
+                        <option selected>Select a Pokemon 3</option>
+                        <option value="Lucario">Lucario</option>
+                     </select>                     <select name="cars" class="custom-select input-group mb-3">
+                        <option selected>Select a Pokemon 4</option>
+                        <option value="Lucario">Lucario</option>
+                     </select>                     <select name="cars" class="custom-select input-group mb-3">
+                        <option selected>Select a Pokemon 5</option>
+                        <option value="Lucario">Lucario</option>
+                     </select>                     <select name="cars" class="custom-select input-group mb-3">
+                        <option selected>Select a Pokemon 6</option>
+                        <option value="Lucario">Lucario</option>
+                     </select>
+                  </div>
+               </form>
 
                <!-- <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
                <br>
