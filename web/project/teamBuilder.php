@@ -33,7 +33,6 @@
 
                <form action="">
                <h2>Make Team</h2>
-               <input type="text" name="team_name" placeholder="Enter Team Here">
                <div class="input-group mb-3">
                   <div class="input-group-prepend">
                      <span class="input-group-text">Team Name</span>
