@@ -33,19 +33,19 @@
 
                <h2>Make Team</h2>
                <input type="text" name="team_name" placeholder="Team Name">
-               <ul id="team_list">
-
-               </ul>
-               <br>
 
                <div class="container mt-3">
                   <form action="">
-                     <select name="cars" class="custom-select mb-3">
+                     <select name="cars" class="custom-select input-group mb-3">
                         <option selected>Select a Pokemon</option>
                         <option value="volvo">Lucario</option>
                         <option value="fiat">Gengar</option>
                         <option value="audi">Blaziken</option>
                      </select>
+                     <div class="input-group-append">
+                        <button class="btn btn-primary" type="button">OK</button>
+                        <button class="btn btn-danger" type="button">Cancel</button>
+                     </div>
                      <button type="submit" class="btn btn-primary">Submit</button>
                   </form>
                </div>
