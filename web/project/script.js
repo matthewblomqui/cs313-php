@@ -12,7 +12,7 @@ function teams() {
 }
 
 $(document).ready(function(){
-   $("$p_1").change(function() {
+   $("#p_1").change(function() {
       alert("P1 was changed!");
    });
 });
