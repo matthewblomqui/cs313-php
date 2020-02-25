@@ -47,13 +47,13 @@
             ?>
             <form action="verify.php" method="post">
 
-               <div class="input-group mt-3 ml-3 mr-3">
+               <div class="input-group mt-3">
                   <div class="input-group-prepend">
                      <span class="input-group-text">Username:</span>
                   </div>
                   <input type="text" name="username" id="username" class="form-control" required>
                </div>
-               <div class="input-group mt-3 mb-3 ml-3 mr-3">
+               <div class="input-group mt-3 mb-3">
                   <div class="input-group-prepend">
                      <span class="input-group-text">Password: </span>
                   </div>
