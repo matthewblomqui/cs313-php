@@ -66,6 +66,7 @@ $(document).ready(function(){
       $("#type_1_2").removeClass();
       $("#type_1_1").addClass("type");
       $("#type_1_1").addClass(types[dex[pokedex - 1][1]]);
+      alert(dex[pokedex - 1][3]);
       if (dex[pokedex - 1][3] != "")
       {
          $("#type_1_2").addClass("type");
