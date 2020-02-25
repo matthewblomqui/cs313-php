@@ -67,10 +67,17 @@
                   </div>
                   <div class="col-3"></div>
                </div>
-
-               <input type="submit" name="create" class="btn btn-success" value="Create"><br><br>
+               <div class="row">
+                  <div class="col-3"></div>
+                  <input type="submit" name="create" class="btn btn-success" value="Create">
+                  <div class="col-3"></div>
+               </div>
             </form>
-            <input type="button" name="login" class="btn btn-info" value="Log In" onclick="login()">
+            <div class="row">
+               <div class="col-3"></div>
+               <input type="button" name="login" class="btn btn-info" value="Log In" onclick="login()">
+               <div class="col-3"></div>
+            </div>
             <br><br><br><br><br><br><br><br><br><br><br><br>
          </div>
          <div class="col back">
