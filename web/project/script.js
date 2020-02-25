@@ -44,7 +44,7 @@ $(document).ready(function(){
            }
        }
    console.log(lines);
-   $(".mydiv").text(lines);
+   // $(".mydiv").text(lines);
    }
 
 

@@ -17,10 +17,11 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
       <title>Pokemon Battle Simulator</title>
       <link rel="stylesheet" href="prove.css">
+      <script src="jquery.csv.js"></script>
       <script src="script.js"></script>
    </head>
    <body>
-      <div class="mydiv"></div>
+      <div class=
       <div class="row pt-3 pb-3 pokeDark text-warning">
          <h2 class="text-center col">Team Builder</h2>
       </div>
