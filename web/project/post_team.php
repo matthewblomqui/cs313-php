@@ -12,7 +12,7 @@
    $p5 = $_POST['pokemon_5'];
    $p6 = $_POST['pokemon_6'];
 
-   $query = 'INSERT INTO team (team_name, user_id, pokemon_1, pokemon_2, pokemon_3, pokemon_4, pokemon_5, pokemon_6) VALUES (:team,:id,:p1,:p2,:p3,:p4,:p5,:p6)';
+   $query = "INSERT INTO team (team_name, user_id, pokemon_1, pokemon_2, pokemon_3, pokemon_4, pokemon_5, pokemon_6) VALUES (:team,:id,:p1,:p2,:p3,:p4,:p5,:p6)";
    $insertStatement = $db->prepare($query);
    $insertStatement->bindValue(':team',$team);
    $insertStatement->bindValue(':id',$id);
