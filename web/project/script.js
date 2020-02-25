@@ -15,6 +15,7 @@ function teams() {
 
 $(document).ready(function(){
    var dex = [];
+   var types = ["normal", "fighting", "flying", "poison", "ground", "rock", "bug", "ghost", "steel", "fire", "water", "grass", "electric", "psychic", "ice", "dragon", "dark", "fairy"];
    get_csv();
 
    function get_csv() {
