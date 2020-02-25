@@ -46,6 +46,18 @@
                }
             ?>
             <form action="verify.php" method="post">
+               <div class="input-group">
+                  <div class="input-group-prepend">
+                     <span class="input-group-text">Username:</span>
+                  </div>
+                  <input type="text" name="team" class="form-control" required>
+               </div>
+               <div class="input-group">
+                  <div class="input-group-prepend">
+                     <span class="input-group-text">Password:</span>
+                  </div>
+                  <input type="text" name="team" class="form-control" required>
+               </div>
                Username:<br>
                <input type="text" name="username" id="username"><br>
                Password:<br>
