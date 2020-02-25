@@ -86,8 +86,8 @@
                      <button class="btn btn-success" type="button">Add Team</button>
                   </div>
                   <div class="container mt-3">
-                     <select name="pokemon_1" class="custom-select input-group mb-3">
-                        <option selected disabled id="p_1">Select Pokemon 1</option>
+                     <select name="pokemon_1" id="p_1" class="custom-select input-group mb-3">
+                        <option selected disabled>Select Pokemon 1</option>
                         <?php include 'pokeSelect.php';?>
                      </select>
                      <select name="pokemon_2" class="custom-select input-group mb-3">
