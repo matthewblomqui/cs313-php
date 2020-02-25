@@ -30,20 +30,15 @@
          </div>
          <div class="col-8 text-center">
             <div class="container">
-               <br>
-               <div class="row">
-                  <button type="button" class="btn btn-danger btn-block" onclick="teams()">Return to Teams</button>
-               </div>
-               <br>
-
+               <h2>Team Preview</h2>
+               
                <form action="">
-                  <h2>Make Team</h2>
                   <div class="input-group">
-                  <div class="input-group-prepend">
-                     <span class="input-group-text">Team Name</span>
-                  </div>
-                  <input type="text" class="form-control">
-                  <button class="btn btn-success" type="button">Add Team</button>
+                     <div class="input-group-prepend">
+                        <span class="input-group-text">Team Name</span>
+                     </div>
+                     <input type="text" class="form-control">
+                     <button class="btn btn-success" type="button">Add Team</button>
                   </div>
                   <div class="container mt-3">
                      <select name="pokemon_1" class="custom-select input-group mb-3">
@@ -52,27 +47,30 @@
                      </select>
                      <select name="pokemon_2" class="custom-select input-group mb-3">
                         <option selected disabled>Select a Pokemon 2</option>
-                        <option value="Lucario">Lucario</option>
+                        <?php include 'pokeSelect.php';?>
                      </select>                     
                      <select name="pokemon_3" class="custom-select input-group mb-3">
                         <option selected disabled>Select a Pokemon 3</option>
-                        <option value="Lucario">Lucario</option>
+                        <?php include 'pokeSelect.php';?>
                      </select>                     
                      <select name="pokemon_4" class="custom-select input-group mb-3">
                         <option selected disabled>Select a Pokemon 4</option>
-                        <option value="Lucario">Lucario</option>
+                        <?php include 'pokeSelect.php';?>
                      </select>                     
                      <select name="pokemon_5" class="custom-select input-group mb-3">
                         <option selected disabled>Select a Pokemon 5</option>
-                        <option value="Lucario">Lucario</option>
+                        <?php include 'pokeSelect.php';?>
                      </select>                     
                      <select name="pokemon_6" class="custom-select input-group mb-3">
                         <option selected disabled>Select a Pokemon 6</option>
-                        <option value="Lucario">Lucario</option>
+                        <?php include 'pokeSelect.php';?>
                      </select>
                   </div>
                </form>
-
+               <div class="row mt-3">
+                  <button type="button" class="btn btn-danger btn-block" onclick="teams()">Return to Teams</button>
+               </div>
+               
                <!-- <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
                <br>
                <ul class="list-group" id="list">
@@ -82,9 +80,9 @@
             </div>
          </div>
          <div class="col back">
+            </div>
          </div>
-      </div>
-
+         
       <?php include '../footer.php';?>
    </body>
 </html>
