@@ -50,18 +50,14 @@
                   <div class="input-group-prepend">
                      <span class="input-group-text">Username:</span>
                   </div>
-                  <input type="text" name="team" class="form-control" required>
+                  <input type="text" name="username" class="form-control" required>
                </div>
                <div class="input-group">
                   <div class="input-group-prepend">
-                     <span class="input-group-text">Password:</span>
+                     <span class="input-group-text">Password: </span>
                   </div>
-                  <input type="text" name="team" class="form-control" required>
+                  <input type="text" name="pass" class="form-control" required>
                </div>
-               Username:<br>
-               <input type="text" name="username" id="username"><br>
-               Password:<br>
-               <input type="password" name="pass" id="pass"><br><br>
 
                <input type="submit" name="login" value="Log In"><br><br>
             </form>
