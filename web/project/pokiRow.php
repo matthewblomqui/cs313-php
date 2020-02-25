@@ -24,11 +24,14 @@
                "</div>".
             "</td>";
       
-      $pokemon = $db->prepare("SELECT * FROM pokemon WHERE pokedex = $p1");
-      $pokemon->execute();
-      if ($pRow = $pokemon->fetch(PDO::FETCH_ASSOC))
-      {
-         echo $pRow['name'];
+      for ($i=0; $i < 6; $i++) { 
+         $poke = $row["pokemon_"+$i];
+         $pokemon = $db->prepare("SELECT * FROM pokemon WHERE pokedex = $poke");
+         $pokemon->execute();
+         if ($pRow = $pokemon->fetch(PDO::FETCH_ASSOC))
+         {
+            echo $pRow['name'];
+         }
       }
 
    }
