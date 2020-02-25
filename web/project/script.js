@@ -13,7 +13,11 @@ function teams() {
 
 $(document).ready(function(){
    $("#p_1").change(function() {
-      alert($("#p_1").val());
+      //alert($("#p_1").val());
+      var pokedex = $("#p_1").val();
+      var str = "";
+      str = str.concat("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/",pokedex,".png");
+      $("#preview_1").attr("src",str);
    });
 });
 
