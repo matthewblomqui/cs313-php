@@ -69,13 +69,13 @@
                </div>
                <div class="row">
                   <div class="col-3"></div>
-                  <input type="submit" name="create" class="btn btn-success" value="Create">
+                  <input type="submit" name="create" class="col btn btn-success" value="Create">
                   <div class="col-3"></div>
                </div>
             </form>
             <div class="row">
                <div class="col-3"></div>
-               <input type="button" name="login" class="btn btn-info" value="Log In" onclick="login()">
+               <input type="button" name="login" class="col btn btn-info" value="Log In" onclick="login()">
                <div class="col-3"></div>
             </div>
             <br><br><br><br><br><br><br><br><br><br><br><br>
