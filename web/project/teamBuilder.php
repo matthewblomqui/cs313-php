@@ -33,9 +33,9 @@
                <h2 class="mt-3">Team Preview</h2>
                <div class="card-group mb-3">
                   <div class="card bg-light">
-                     <img class="card-img-top" src="images/0.png" alt="Default">
+                     <img class="card-img-top" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png" alt="Default">
                      <div class="card-body">
-                        <p>pokemon name</p>
+                        <p>Venusaur</p>
                         <span class="type grass"></span>
                         <span class="type poison"></span>
                      </div>
