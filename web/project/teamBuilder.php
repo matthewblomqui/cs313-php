@@ -114,15 +114,8 @@
                      </select>
                   </div>
                </form>
-                  <button type="button" class="btn btn-danger btn-block" onclick="teams()">Return to Teams</button>
-               
-               
-               <!-- <input class="form-control" id="search" type="text" placeholder="Search for Pokemon">
-               <br>
-               <ul class="list-group" id="list">
-                  <?php include 'pokiApi.php';?>
-               </ul> -->
-               <br><br><br><br><br><br>
+               <button type="button" class="btn btn-danger btn-block" onclick="teams()">Return to Teams</button>
+               <br><br><br><br><br>
             </div>
          </div>
          <div class="col back">
