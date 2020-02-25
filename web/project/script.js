@@ -62,6 +62,7 @@ $(document).ready(function(){
       $("#preview_1").attr("src",str);
       $("#name_1").text(dex[pokdex - 1][0]);
       str = "type-"+dex[pokedex - 1][1];
+      alert(str);
       $("#type_1_1").addClass("type");
       $("#type_1_1").addClass(str);
    });
