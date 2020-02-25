@@ -25,7 +25,7 @@ $(document).ready(function(){
             html: csv
          },
          success: function(data) {
-            return processData(data);
+            processData(data);
          }
       });
    }
