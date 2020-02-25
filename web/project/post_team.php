@@ -3,7 +3,7 @@
    require 'dbConnect.php';
    $db = get_db();
    $url = 'index.php';
-   $id = $_SESSION['userID'];
+   $id = $_POST['userID'];
    $team = $_POST['team'];
    $p1 = $_POST['pokemon_1'];
    $p2 = $_POST['pokemon_2'];
