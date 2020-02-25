@@ -29,7 +29,7 @@
          </div>
          <div class="col-8 text-center">
             <div class="container">
-               <div class="card-group mb-6">
+               <div class="card-group mb-3 mt-3">
                   <div class="card bg-light">
                      <img id="preview_1" class="card-img-top" src="images/0.png" alt="Default">
                      <div class="card-body">
