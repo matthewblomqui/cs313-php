@@ -45,15 +45,32 @@
                   $_SESSION['error'] = FALSE;
                }
             ?>
+            <br><br><br><br><br><br><br><br><br>
             <form action="post_user.php" method="post">
-               Username:<br>
-               <input type="text" name="username" id="username" required><br>
-               Password:<br>
-               <input type="password" name="pass" id="pass" required><br><br>
+               <div class="row">
+                  <div class="col-3"></div>
+                  <div class="col input-group mt-3 mb-3">
+                     <div class="input-group-prepend">
+                        <span class="input-group-text">Username:</span>
+                     </div>
+                     <input type="text" name="username" id="username" class="form-control" required>
+                  </div>
+                  <div class="col-3"></div>
+               </div>
+               <div class="row">
+                  <div class="col-3"></div>
+                  <div class="col input-group mt-3 mb-3">
+                     <div class="input-group-prepend">
+                        <span class="input-group-text">Password: </span>
+                     </div>
+                     <input type="password" name="pass" id="pass" class="form-control" required>
+                  </div>
+                  <div class="col-3"></div>
+               </div>
 
-               <input type="submit" name="create" value="Create"><br><br>
+               <input type="submit" name="create" class="btn btn-success" value="Create"><br><br>
             </form>
-            <input type="button" name="login" value="Log In" onclick="login()"><br><br>
+            <input type="button" name="login" class="btn btn-info" value="Log In" onclick="login()"><br><br>
          </div>
          <div class="col back">
          </div>
