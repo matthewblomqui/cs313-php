@@ -20,7 +20,7 @@ CREATE TABLE pokeUser
 
 CREATE TABLE team
 (  id          SERIAL      NOT NULL PRIMARY KEY
-,  name        VARCHAR(99) NOT NULL
+,  team_name   VARCHAR(99) NOT NULL
 ,  user_id     INT         NOT NULL REFERENCES pokeUser(id)
 ,  pokemon_1   INT                  REFERENCES pokemon(pokedex)
 ,  pokemon_2   INT                  REFERENCES pokemon(pokedex)
