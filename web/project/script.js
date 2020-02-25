@@ -64,7 +64,7 @@ $(document).ready(function(){
       $("#name_1").text(dex[pokedex - 1][0]);
       $("#type_1_1").removeClass();
       $("#type_1_1").addClass("type");
-      $("#type_1_1").addClass(types[dex[pokedex][1]]);
+      $("#type_1_1").addClass(types[dex[pokedex - 1][1]]);
    });
    $("#p_2").change(function() {
       var pokedex = $("#p_2").val();
