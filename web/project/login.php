@@ -49,7 +49,7 @@
             <form action="verify.php" method="post">
                <div class="row">
                   <div class="col-3"></div>
-                  <div class="col input-group mt-3 mb-3">
+                  <div class="col input-group mt-3">
                      <div class="input-group-prepend">
                         <span class="input-group-text">Username:</span>
                      </div>
