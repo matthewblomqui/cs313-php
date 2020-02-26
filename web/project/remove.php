@@ -1,4 +1,8 @@
 <?php
+   session_start();
+   require 'dbConnect.php';
+   $db = get_db();
+   
    foreach ($_POST as $key => $value) {
       # code...
       //echo "here is the key:".$key;
