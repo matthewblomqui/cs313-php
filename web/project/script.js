@@ -56,7 +56,7 @@ $(document).ready(function(){
    }
 
    $("input").change(function(){
-      alert($(this).val());
+      alert($(this).attr("id"));
    });
 
    $("#p_1").change(function() {
