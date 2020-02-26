@@ -22,7 +22,6 @@
       //echo 'Error!: ' . $ex->getMessage();
       die();
    }
-   return $db;
 ?>
 
 
