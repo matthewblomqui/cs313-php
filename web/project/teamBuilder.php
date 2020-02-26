@@ -123,7 +123,7 @@
                </form>
                   <button type="button" class="btn btn-danger btn-block" onclick="teams()">Return to Teams</button>
 
-               <br><br><br><br><br>
+               <br><br><br><br>
             </div>
          </div>
          <div class="col back">

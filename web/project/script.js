@@ -55,6 +55,9 @@ $(document).ready(function(){
    console.log(dex);
    }
 
+   $(".input").change(function() {
+      alert("checked");
+   });
 
    $("#p_1").change(function() {
       var pokedex = $("#p_1").val();
