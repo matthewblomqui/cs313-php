@@ -1,8 +1,12 @@
 <?php
+   require 'dbConnect.php';
+?>
+
+
+<?php
    session_start();
    $id = $_SESSION['userId'];
    
-   require 'dbConnect.php';
    // $db = get_db();
    // $teams = $db->prepare("SELECT * FROM team WHERE user_id = $id");
    // $teams->execute();
