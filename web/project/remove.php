@@ -1,4 +1,7 @@
 <?php
    $str = var_dump($_POST);
-   echo $str[0][0];
+   foreach ($str as $key => $value) {
+      # code...
+      echo $key;
+   }
 ?>
