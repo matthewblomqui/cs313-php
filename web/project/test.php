@@ -47,5 +47,10 @@
       // second column
       echo '<td>'.$team_name.'</td>';
       echo '<td>'.$p1.'</td>';
+      echo '<td>'.$p2.'</td>';
+      echo '<td>'.$p3.'</td>';
+      echo '<td>'.$p4.'</td>';
+      echo '<td>'.$p5.'</td>';
+      echo '<td>'.$p6.'</td>';
    }
 ?>
