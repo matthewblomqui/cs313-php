@@ -58,7 +58,13 @@
                      </tr>
                   </thead>
                   <tbody>
-                     
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
                   </tbody>
                </table>
                </div>
