@@ -9,4 +9,6 @@
       $statement->execute();
 
    }
+   header('Location: index.php');
+   die();
 ?>
