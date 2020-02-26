@@ -52,7 +52,7 @@
                      </tr>
                   </thead>
                   <tbody>
-                     <?php include 'test.php';?>
+                     <?php include 'pokeRow.php';?>
                   </tbody>
                </table>
                </div>

@@ -55,6 +55,7 @@ $(document).ready(function(){
    console.log(dex);
    }
 
+
    $("#p_1").change(function() {
       var pokedex = $("#p_1").val();
       //alert(dex[pokedex - 1][0]);
@@ -153,9 +154,3 @@ $(document).ready(function(){
       }
    });
 });
-
-// $(document).ready(function(){
-//    $("button").click(function(){
-//        $("#menu").append('<li><a href="#">New list item</a></li>');
-//    });
-// });
