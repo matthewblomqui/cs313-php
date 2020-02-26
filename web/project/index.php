@@ -41,16 +41,7 @@
                <div class="container">
                <table class="table table-hover">
                   <thead>
-                     <tr>
-                     <th></th>
-                     <th>Team Name</th>
-                     <th>Pokemon 1</th>
-                     <th>Pokemon 2</th>
-                     <th>Pokemon 3</th>
-                     <th>Pokemon 4</th>
-                     <th>Pokemon 5</th>
-                     <th>Pokemon 6</th>
-                     </tr>
+
                   </thead>
                </div>
             </form>
