@@ -35,8 +35,9 @@
 
    while ($row = $teams->fetch(PDO::FETCH_ASSOC))
    {
+      // Start row
+      echo '<tr>';
       $team_name = $row['team_name'];
-
       // check box for first column
       echo '<td><div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="check1" name="example1"><label class="custom-control-label" for="check1"></label></td>';
       // second column
@@ -52,5 +53,7 @@
             echo '<td>'.$name.'</td>';
          }
       }
+      // End row
+      echo '</tr>';
    }
 ?>
