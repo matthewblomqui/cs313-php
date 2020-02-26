@@ -33,10 +33,19 @@
    $teams = $db->prepare("SELECT * FROM team WHERE user_id = $id");
    $teams->execute();
 
-   // check box for first column
-   echo '<td><div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="check1" name="example1"><label class="custom-control-label" for="check1"></label></td>';
-   if ($row = $teams->fetch(PDO::FETCH_ASSOC))
+   while ($row = $teams->fetch(PDO::FETCH_ASSOC))
    {
-      echo '<td>'.$row['team_name'].'</td>';
+      $team_name = $row['team_name'];
+      $p1 = $row['pokemon_1'];
+      $p2 = $row['pokemon_2'];
+      $p3 = $row['pokemon_3'];
+      $p4 = $row['pokemon_4'];
+      $p5 = $row['pokemon_5'];
+      $p6 = $row['pokemon_6'];
+      // check box for first column
+      echo '<td><div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="check1" name="example1"><label class="custom-control-label" for="check1"></label></td>';
+      // second column
+      echo '<td>'.$team_name.'</td>';
+      echo '<td>'.$p1.'</td>';
    }
 ?>
