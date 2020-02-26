@@ -22,7 +22,7 @@
                   "<input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck\" name=\"example1\">".
                   "<label class=\"custom-control-label\" for=\"customCheck\"></label>".
                "</div>".
-            "</td><td>$team_name</td>";
+            "</td><td>".$team_name."</td>";
       
       for ($i=1; $i < 7; $i++) { 
          $str = 'pokemon_'.$i;

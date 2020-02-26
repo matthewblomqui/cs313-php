@@ -58,6 +58,7 @@
                      </tr>
                   </thead>
                   <tbody>
+                     <?php include 'pokiRow.php';?>
                   </tbody>
                </table>
                </div>
