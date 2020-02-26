@@ -24,6 +24,7 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
       <title>Pokemon Battle Simulator</title>
       <link rel="stylesheet" href="prove.css">
+      <script src="script.js"></script>
    </head>
    <body>
 

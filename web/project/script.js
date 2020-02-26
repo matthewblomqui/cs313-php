@@ -55,7 +55,7 @@ $(document).ready(function(){
    console.log(dex);
    }
 
-   $(".input").change(function(){
+   $("input").change(function(){
       alert("The text has been changed.");
    });
 
