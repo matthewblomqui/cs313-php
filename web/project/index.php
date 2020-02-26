@@ -57,7 +57,8 @@
                         <th>Pokemon 6</th>
                      </tr>
                   </thead>
-                  <tbody><?php include 'pokiRow.php';?></tbody>
+                  <tbody>
+                  </tbody>
                </table>
                </div>
             </form>
