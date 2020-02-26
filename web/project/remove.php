@@ -1,7 +1,6 @@
 <?php
-   $str = var_dump($_POST);
-   foreach ($str as $key => $value) {
+   foreach ($_POST as $key => $value) {
       # code...
-      echo $key;
+      echo "here is the key:".$key;
    }
 ?>
