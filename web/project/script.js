@@ -55,9 +55,9 @@ $(document).ready(function(){
    console.log(dex);
    }
 
-   $("input").change(function(){
-      alert($(this).attr("id"));
-   });
+   // $("input").change(function(){
+   //    alert($(this).attr("id"));
+   // });
 
    $("#p_1").change(function() {
       var pokedex = $("#p_1").val();
