@@ -35,8 +35,7 @@
          <div class="col back"> </div>
 
          <div class="col-8 text-center">
-            <br>
-            <h4>Welcome <?php echo $username.', Here are your teams';?></h4>
+            <h4 class="mt-3 mb-3">Welcome <?php echo $username.', Here are your teams';?></h4>
             <form action="" method="POST">
                <div class="container">
                <table class="table table-hover">
