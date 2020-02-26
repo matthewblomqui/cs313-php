@@ -40,7 +40,7 @@
       // Start row
       echo '<tr>';
       // check box for first column
-      echo '<td><div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="'.$team_id.'" name="example1"><label class="custom-control-label" for="'.$team_id.'"></label></td>';
+      echo '<td><div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="'.$team_id.'" name="'.$team_id.'"><label class="custom-control-label" for="'.$team_id.'"></label></td>';
       // second column
       echo '<td>'.$team_name.'</td>';
       // column 3-8
