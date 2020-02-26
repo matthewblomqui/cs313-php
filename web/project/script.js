@@ -55,7 +55,7 @@ $(document).ready(function(){
    console.log(dex);
    }
 
-   $("input:checkbox").change(function() {
+   $("div input:checkbox").change(function() {
       alert("checked");
    });
 
