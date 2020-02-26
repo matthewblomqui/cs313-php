@@ -58,7 +58,7 @@
                      </tr>
                   </thead>
                   <tbody>
-                     <td><input type="checkbox"></td>
+                     <?php include 'test.php';?>
                      <td></td>
                      <td></td>
                      <td></td>
