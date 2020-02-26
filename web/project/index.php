@@ -37,7 +37,7 @@
 
          <div class="col-8 text-center">
             <h4 class="mt-3 mb-3">Welcome <?php echo $username.', Here are your teams';?></h4>
-            <form action="remove.php" method="GET">
+            <form action="remove.php" method="POST">
                <div class="container">
                <table class="table table-hover">
                   <thead>
