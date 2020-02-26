@@ -37,7 +37,7 @@
 
          <div class="col-8 text-center">
             <h4 class="mt-3 mb-3">Welcome <?php echo $username.', Here are your teams';?></h4>
-            <form action="teamBuilder.php" method="GET">
+            <form action="remove.php" method="POST">
                <div class="container">
                <table class="table table-hover">
                   <thead>
@@ -58,7 +58,7 @@
                </table>
                </div>
                <a href="teamBuilder.php" class="btn btn-primary">Go to Team Builder</a>
-               <button type="submit" class="btn btn-danger" name="remove" >Remove Selected Teams</button>
+               <button type="submit" class="btn btn-danger">Remove Selected Teams</button>
             </form>
             <br><br><br><br><br><br>
          </div>
