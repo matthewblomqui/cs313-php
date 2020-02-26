@@ -1,9 +1,9 @@
 <?php
    session_start();
+   $id = $_SESSION['userId'];
+   
    //require 'dbConnect.php';
    // $db = get_db();
-   // $id = $_SESSION['userId'];
-
    // $teams = $db->prepare("SELECT * FROM team WHERE user_id = $id");
    // $teams->execute();
 
