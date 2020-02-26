@@ -40,9 +40,6 @@
             <form action="" method="POST">
                <div class="container">
                <table class="table table-hover">
-                  <thead>
-
-                  </thead>
                </div>
             </form>
          </div>
