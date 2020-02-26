@@ -24,7 +24,7 @@
                   "<label class=\"custom-control-label\" for=\"customCheck\"></label>".
                "</div>".
             "</td><td>".$team_name."</td>";
-      echo $final;
+      echo $final."</tr>";
       
       for ($i=1; $i < 7; $i++) { 
          $str = 'pokemon_'.$i;
