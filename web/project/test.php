@@ -37,13 +37,6 @@
    {
       $team_name = $row['team_name'];
 
-      // $p1 = $row['pokemon_1'];
-      // $p2 = $row['pokemon_2'];
-      // $p3 = $row['pokemon_3'];
-      // $p4 = $row['pokemon_4'];
-      // $p5 = $row['pokemon_5'];
-      // $p6 = $row['pokemon_6'];
-
       // check box for first column
       echo '<td><div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="check1" name="example1"><label class="custom-control-label" for="check1"></label></td>';
       // second column
@@ -51,13 +44,9 @@
       // column 3-8
       for ($i=1; $i < 7; $i++) { 
          $poke = $row['pokemon_'.$i];
+         $pokemon = $db->prepare("SELECT * FROM pokemon WHERE pokedex = $poke");
+         $pokemon->execute();
          echo '<td>'.$poke.'</td>';
       }
-      // echo '<td>'.$p1.'</td>';
-      // echo '<td>'.$p2.'</td>';
-      // echo '<td>'.$p3.'</td>';
-      // echo '<td>'.$p4.'</td>';
-      // echo '<td>'.$p5.'</td>';
-      // echo '<td>'.$p6.'</td>';
    }
 ?>
