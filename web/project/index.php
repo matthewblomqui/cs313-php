@@ -59,13 +59,6 @@
                   </thead>
                   <tbody>
                      <?php include 'test.php';?>
-                     <td></td>
-                     <td></td>
-                     <td></td>
-                     <td></td>
-                     <td></td>
-                     <td></td>
-                     <td></td>
                   </tbody>
                </table>
                </div>
