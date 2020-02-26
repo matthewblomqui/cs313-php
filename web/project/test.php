@@ -50,7 +50,8 @@
          if ($pRow = $pokemon->fetch(PDO::FETCH_ASSOC))
          {
             $name = $pRow['name'];
-            echo '<td>'.$name.'</td>';
+            $img = '<img style="width:48px; height:auto;" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/'.$poke.'.png">';
+            echo '<td>'.$img.$name.'</td>';
          }
       }
       // End row
