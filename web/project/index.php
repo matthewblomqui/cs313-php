@@ -37,7 +37,8 @@
          <div class="col-8 text-center">
             <br>
             <h4>Welcome <?php echo $username.', Here are your teams';?></h4>
-
+            <form action="" method="POST">
+            </form>
          </div>
 
          <div class="col back"> </div>
