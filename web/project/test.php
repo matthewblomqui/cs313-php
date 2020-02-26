@@ -46,7 +46,11 @@
          $poke = $row['pokemon_'.$i];
          $pokemon = $db->prepare("SELECT * FROM pokemon WHERE pokedex = $poke");
          $pokemon->execute();
-         echo '<td>'.$poke.'</td>';
+         if ($pRow = $pokemon->fetch(PDO::FETCH_ASSOC))
+         {
+            $name = $pRow['name'];
+            echo '<td>'.$name.'</td>';
+         }
       }
    }
 ?>
