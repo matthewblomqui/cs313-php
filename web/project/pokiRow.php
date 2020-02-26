@@ -6,6 +6,7 @@
 
    $teams = $db->prepare("SELECT * FROM team WHERE user_id = $id");
    $teams->execute();
+   $final = "";
 
    while ($row = $teams->fetch(PDO::FETCH_ASSOC))
    {
@@ -17,7 +18,7 @@
       $p5 = $row['pokemon_5'];
       $p6 = $row['pokemon_6'];
 
-      echo "<tr><td>".  
+      $final = $final."<tr><td>".  
                "<div class=\"custom-control custom-checkbox\">".
                   "<input type=\"checkbox\" class=\"custom-control-input\" id=\"customCheck\" name=\"example1\">".
                   "<label class=\"custom-control-label\" for=\"customCheck\"></label>".
@@ -32,11 +33,11 @@
          if ($pRow = $pokemon->fetch(PDO::FETCH_ASSOC))
          {
             $poke_name = $pRow['name'];
-            echo "<td><img style=\"width:48px; height:auto;\" src=\"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/".$poke.".png\">".$poke_name."</td>";
+            $final = $final."<td><img style=\"width:48px; height:auto;\" src=\"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/".$poke.".png\">".$poke_name."</td>";
          }
       }
-      echo "</tr>";
-
+      $final = $final."</tr>";
+      echo $final;
    }
 
    ?>
