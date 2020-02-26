@@ -58,6 +58,7 @@
                      </tr>
                   </thead>
                   <tbody>
+                     <td><input type="checkbox"></td>
                      <td></td>
                      <td></td>
                      <td></td>
