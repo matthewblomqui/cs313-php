@@ -1,4 +1,4 @@
-            <!-- <br>
+            <br>
             <h4>Welcome <?php echo $username.', Here are your teams';?></h4>
             <form action="" method="POST">
                <div class="container">          
@@ -39,7 +39,7 @@
             </form>
             <a href="teamBuilder.php" class="btn btn-primary">Go to Team Builder</a>
             <a href="" class="btn btn-danger">Remove Selected Teams</a>
-            <br><br><br><br><br><br> -->
+            <br><br><br><br><br><br>
 
 
 

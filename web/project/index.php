@@ -63,10 +63,10 @@
                </table>
                </div>
             </form>
+            <a href="teamBuilder.php" class="btn btn-primary">Go to Team Builder</a>
+            <a href="" class="btn btn-danger">Remove Selected Teams</a>
+            <br><br><br><br><br><br>
          </div>
-         <a href="teamBuilder.php" class="btn btn-primary">Go to Team Builder</a>
-         <a href="" class="btn btn-danger">Remove Selected Teams</a>
-         <br><br><br><br><br><br>
 
          <div class="col back"> </div>
       </div>
