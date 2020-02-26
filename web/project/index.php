@@ -32,11 +32,15 @@
       </div>
 
       <div class="row pokeLight">
-         <div class="col back">asdf</div>
+         <div class="col back"> </div>
 
-         <div class="col-8 text-center">asdf</div>
+         <div class="col-8 text-center">
+            <br>
+            <h4>Welcome <?php echo $username.', Here are your teams';?></h4>
 
-         <div class="col back">asdf</div>
+         </div>
+
+         <div class="col back"> </div>
       </div>
       
       <?php include '../footer.php';?>
