@@ -56,7 +56,7 @@ $(document).ready(function(){
    }
 
    $("input").change(function(){
-      alert("The text has been changed.");
+      alert($(this).val());
    });
 
    $("#p_1").change(function() {
